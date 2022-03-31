@@ -1,0 +1,25 @@
+{
+  "name": "vuepressblog",
+  "version": "1.0.0",
+  "description": "peterjxl's blog",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/peterjxl/vuepressblog"
+  },
+  "keywords": [
+    "blog",
+    "program",
+    "learn"
+  ],
+  "author": "peterjxl",
+  "license": "ISC",
+  "devDependencies": {
+    "vuepress": "^1.9.7"
+  }
+}
