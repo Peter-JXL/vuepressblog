@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'peterjxl',
+  title: '程序狗的网络日志',
   head: [
     ['link', { rel: 'icon', href: 're0.jpg' }]
   ],
@@ -19,21 +19,6 @@ module.exports = {
           { text: '计算机网络', link: '/' },
           { text: '数据库', link: '/' },
           { text: '前端', link: '/' },
-        ]
-      },
-      {
-        text: '健身', ariaLabel: 'program',
-        items: [
-          { text: '健身理论', link: '/' },
-          { text: '深蹲', link: '/' },
-          { text: '俯卧撑', link: '/' },
-          { text: '引体向上', link: '/' },
-          { text: '举腿', link: '/' },
-          { text: '桥', link: '/' },
-          { text: '倒立撑', link: '/' },
-          { text: '抓握', link: '/' },
-          { text: '侧链', link: '/' },
-          { text: '街健神技', link: '/' },
         ]
       },
       {
@@ -58,7 +43,6 @@ module.exports = {
           { text: '赞赏支持', link: '/other/reward.md' }
         ]
       },
-      { text: '其他', link: 'https://github.com/Peter-JXL/vuepressblog' },
       { text: 'Gitee', link: 'https://gitee.com/peterjxl/vuepressblog' },
       { text: 'GitHub', link: 'https://github.com/Peter-JXL/vuepressblog' }
     ],
