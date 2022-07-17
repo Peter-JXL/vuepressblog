@@ -1,5 +1,5 @@
 module.exports = {
-  title: '程序狗的网络日志',
+  title: '程序员的网络日志',
   head: [
     ['link', { rel: 'icon', href: 're0.jpg' }]
   ],
