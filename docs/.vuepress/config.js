@@ -10,6 +10,7 @@ module.exports = {
       {
         text: '编程', ariaLabel: 'program',
         items: [
+          { text: '计算机科学导论', link: '/' },
           { text: '数字电路', link: '/' },
           { text: '计算机组成原理', link: '/' },
           { text: '操作系统', link: '/' },
