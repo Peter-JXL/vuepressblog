@@ -116,4 +116,4 @@ dist
 .pnp.*
 
 .temp
-deploy.js
+serverInfo.json

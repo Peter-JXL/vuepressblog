@@ -3,7 +3,7 @@ home: true
 heroImage: /re0.jpg
 heroText: 程序员的网络日志
 tagline: 计算机基础知识学习
-actionText: 开始学习
+actionText: 网站正在建设中…………
 actionLink: /
 features:
 - title: 纯原创
