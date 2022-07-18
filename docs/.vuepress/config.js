@@ -11,7 +11,7 @@ module.exports = {
         text: '编程', ariaLabel: 'program',
         items: [
           { text: '计算机科学导论', link: '/' },
-          { text: '数字电路', link: '/' },
+          { text: '数字电路', link: '/DigitalCircuit/' },
           { text: '计算机组成原理', link: '/' },
           { text: '操作系统', link: '/' },
           { text: 'Linux', link: '/' },
@@ -47,6 +47,16 @@ module.exports = {
       { text: 'Gitee', link: 'https://gitee.com/peterjxl/vuepressblog' },
       { text: 'GitHub', link: 'https://github.com/Peter-JXL/vuepressblog' }
     ],
-    sidebar: 'auto'
+    sidebar: [
+      {
+        title: 'DigitalCircuit',
+        path: '/DigitalCircuit/',
+        collapsable: false,
+        sidebarDepth: 2,
+        children: [
+          '/DigitalCircuit/1Introduce'
+        ]
+      }
+    ]
   }
 }
