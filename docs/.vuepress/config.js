@@ -51,6 +51,15 @@ module.exports = {
     ],
     sidebar: [
       {
+        title: 'ComputerScience',
+        path: '/ComputerScience/',
+        collapsable: false,
+        sidebarDepth: 2,
+        children: [
+          '/ComputerScience/Collegecourses'
+        ]
+      },
+      {
         title: 'DigitalCircuit',
         path: '/ComputerDigitalCircuit/',
         collapsable: false,
