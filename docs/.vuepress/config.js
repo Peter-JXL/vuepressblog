@@ -1,10 +1,10 @@
 module.exports = {
   title: '程序员的网络日志',
   head: [
-    ['link', { rel: 'icon', href: '/re0.jpg' }]
+    ['link', { rel: 'icon', href: 'http://image.peterjxl.com/blog/re0.jpg' }]
   ],
   themeConfig: {
-    logo: '/re0.jpg',
+    logo: 'http://image.peterjxl.com/blog/re0.jpg',
     nav: [
       { text: '首页', link: '/' },
       {
