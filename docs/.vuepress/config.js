@@ -28,8 +28,8 @@ module.exports = {
         items: [
           { text: '笔记软件', link: '/SoftwareNote/' },
           { text: 'Quicker', link: '/SoftwareQuicker/' },
-          { text: 'Qttabar', link: '/SoftwareQttabar/' }, 
-          { text: 'Wgesture', link: '/SoftwareWgesture/' },          
+          { text: 'Qttabar', link: '/SoftwareQttabar/' },
+          { text: 'Wgesture', link: '/SoftwareWgesture/' },
           { text: '浏览器与插件', link: '/SoftwareBrowser/' },
           { text: '视频播放器', link: '/SoftwareVideo/' },
           { text: '待办清单', link: '/SoftwareTodo/' },
@@ -49,25 +49,17 @@ module.exports = {
       { text: 'Gitee', link: 'https://gitee.com/peterjxl/vuepressblog' },
       { text: 'GitHub', link: 'https://github.com/Peter-JXL/vuepressblog' }
     ],
-    sidebar: [
-      {
-        title: 'ComputerScience',
-        path: '/ComputerScience/',
-        collapsable: false,
-        sidebarDepth: 2,
-        children: [
-          '/ComputerScience/Collegecourses'
-        ]
-      },
-      {
-        title: 'DigitalCircuit',
-        path: '/ComputerDigitalCircuit/',
-        collapsable: false,
-        sidebarDepth: 2,
-        children: [
-          '/ComputerDigitalCircuit/1Introduce'
-        ]
-      }
-    ]
+    sidebar: {
+      '/ComputerScience/':[
+        '',  // 测边栏第一个页面是：/ComputerScience/README.md，、链接文字自动获取（页面的第一个header），即h1（前端技术）
+        'Collegecourses' //侧边栏第二个页面是：/ComputerScience/Collegecourses,md，链接文字自动获取（页面的第一个header），即h2（htnl三级标题）
+      ],
+
+      '/ComputerDigitalCircuit/':[
+        '',
+        '1Introduce'
+      ]
+    }
+
   }
 }
