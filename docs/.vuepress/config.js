@@ -68,6 +68,18 @@ module.exports = {
         '5Gate',
         '6CombineGate',
         '7shixuGate'
+      ],
+      
+      '/ComputerOrganization/':[
+        '',
+        '1Introduce',
+        '2Compute',
+        '3Memory',
+        '4Zhiling',
+        '5CPU',
+        '6Bus',
+        '7IO',
+        '9Bingfa',
       ]
     }
 
