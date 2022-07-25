@@ -61,7 +61,13 @@ module.exports = {
 
       '/ComputerDigitalCircuit/':[
         '',
-        '1Introduce'
+        '1Introduce',
+        '2Digital',
+        '3EncodeAndDecode',
+        '4Logic',
+        '5Gate',
+        '6CombineGate',
+        '7shixuGate'
       ]
     }
 
