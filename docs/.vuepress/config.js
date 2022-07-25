@@ -20,7 +20,7 @@ module.exports = {
           { text: '计算机网络', link: '/ComputerNetwork/' },
           { text: '数据库', link: '/ComputerDataBase/' },
           { text: '前端', link: '/Computerfontend/' },
-          { text: 'Java', link: '/ComputerJava/' },
+          { text: 'Java', link: '/JavaBasic/' },
         ]
       },
       {
@@ -52,7 +52,11 @@ module.exports = {
     sidebar: {
       '/ComputerScience/':[
         '',  // 测边栏第一个页面是：/ComputerScience/README.md，、链接文字自动获取（页面的第一个header），即h1（前端技术）
-        'Collegecourses' //侧边栏第二个页面是：/ComputerScience/Collegecourses,md，链接文字自动获取（页面的第一个header），即h2（htnl三级标题）
+        '1BeforeComputer', //侧边栏第二个页面是：/ComputerScience/Collegecourses,md，链接文字自动获取（页面的第一个header），即h2（htnl三级标题）
+        '2Mechanics',
+        '3Electromechanical',
+        '4Electronics',
+        'Collegecourses',
       ],
 
       '/ComputerDigitalCircuit/':[
