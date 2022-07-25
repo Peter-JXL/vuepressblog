@@ -130,6 +130,17 @@ module.exports = {
         '5TCP',
         '6yingyong',
         '7Lab',
+      ],
+
+      '/ComputerDataBase/': [
+        '',
+        '1Basic',
+        '2gaoji',
+        '3exist',
+        '5join',
+        '6fanshi',
+        '6with',
+        '7groupby',
       ]
     }
 
