@@ -1,0 +1,17 @@
+# Java概述
+
+## 前言
+
+Java非常流行，因为
+
+
+
+## Java的历史
+
+简单了解即可，对于Java初学者来说，有很多都
+
+[毕昇JDK，重现了 “活字印刷术” 的传奇](https://mp.weixin.qq.com/s?__biz=MzIxMjE5MTE1Nw==&mid=2653215930&idx=1&sn=24d916f4f6b728dd02dfef2caf647f02&chksm=8c99ae60bbee2776bc49e6a90f9bb8c935c7a5b36bd773a8fe31e21671b62636db20351430c3&mpshare=1&scene=1&srcid=11120a2sGvlFmHvneScd1ahp&sharer_sharetime=1605176036593&sharer_shareid=5cc2777764c85c1d841997739b5bb6f4&key=d5497f8bd75b2dfee8a925d343ffb8f95a8005a0c74efbf5cce2b8eb80c4ed4c8854615fc19a8942e19521c598e5c099fa63eb7fe85683e7dd685c4efaeea6756c49900e31f17abe0521787ab26d380b31e38a80ffc2a55c1211ae3b376a36253b6f4aa4e14eff6ae70f4051bee31a0469359614ec3db9d9f27a30b3f910e96e&ascene=1&uin=MzEzNTMxNzU5NQ%3D%3D&devicetype=Windows+10+x64&version=6300002f&lang=zh_CN&exportkey=AZGeU0tCm68pKaPTQm7SHAo%3D&pass_ticket=TlK9euK30dgVFs6X9cP5QAuCki4xO%2FkoW5OHENnBGUnDyWqsi6tweLvQFesyt7cT&wx_header=0)
+
+[狂赚1200亿，差点收购苹果，影响千万程序员，那个叫做太阳的公司却陨落了！](https://mp.weixin.qq.com/s?__biz=MzU1Nzg4NjgyMw==&mid=2247484522&idx=1&sn=a7de829144f3f20d73c324600d74450e&chksm=fc2fb862cb583174b25794e66e7df8983dccac7c8ee42c95b0aeb1c8722c8f7fe2f64e3a267d&mpshare=1&scene=1&srcid=&sharer_sharetime=1582855793055&sharer_shareid=5cc2777764c85c1d841997739b5bb6f4&key=3503aa848b16fe5bc18cff723a017686a77981b606f72a5e6c4bf80c2c6b0d0812f9862ca3829dbca4182321a829f5258816079119da21dc9980b0752e09051b939d635b5eb2aef99d10ecd908b98312&ascene=1&uin=MzEzNTMxNzU5NQ%3D%3D&devicetype=Windows+10&version=62080079&lang=zh_CN&exportkey=AT3WIjeIIxea1F7eWE3vShU%3D&pass_ticket=dwPRLiZtWs8JDMYoXmg2QskHSeFA3DUa%2FeAMixdnHERi%2FJUp5jIl15%2FluTrSIdf9)
+
+[这年头，能坐上火箭的东西不多啊！Java版本号算一个！](https://mp.weixin.qq.com/s/Swe9hBGHON_7f1fiEJ3Glg)

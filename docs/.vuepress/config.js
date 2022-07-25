@@ -141,7 +141,35 @@ module.exports = {
         '6fanshi',
         '6with',
         '7groupby',
+      ],
+      
+      '/Computerfontend/':[
+        '',
+        '1HTML',
+        '2CSS',
+        '3JS',
+        '4NODE',
+        '4webpack',
+        '5vue',
+        '6mock',
+      ],
+
+      '/JavaBasic/':[
+        '',
+        '0Install',
+        '1HelloWorld',
+        '2DataType',
+        '3Array',
+        '4String',
+        '5Object',
+        '6Exception',
+        '7IO',
+        '8DataStruct',
+        '9GC',
       ]
+
+     
+      
     }
 
   }

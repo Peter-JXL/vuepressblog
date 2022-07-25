@@ -1,8 +1,10 @@
+#  什么是数据库？
+  
 > 本文由 [简悦 SimpRead](http://ksria.com/simpread/) 转码， 原文地址 https://mp.weixin.qq.com/s/Bc6L-nDK66sEEN66w-eDhg
 
 这是《如何学习 SQL》的第 2 篇文章，想知道写作初衷的可以看这里：[为什么要学习 SQL？](http://mp.weixin.qq.com/s?__biz=MzAxMTMwNTMxMQ==&mid=2649245117&idx=1&sn=29996a47e87a4219d5a206457cc9b987&chksm=835fcd8db428449b2a38fe1e6b77b5d5c39e17d02f9f3bd82c9eadf0af7be6f8c626e3997753&scene=21#wechat_redirect)
 
-* **什么是数据库？**
+
 
 你可能会问：**我的数据就存储在自己电脑里面的 excel 表里里，还要数据库干嘛？**
 
