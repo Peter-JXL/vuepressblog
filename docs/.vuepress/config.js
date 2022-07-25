@@ -108,6 +108,17 @@ module.exports = {
         'date',
         'exec',
         'hostname',
+      ],
+
+      '/ComputerDataStructer/':[
+        '',
+        '1LinerList',
+        '2StackAndQueu',
+        '3StringKMP',
+        '4Tree',
+        '5Search',
+        '6Sort',
+        '7Map',
       ]
     }
 
