@@ -16,7 +16,7 @@ module.exports = {
           { text: '操作系统', link: '/ComputerOS/' },
           { text: 'Linux', link: '/ComputerLinux/' },
           { text: '数据结构', link: '/ComputerDataStructer/' },
-          { text: '编译原理', link: '/ComputerCompilation/' },
+          // { text: '编译原理', link: '/ComputerCompilation/' },
           { text: '计算机网络', link: '/ComputerNetwork/' },
           { text: '数据库', link: '/ComputerDataBase/' },
           { text: '前端', link: '/Computerfontend/' },
@@ -119,6 +119,17 @@ module.exports = {
         '5Search',
         '6Sort',
         '7Map',
+      ],
+
+      '/ComputerNetwork/': [
+        '',
+        '1Introduce',
+        '2wuliceng',
+        '3lianluceng',
+        '4wangluoceng',
+        '5TCP',
+        '6yingyong',
+        '7Lab',
       ]
     }
 
