@@ -80,6 +80,11 @@ module.exports = {
         '6Bus',
         '7IO',
         '9Bingfa',
+      ],
+
+      '/ComputerOS/':[
+        '',
+        '1whatisos',
       ]
     }
 
