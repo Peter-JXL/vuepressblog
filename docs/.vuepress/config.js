@@ -85,6 +85,29 @@ module.exports = {
       '/ComputerOS/':[
         '',
         '1whatisos',
+        '2jincheng',
+        '3cunchu',
+        '4file',
+        '5iop',
+        '6deadlock',
+        '7mulitos',
+        '8duoheos',
+        '8secure',
+        '10instanceLinux',
+      ],
+
+      '/ComputerLinux/':[
+        '',
+        'in',
+        'kill',
+        'seq',
+        'tee',
+        'time',
+        'wget',
+        'who',
+        'date',
+        'exec',
+        'hostname',
       ]
     }
 
