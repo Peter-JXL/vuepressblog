@@ -14,5 +14,5 @@ features:
   details: 实践出真知，几乎每个知识点都有配套练习案例
 ---
 ::: slot footer
-Copyright ©2020-2022 程序狗 版权所有 [粤ICP备2022067627号-1](https://beian.miit.gov.cn/)
+Copyright ©2020-2022 程序狗 版权所有  [粤ICP备2022067627号-1](https://beian.miit.gov.cn/)   | ![](http://image.peterjxl.com/blog/beian.png)    [粤公网安备 44011302003646号](http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44011302003646)
 :::
