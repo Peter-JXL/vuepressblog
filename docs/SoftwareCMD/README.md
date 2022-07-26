@@ -1,18 +1,70 @@
----
-home: true
-heroImage: http://image.peterjxl.com/blog/re0.jpg
-heroText: 程序员的网络日志
-tagline: 计算机基础知识学习
-actionText: 开始学习
-actionLink: /ComputerScience/
-features:
-- title: 纯原创
-  details: 不做互联网搬运工，纯手敲，纯原创教程
-- title: 成系列
-  details: 成系列的教程合集，告别碎片化学习
-- title: 重实践
-  details: 实践出真知，几乎每个知识点都有配套练习案例
----
-::: slot footer
-Copyright ©2020-2022 程序狗 版权所有 [粤ICP备2022067627号-1](https://beian.miit.gov.cn/)
-:::
+# CMD
+
+## 快速cd到某个目录
+
+在 dos 里面快速进入到已知的目录下面。先复制该路径（如G:\java\java_workspace_springboot\DemoMzp），
+
+然后在控制台输入
+
+```
+ cd  G:\java\java_workspace_springboot\DemoMzp
+```
+
+（点击右键，点击粘贴。不能直接用 ctrl+v 粘贴）然后回车。
+
+这时再输入要访问的那个磁盘的盘符 + 冒号，如：
+
+```
+g:
+```
+
+回车即可成功进入多级目录。
+
+法二、在目录的地址栏直接输入 cmd，然后回车，即可在 dos 窗口打开指定目录（这个好用）。
+
+Ctrl + Shift + R 打开
+
+
+## 拖入文件到CMD窗口
+
+控制台会直接显示该文件的路径名+文件名
+
+如果是链接了服务器的，直接拖入就会上传文件。
+
+
+
+## 用cmd打开应用
+
+* notepad 打开记事本
+* mspaint 打开画图
+* calc 打开计算机
+* write 写字板
+* sysdm.cpl 打开环境变量设置窗口
+
+## 用cmd打开目录
+
+在命令行下想要可视化查看文件，可以使用命令直接打开图形化窗口
+
+1. Windows
+
+explorer.exe .  #.表示打开当前所在的文件夹#
+
+explorer.exe   #会默认打开库的窗口#
+
+explorer.exe your/path #打开指定窗口#
+
+\#例子
+
+explorer.exe d:     #打开d盘#
+
+输入文件名，回车即可打开该文件
+
+```bash
+explorer.exe .   #.表示打开当前所在的文件夹
+
+explorer.exe     #会默认打开库的窗口
+
+explorer.exe your/path  #打开指定窗口
+#例子
+explorer.exe d:         #打开d盘
+```
