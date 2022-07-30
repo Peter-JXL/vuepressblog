@@ -4,7 +4,7 @@ module.exports = {
     ['link', { rel: 'icon', href: 'https://image.peterjxl.com/blog/re0.jpg' }]
   ],
   themeConfig: {
-    logo: 'https://images.peterjxl.com/blog/re0.jpg',
+    logo: 'https://image.peterjxl.com/blog/re0.jpg',
     nav: [
       { text: '首页', link: '/' },
       {
