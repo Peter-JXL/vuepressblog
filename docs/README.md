@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: http://image.peterjxl.com/blog/re0.jpg
+heroImage: https://image.peterjxl.com/blog/re0.jpg
 heroText: 程序员的网络日志
 tagline: 计算机基础知识学习
 actionText: 开始学习

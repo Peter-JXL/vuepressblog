@@ -1,10 +1,10 @@
 module.exports = {
   title: '程序员的网络日志',
   head: [
-    ['link', { rel: 'icon', href: 'http://image.peterjxl.com/blog/re0.jpg' }]
+    ['link', { rel: 'icon', href: 'https://image.peterjxl.com/blog/re0.jpg' }]
   ],
   themeConfig: {
-    logo: 'http://image.peterjxl.com/blog/re0.jpg',
+    logo: 'https://images.peterjxl.com/blog/re0.jpg',
     nav: [
       { text: '首页', link: '/' },
       {
@@ -43,7 +43,8 @@ module.exports = {
         items: [
           { text: '网站日记', link: '/other/blogupdatelog.md' },
           { text: '赞赏支持', link: '/other/reward.md' },
-          { text: '关于作者', link: '/other/about.md' }
+          { text: '关于本站', link: '/other/about.md' },
+          { text: '如何搭建一个博客', link: '/other/BuildAWebSite' }
         ]
       },
       { text: 'Gitee', link: 'https://gitee.com/peterjxl/vuepressblog' },
