@@ -37,7 +37,7 @@ module.exports = {
           { text: 'uTools', link: '/SoftwareuTools/' },
           { text: '番茄盒子', link: '/SoftwareTomato/' },
         ]
-      },
+      },    
       {
         text: '其他', ariaLabel: 'Other',
         items: [
