@@ -1,9 +1,16 @@
 module.exports = {
   title: '程序员的网络日志',
+  locales:{
+    '/':{
+      lang: 'zh-CN'
+    }
+  },
+  theme: 'reco',
+  description: '记录，成为更好的自己。',
   head: [
     ['link', { rel: 'icon', href: 'https://image.peterjxl.com/blog/re0.jpg' }]
   ],
-  themeConfig: {
+  themeConfig: {    
     logo: 'https://image.peterjxl.com/blog/re0.jpg',
     nav: [
       { text: '首页', link: '/' },
@@ -12,7 +19,6 @@ module.exports = {
         items: [
           { text: '计算机科学导论', link: '/ComputerScience/' },
           { text: '数字电路', link: '/ComputerDigitalCircuit/' },
-          { text: '计算机组成原理', link: '/ComputerOrganization/' },
           { text: '操作系统', link: '/ComputerOS/' },
           { text: 'Linux', link: '/ComputerLinux/' },
           { text: '数据结构', link: '/ComputerDataStructer/' },

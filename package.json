@@ -26,5 +26,8 @@
     "ora": "^5.0.0",
     "scp2": "^0.5.0",
     "vuepress": "^1.9.7"
+  },
+  "dependencies": {
+    "vuepress-theme-reco": "^1.6.14"
   }
 }
