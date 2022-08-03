@@ -44,7 +44,8 @@ module.exports = {
           { text: '网站日记', link: '/other/blogupdatelog.md' },
           { text: '赞赏支持', link: '/other/reward.md' },
           { text: '关于本站', link: '/other/about.md' },
-          { text: '如何搭建一个博客', link: '/other/BuildAWebSite' }
+          { text: '如何搭建一个博客', link: '/other/BuildAWebSite' },
+          { text: '如何搭建一个邮箱', link: '/other/BuildMail' }
         ]
       },
       { text: 'Gitee', link: 'https://gitee.com/peterjxl/vuepressblog' },
