@@ -21,6 +21,7 @@
   "author": "peterjxl",
   "license": "ISC",
   "devDependencies": {
+    "@vuepress-reco/vuepress-plugin-bgm-player": "^1.1.4",
     "@vuepress-reco/vuepress-plugin-bulletin-popover": "^1.6.13",
     "chalk": "^5.0.1",
     "cross-env": "^7.0.3",
