@@ -57,6 +57,7 @@ module.exports = {
       { text: 'Gitee', link: 'https://gitee.com/peterjxl/vuepressblog' },
       { text: 'GitHub', link: 'https://github.com/Peter-JXL/vuepressblog' }
     ],
+    subSidebar: 'auto',
     sidebar: {
       '/ComputerScience/':[
         '',  // 测边栏第一个页面是：/ComputerScience/README.md，、链接文字自动获取（页面的第一个header），即h1（前端技术）
