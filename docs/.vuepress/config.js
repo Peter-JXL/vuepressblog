@@ -1,12 +1,12 @@
 module.exports = {
   title: '程序员的网络日志',
+  description: '记录，成为更好的自己。',
+  theme: 'reco',
   locales:{
     '/':{
       lang: 'zh-CN'
     }
   },
-  theme: 'reco',
-  description: '记录，成为更好的自己。',
   head: [
     ['link', { rel: 'icon', href: 'https://image.peterjxl.com/blog/re0.jpg' }]
   ],
