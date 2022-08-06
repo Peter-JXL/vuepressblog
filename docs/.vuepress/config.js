@@ -180,6 +180,14 @@ module.exports = {
 
 
 
+    },
+
+    footer: {
+      createYea: "程序狗 2022",
+      copyrightInfo: `<a href='https://beian.miit.gov.cn'>粤ICP备2022067627号-1</a>  
+      <img src='https://image.peterjxl.com/blog/beian.png'>
+      <a href='http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44011302003646'>粤公网安备 44011302003646号</a>
+      `
     }
 
   },
