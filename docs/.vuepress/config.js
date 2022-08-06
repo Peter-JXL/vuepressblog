@@ -209,7 +209,7 @@ module.exports = {
     }],
 
     ['vuepress-plugin-code-copy', true],
-    
+
     [
       'copyright',
       {
@@ -234,6 +234,8 @@ module.exports = {
       // hideIcon: '',
       hideText: '等等，你别走啊 ::>_<::',
       recoverTime: 2000,
-   }]
+    }],
+
+    ['@vuepress/active-header-links']
   ]
 }
