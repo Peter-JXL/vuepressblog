@@ -1,3 +1,12 @@
+---
+title: 0Install
+date: 2022-07-26 07:25:36
+permalink: /pages/97038f/
+categories:
+  - JavaBasic
+tags:
+  - 
+---
 # 安装
 ## 下载
 

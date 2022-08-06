@@ -1,3 +1,12 @@
+---
+title: 6fanshi
+date: 2022-07-26 07:09:44
+permalink: /pages/9faa70/
+categories:
+  - ComputerDataBase
+tags:
+  - 
+---
 # 范式
 
 

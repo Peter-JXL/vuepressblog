@@ -1,3 +1,12 @@
+---
+title: 1Basic
+date: 2022-07-26 07:09:45
+permalink: /pages/8a57ee/
+categories:
+  - ComputerDataBase
+tags:
+  - 
+---
 # 基础语法
 
 # 总结

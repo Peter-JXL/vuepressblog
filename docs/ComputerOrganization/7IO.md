@@ -1,3 +1,12 @@
+---
+title: 7IO
+date: 2022-07-25 21:20:58
+permalink: /pages/a35b0f/
+categories:
+  - ComputerOrganization
+tags:
+  - 
+---
 ## 外围设备概述
 
 功能：在计算机和其他机器之间，计算机与用户之间提供联系

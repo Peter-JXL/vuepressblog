@@ -1,3 +1,12 @@
+---
+title: README
+date: 2022-07-25 21:24:46
+permalink: /pages/e94dc9/
+categories:
+  - ComputerOrganization
+tags:
+  - 
+---
 ## 概述
 
 ## 计算机底层知识的 “第一课”

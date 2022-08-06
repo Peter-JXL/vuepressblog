@@ -1,3 +1,12 @@
+---
+title: 6yingyong
+date: 2022-07-26 07:03:08
+permalink: /pages/db196c/
+categories:
+  - ComputerNetwork
+tags:
+  - 
+---
 # 应用层
 
 

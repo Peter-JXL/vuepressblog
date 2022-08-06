@@ -1,3 +1,12 @@
+---
+title: 4Zhiling
+date: 2022-07-25 21:21:36
+permalink: /pages/243112/
+categories:
+  - ComputerOrganization
+tags:
+  - 
+---
 ## 指令系统的发展和性能要求
 
 指令系统的发展：从计算机组成的层次结构来说，计算机的指令有微指令，机器指令和宏指令，

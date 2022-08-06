@@ -1,3 +1,12 @@
+---
+title: 6Bus
+date: 2022-07-25 21:20:54
+permalink: /pages/b296c0/
+categories:
+  - ComputerOrganization
+tags:
+  - 
+---
 ## 总线的概念和结构形态
 
 ### 6.1.1 总线的基本概念

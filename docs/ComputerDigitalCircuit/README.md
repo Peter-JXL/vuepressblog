@@ -1,5 +1,11 @@
 ---
 title: 数字电路课程介绍
+date: 2022-07-18 21:44:09
+permalink: /pages/a842a7/
+categories: 
+  - ComputerDigitalCircuit
+tags: 
+  - 
 ---
 
 

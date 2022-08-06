@@ -1,3 +1,12 @@
+---
+title: 5CPU
+date: 2022-07-25 21:20:49
+permalink: /pages/feff51/
+categories:
+  - ComputerOrganization
+tags:
+  - 
+---
 ## CPU的功能和组成
 
 CPU的基本组成：

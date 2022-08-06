@@ -1,3 +1,12 @@
+---
+title: 2CSS
+date: 2022-07-26 07:17:27
+permalink: /pages/bb8df1/
+categories:
+  - Computerfontend
+tags:
+  - 
+---
 # CSS
 
 

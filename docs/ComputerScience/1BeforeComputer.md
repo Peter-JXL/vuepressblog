@@ -1,3 +1,12 @@
+---
+title: 1BeforeComputer
+date: 2022-07-23 22:45:54
+permalink: /pages/d15ffc/
+categories:
+  - ComputerScience
+tags:
+  - 
+---
 # 在计算机出现之前
 
 

@@ -1,3 +1,12 @@
+---
+title: README
+date: 2022-07-26 07:45:53
+permalink: /pages/ebaaf5/
+categories:
+  - SoftwareCMD
+tags:
+  - 
+---
 # CMD
 
 ## 快速cd到某个目录

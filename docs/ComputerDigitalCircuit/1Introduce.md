@@ -1,3 +1,12 @@
+---
+title: 1Introduce
+date: 2022-07-18 21:45:23
+permalink: /pages/fc6849/
+categories:
+  - ComputerDigitalCircuit
+tags:
+  - 
+---
 # 数字电路怎么学
 
 

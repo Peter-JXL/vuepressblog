@@ -1,3 +1,12 @@
+---
+title: BuildMail
+date: 2022-08-03 08:04:49
+permalink: /pages/90d088/
+categories:
+  - other
+tags:
+  - 
+---
 # 如何搭建个人邮箱
 
 ## 为什么要搭建个人邮箱

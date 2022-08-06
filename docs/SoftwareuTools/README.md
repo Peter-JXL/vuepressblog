@@ -1,3 +1,12 @@
+---
+title: README
+date: 2022-07-26 07:46:05
+permalink: /pages/5fef58/
+categories:
+  - SoftwareuTools
+tags:
+  - 
+---
 # utools
 
 ## [双击Alt键，打开新世界](https://mp.weixin.qq.com/s?__biz=MzU2NTAzNzYzMg==&mid=2247502397&idx=1&sn=7a194d9188921e7b6858080e601dfed8&chksm=fc435512cb34dc04bd4024011c9780dee58712f7b92c9f2b874ee528151075f8a7801f474a5b&mpshare=1&scene=1&srcid=0626wWyA28wjnjVGK63anhlX&sharer_sharetime=1593136343787&sharer_shareid=5cc2777764c85c1d841997739b5bb6f4&key=46c19dbd461564fe895a1628b8d4d55f48269704e323f44b25b39cb3c437920c65c66b31553ecfbe31c2473a5e0add0d7cdb03e6469843baa1aa41945d462e688fc32fe2a0e31151b4b8c131d9c8e3bf&ascene=1&uin=MzEzNTMxNzU5NQ%3D%3D&devicetype=Windows+10+x64&version=62090070&lang=zh_CN&exportkey=AZ7oJAz7FORqGO3RYBvluls%3D&pass_ticket=K9j5fPVQYvwFNq6sRcPgwSKRhjckh7TFb%2FFhkq6cJWvv5dNykmfzb3k2NPv6cmFr)

@@ -1,3 +1,12 @@
+---
+title: 7IO
+date: 2022-07-26 07:25:33
+permalink: /pages/c73562/
+categories:
+  - JavaBasic
+tags:
+  - 
+---
 # File
 
 ## 教学目标

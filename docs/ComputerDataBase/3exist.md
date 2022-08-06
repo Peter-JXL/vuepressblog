@@ -1,3 +1,12 @@
+---
+title: 3exist
+date: 2022-07-26 07:09:44
+permalink: /pages/4625df/
+categories:
+  - ComputerDataBase
+tags:
+  - 
+---
 # Exist用法
 ## exists原理
 

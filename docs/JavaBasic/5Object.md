@@ -1,3 +1,12 @@
+---
+title: 5Object
+date: 2022-07-26 07:25:36
+permalink: /pages/0bb9bf/
+categories:
+  - JavaBasic
+tags:
+  - 
+---
 # Object
 
 [Java 修饰符 - 知乎](https://zhuanlan.zhihu.com/p/24732587)

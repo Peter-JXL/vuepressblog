@@ -1,3 +1,12 @@
+---
+title: 5Search
+date: 2022-07-25 22:46:48
+permalink: /pages/c2cfd9/
+categories:
+  - ComputerDataStructer
+tags:
+  - 
+---
 # 1顺序查找
 
 输入格式

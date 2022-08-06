@@ -1,3 +1,12 @@
+---
+title: README
+date: 2022-07-26 07:45:58
+permalink: /pages/27c3d9/
+categories:
+  - SoftwareQuicker
+tags:
+  - 
+---
 # Quicker
 ###
 

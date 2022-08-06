@@ -1,3 +1,12 @@
+---
+title: tee
+date: 2022-07-25 22:37:43
+permalink: /pages/e8be61/
+categories:
+  - ComputerLinux
+tags:
+  - 
+---
 # Tee 命令
 
 [tee命令–将输出到屏幕和文件 | 嘻嘻IT](https://www.11meigui.com/2021/bash-shell-tee.html)

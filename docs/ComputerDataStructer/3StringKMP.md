@@ -1,3 +1,12 @@
+---
+title: 3StringKMP
+date: 2022-07-25 22:46:48
+permalink: /pages/61006a/
+categories:
+  - ComputerDataStructer
+tags:
+  - 
+---
 ## 1计算next值
 
 输入格式

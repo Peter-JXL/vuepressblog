@@ -1,3 +1,12 @@
+---
+title: Collegecourses
+date: 2022-07-21 23:07:11
+permalink: /pages/f37938/
+categories:
+  - ComputerScience
+tags:
+  - 
+---
 # 计算机专业在大学期间的课程
 
 ## 前言

@@ -1,3 +1,12 @@
+---
+title: 3Electromechanical
+date: 2022-07-23 22:46:30
+permalink: /pages/98370c/
+categories:
+  - ComputerScience
+tags:
+  - 
+---
 ## 机电计算时代 
 
 * 1 -

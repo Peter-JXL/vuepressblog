@@ -1,3 +1,12 @@
+---
+title: hostname
+date: 2022-07-25 22:37:21
+permalink: /pages/47dce2/
+categories:
+  - ComputerLinux
+tags:
+  - 
+---
 # HostName命令
 
 

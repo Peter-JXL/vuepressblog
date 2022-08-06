@@ -1,3 +1,12 @@
+---
+title: README
+date: 2022-07-26 07:45:34
+permalink: /pages/e6b15f/
+categories:
+  - SoftwareNote
+tags:
+  - 
+---
 # 笔记软件
 
 * Win平台，用惯了Win10，Mac和Linux觉得不太好用  有很多好用的软件都没

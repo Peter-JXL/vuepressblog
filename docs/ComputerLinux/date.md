@@ -1,3 +1,12 @@
+---
+title: date
+date: 2022-07-25 22:37:43
+permalink: /pages/28f933/
+categories:
+  - ComputerLinux
+tags:
+  - 
+---
 # Date 命令
 
 

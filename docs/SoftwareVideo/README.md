@@ -1,3 +1,12 @@
+---
+title: README
+date: 2022-07-26 07:46:07
+permalink: /pages/a77473/
+categories:
+  - SoftwareVideo
+tags:
+  - 
+---
 # potlyer
 
 ## [PotPlayer 到底好在哪里？](https://www.zhihu.com/question/20710497/answer/1076773103)

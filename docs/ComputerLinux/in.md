@@ -1,3 +1,12 @@
+---
+title: in
+date: 2022-07-25 22:37:36
+permalink: /pages/5bcff4/
+categories:
+  - ComputerLinux
+tags:
+  - 
+---
 # IN 命令
 
 [linux中ln -s 命令详解_写Scala的老刘的博客-CSDN博客_linux ln-s](https://blog.csdn.net/qq_40625030/article/details/79907795)

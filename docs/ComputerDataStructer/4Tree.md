@@ -1,3 +1,12 @@
+---
+title: 4Tree
+date: 2022-07-25 22:46:50
+permalink: /pages/22893a/
+categories:
+  - ComputerDataStructer
+tags:
+  - 
+---
 ## 1二叉树的构建及遍历操作
 
 构造二叉链表表示的二叉树：按先序次序输入二叉树中结点的值（一个字符），'#'字符表示空树，构造二叉链表表示的二叉树T；再输出三种遍历序列

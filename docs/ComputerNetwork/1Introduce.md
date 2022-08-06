@@ -1,3 +1,12 @@
+---
+title: 1Introduce
+date: 2022-07-26 07:03:08
+permalink: /pages/f344ee/
+categories:
+  - ComputerNetwork
+tags:
+  - 
+---
 # 概述
 ## 1.1 计算机网络在信息时代的作用
 

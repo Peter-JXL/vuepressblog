@@ -1,3 +1,12 @@
+---
+title: 1HelloWorld
+date: 2022-07-26 07:25:36
+permalink: /pages/214ee2/
+categories:
+  - JavaBasic
+tags:
+  - 
+---
 # HelloWorld
 
 一个`.java`文件只能包含一个`public`类，但可以包含多个非`public`类。如果有`public`类，文件名必须和`public`类的名字相同。

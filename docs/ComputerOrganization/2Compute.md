@@ -1,3 +1,12 @@
+---
+title: 2Compute
+date: 2022-07-25 21:20:40
+permalink: /pages/4b327d/
+categories:
+  - ComputerOrganization
+tags:
+  - 
+---
 ## 2.1 数据与文字的表示方法
 
 在选择计算机的数的表示方式时，需考虑：

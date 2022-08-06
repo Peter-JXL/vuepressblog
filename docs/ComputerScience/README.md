@@ -1,3 +1,12 @@
+---
+title: README
+date: 2022-07-21 23:06:40
+permalink: /pages/41fc20/
+categories:
+  - ComputerScience
+tags:
+  - 
+---
 # 计算机课程介绍
 
 ## 前言

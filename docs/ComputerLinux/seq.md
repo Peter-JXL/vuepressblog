@@ -1,3 +1,12 @@
+---
+title: seq
+date: 2022-07-25 22:37:43
+permalink: /pages/a38cce/
+categories:
+  - ComputerLinux
+tags:
+  - 
+---
 # Sqe 命令
 
 [Linux基础：常用命令之seq命令详解](https://mp.weixin.qq.com/s/uzlOJ7payBtzhqwAWff_zw)

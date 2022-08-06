@@ -1,3 +1,12 @@
+---
+title: 6Exception
+date: 2022-07-26 07:25:34
+permalink: /pages/ee6769/
+categories:
+  - JavaBasic
+tags:
+  - 
+---
 # Exception
 
 | 类                  | 可能引起异常的原因                                                         |

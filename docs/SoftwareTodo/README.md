@@ -1,3 +1,12 @@
+---
+title: README
+date: 2022-07-26 07:46:01
+permalink: /pages/6a5a63/
+categories:
+  - SoftwareTodo
+tags:
+  - 
+---
 # Listary
 [希望可以关闭在空白桌面双击出现listary菜单功能](https://discussion.listary.com/t/listary/2837)
 

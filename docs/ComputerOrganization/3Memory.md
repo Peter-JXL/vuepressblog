@@ -1,3 +1,12 @@
+---
+title: 3Memory
+date: 2022-07-25 21:22:11
+permalink: /pages/950c67/
+categories:
+  - ComputerOrganization
+tags:
+  - 
+---
 ## 存储器概述
 
 一个位是最小的存储单位,称为存储位元.若干存储位元组成一个存储单元,若干存储单元组成存储器

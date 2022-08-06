@@ -1,3 +1,12 @@
+---
+title: 2wuliceng
+date: 2022-07-26 07:03:08
+permalink: /pages/4c4174/
+categories:
+  - ComputerNetwork
+tags:
+  - 
+---
 # 物理层
 ## 2.1 物理层的基本概念
 

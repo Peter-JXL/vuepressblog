@@ -1,3 +1,12 @@
+---
+title: 5Gate
+date: 2022-07-23 22:27:53
+permalink: /pages/e221db/
+categories:
+  - ComputerDigitalCircuit
+tags:
+  - 
+---
 ## 门电路
 
 ## 概述

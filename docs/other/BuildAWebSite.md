@@ -1,3 +1,12 @@
+---
+title: BuildAWebSite
+date: 2022-07-26 21:41:57
+permalink: /pages/d2eab6/
+categories:
+  - other
+tags:
+  - 
+---
 # 如何用VuePress搭建博客
 
 以VuePress为例

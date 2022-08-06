@@ -1,3 +1,12 @@
+---
+title: 6mock
+date: 2022-07-26 07:17:25
+permalink: /pages/4df532/
+categories:
+  - Computerfontend
+tags:
+  - 
+---
 # MOCK
 # mock的使用场景
 

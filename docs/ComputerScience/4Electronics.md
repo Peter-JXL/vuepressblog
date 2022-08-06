@@ -1,3 +1,12 @@
+---
+title: 4Electronics
+date: 2022-07-23 22:46:40
+permalink: /pages/c8bf99/
+categories:
+  - ComputerScience
+tags:
+  - 
+---
 # 电子时代
 
 

@@ -1,3 +1,12 @@
+---
+title: README
+date: 2022-07-25 22:10:58
+permalink: /pages/fc5bed/
+categories:
+  - ComputerLinux
+tags:
+  - 
+---
 # Linux该俗话
 
 今天，我来为大家解读一幅来自 TurnOff.us 的漫画 “[InSide The Linux Kernel](http://turnoff.us/geek/inside-the-linux-kernel/)” 。 [TurnOff.us](http://turnoff.us/) 是一个极客漫画网站，作者Daniel Stori 画了一些非常有趣的关于编程语言、Web、云计算、Linux 相关的漫画。今天解读的便是其中的一篇。

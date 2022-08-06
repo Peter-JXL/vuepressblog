@@ -1,3 +1,12 @@
+---
+title: 2Mechanics
+date: 2022-07-23 22:46:04
+permalink: /pages/36e87e/
+categories:
+  - ComputerScience
+tags:
+  - 
+---
 ## 机械时期
 
 

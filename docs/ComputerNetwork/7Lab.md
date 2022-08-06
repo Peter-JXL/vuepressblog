@@ -1,3 +1,12 @@
+---
+title: 7Lab
+date: 2022-07-26 07:03:04
+permalink: /pages/86245b/
+categories:
+  - ComputerNetwork
+tags:
+  - 
+---
 # 实验课
 
 

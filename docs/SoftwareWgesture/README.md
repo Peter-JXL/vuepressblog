@@ -1,3 +1,12 @@
+---
+title: README
+date: 2022-07-26 07:46:08
+permalink: /pages/1bb75e/
+categories:
+  - SoftwareWgesture
+tags:
+  - 
+---
 # WGestures
 
 > 本文由 [简悦 SimpRead](http://ksria.com/simpread/) 转码，  [原文地址](https://mp.weixin.qq.com/s?__biz=MzU2NTAzNzYzMg==&mid=2247494991&idx=1&sn=ddec70e47ec8802fd0e37a732dcb798a&chksm=fc437260cb34fb7630b7bf83e8ef5717bac14e6bf200d6a3c664d710538d7527f027537074f3&mpshare=1&scene=1&srcid=0221e1XwqILxCeZ9S8XtMFui&sharer_sharetime=1582267269334&sharer_shareid=5cc2777764c85c1d841997739b5bb6f4&key=23b7fbdf45e237b02af36ba7bc2ab7d3b9fbe330559ae9720c799feabc2851c2d3b5c82a88e6b80688c8646babd2a3984baf2f10345ed779164f5eef6a40993fe715aa2d5eb59ec931e7fbc29cbd909b&ascene=1&uin=MzEzNTMxNzU5NQ%3D%3D&devicetype=Windows+10&version=62070158&lang=zh_CN&exportkey=AdhSVYZBsW8%2FlMTG5gV4GEM%3D&pass_ticket=q8ma0jRuf9Wux12FcypOtuORSBQNeB9YxrPnYlk7fycvB5RQn3NmMqLwQ2o0z0rN)

@@ -1,3 +1,12 @@
+---
+title: who
+date: 2022-07-25 22:37:31
+permalink: /pages/6b0c38/
+categories:
+  - ComputerLinux
+tags:
+  - 
+---
 # who 命令
 
 

@@ -1,3 +1,12 @@
+---
+title: 1Introduce
+date: 2022-07-25 21:21:25
+permalink: /pages/b8bbea/
+categories:
+  - ComputerOrganization
+tags:
+  - 
+---
 ## 计算机分类
 
 ## 计算机的发展简史

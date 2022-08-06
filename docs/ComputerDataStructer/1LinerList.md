@@ -1,3 +1,12 @@
+---
+title: 1LinerList
+date: 2022-07-25 22:46:50
+permalink: /pages/4538f2/
+categories:
+  - ComputerDataStructer
+tags:
+  - 
+---
 # 线性表基本操作
 
 ## 题目要求

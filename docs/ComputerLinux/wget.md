@@ -1,3 +1,12 @@
+---
+title: wget
+date: 2022-07-25 22:37:37
+permalink: /pages/b1d9ec/
+categories:
+  - ComputerLinux
+tags:
+  - 
+---
 # wget命令
 
 

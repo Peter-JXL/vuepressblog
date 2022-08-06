@@ -1,3 +1,12 @@
+---
+title: 2StackAndQueu
+date: 2022-07-25 22:46:50
+permalink: /pages/9c7843/
+categories:
+  - ComputerDataStructer
+tags:
+  - 
+---
 # 1顺序栈的基本操作
 
 输入格式

@@ -1,3 +1,12 @@
+---
+title: 7shixuGate
+date: 2022-07-23 22:28:24
+permalink: /pages/b9914f/
+categories:
+  - ComputerDigitalCircuit
+tags:
+  - 
+---
 # 时序逻辑电路
 
 ## 概述

@@ -1,3 +1,12 @@
+---
+title: kill
+date: 2022-07-25 22:37:37
+permalink: /pages/aac256/
+categories:
+  - ComputerLinux
+tags:
+  - 
+---
 # Kill 命令
 
 [Linux killall 命令 | 菜鸟教程](https://www.runoob.com/linux/linux-comm-killall.html)

@@ -1,3 +1,12 @@
+---
+title: README
+date: 2022-07-26 07:09:37
+permalink: /pages/f8ffcf/
+categories:
+  - ComputerDataBase
+tags:
+  - 
+---
 #  什么是数据库？
   
 > 本文由 [简悦 SimpRead](http://ksria.com/simpread/) 转码， 原文地址 https://mp.weixin.qq.com/s/Bc6L-nDK66sEEN66w-eDhg

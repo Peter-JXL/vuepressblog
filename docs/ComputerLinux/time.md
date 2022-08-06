@@ -1,3 +1,12 @@
+---
+title: time
+date: 2022-07-25 22:37:43
+permalink: /pages/7a35b5/
+categories:
+  - ComputerLinux
+tags:
+  - 
+---
 # Time命令
 
 

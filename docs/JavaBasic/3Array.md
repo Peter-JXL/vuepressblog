@@ -1,3 +1,12 @@
+---
+title: 3Array
+date: 2022-07-26 07:25:36
+permalink: /pages/f2a8b1/
+categories:
+  - JavaBasic
+tags:
+  - 
+---
 # Array
 
 ## 前言

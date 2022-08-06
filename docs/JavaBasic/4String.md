@@ -1,3 +1,12 @@
+---
+title: 4String
+date: 2022-07-26 07:25:32
+permalink: /pages/770a26/
+categories:
+  - JavaBasic
+tags:
+  - 
+---
 # String
 
 ## 中文字符串长度

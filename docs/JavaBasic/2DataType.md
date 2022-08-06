@@ -1,3 +1,12 @@
+---
+title: 2DataType
+date: 2022-07-26 07:25:34
+permalink: /pages/ba28fb/
+categories:
+  - JavaBasic
+tags:
+  - 
+---
 # 数据类型
 
 ## [为什么 Java 中“1000\==1000”为false，而”100==100“为true？](https://mp.weixin.qq.com/s?__biz=MzIxMjE5MTE1Nw==&mid=2653211871&idx=2&sn=1bd2b487c36f1b537ed8b849bd4dfd76&chksm=8c99be05bbee3713c3fa2217e493948ebc2d6d37008b4a99bd5a4501ccbbee251f6cc21fc334&mpshare=1&scene=1&srcid=0910qPLVIga4QnySgndVqVpy&sharer_sharetime=1599725144054&sharer_shareid=5cc2777764c85c1d841997739b5bb6f4&key=ad479a0dc78b18f314b75646df0b2486353e2c8f7bbb47aa5b96698a4f43ca6ae94874e9e2360150fe0be9713c77ca5dd284a520b51133aa79bcfdc3c03ba10e374d85b7473c0d0ba7e61690b6fd72c76be3f859fbda989e64d52fa4b9734e8ec4d2db293d62be9bd193762e2b16aace432805de5d6a400f2133b17a255f54ba&ascene=1&uin=MzEzNTMxNzU5NQ%3D%3D&devicetype=Windows+10+x64&version=62090529&lang=zh_CN&exportkey=AYg79Bbcz43Os%2FZtVVJdVyA%3D&pass_ticket=ILCP%2F1aOSoxdBvYoh6UFyiqayEopSbUerx2rk7gbt3%2FfZ1hmRfSGhIOyj2a989NM&wx_header=0)

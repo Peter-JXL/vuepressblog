@@ -1,3 +1,12 @@
+---
+title: exec
+date: 2022-07-25 22:37:37
+permalink: /pages/c46d7d/
+categories:
+  - ComputerLinux
+tags:
+  - 
+---
 # EXEC命令
 
 [exec命令_Crett的博客-CSDN博客_exec指令](https://blog.csdn.net/wejfoasdbsdg/article/details/50474026)

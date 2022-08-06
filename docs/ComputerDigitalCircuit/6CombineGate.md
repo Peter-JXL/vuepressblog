@@ -1,3 +1,12 @@
+---
+title: 6CombineGate
+date: 2022-07-23 22:28:08
+permalink: /pages/cd0657/
+categories:
+  - ComputerDigitalCircuit
+tags:
+  - 
+---
 # 组合逻辑电路中
 
 ## 概述

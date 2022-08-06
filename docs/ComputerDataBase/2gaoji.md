@@ -1,3 +1,12 @@
+---
+title: 2gaoji
+date: 2022-07-26 07:09:45
+permalink: /pages/60f3b7/
+categories:
+  - ComputerDataBase
+tags:
+  - 
+---
 # 高级语法
 
 # 概述

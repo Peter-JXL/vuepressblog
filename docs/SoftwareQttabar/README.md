@@ -1,3 +1,12 @@
+---
+title: README
+date: 2022-07-26 07:45:56
+permalink: /pages/c0113e/
+categories:
+  - SoftwareQttabar
+tags:
+  - 
+---
 # QTTabbar
 > 本文由 [简悦 SimpRead](http://ksria.com/simpread/) 转码， 原文地址 https://sspai.com/post/52521
 

@@ -1,3 +1,12 @@
+---
+title: 5TCP
+date: 2022-07-26 07:03:06
+permalink: /pages/0cfb77/
+categories:
+  - ComputerNetwork
+tags:
+  - 
+---
 # 传输层
 
 ## 5.1 运输层概述

@@ -1,3 +1,12 @@
+---
+title: README
+date: 2022-07-26 07:46:03
+permalink: /pages/d2b815/
+categories:
+  - SoftwareTomato
+tags:
+  - 
+---
 # FileLocator
 > 本文由 [简悦 SimpRead](http://ksria.com/simpread/) 转码， 原文地址 https://mp.weixin.qq.com/s?__biz=MzU2NTAzNzYzMg==&mid=2247489008&idx=1&sn=8bb69a479abfecfe005247455c35bec4&chksm=fc408adfcb3703c903bf94a5a8ee7c3e8ecfeb09cc1ed1780473a6cfab4aeba5acb0b591aac9&mpshare=1&scene=1&srcid=0310Y1mf02st0D2zdbfIctBK#rd
 

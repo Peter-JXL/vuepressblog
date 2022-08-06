@@ -1,3 +1,12 @@
+---
+title: 3JS
+date: 2022-07-26 07:17:26
+permalink: /pages/f54e34/
+categories:
+  - Computerfontend
+tags:
+  - 
+---
 # JS
 
 ### 转换成布尔类型

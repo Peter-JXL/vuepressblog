@@ -1,3 +1,12 @@
+---
+title: 8duoheos
+date: 2022-07-25 21:30:19
+permalink: /pages/131bdf/
+categories:
+  - ComputerOS
+tags:
+  - 
+---
 # 第8章　多处理机系统
 
 ===================

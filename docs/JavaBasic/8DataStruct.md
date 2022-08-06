@@ -1,3 +1,12 @@
+---
+title: 8DataStruct
+date: 2022-07-26 07:25:36
+permalink: /pages/1d1113/
+categories:
+  - JavaBasic
+tags:
+  - 
+---
 # LinkList
 
 [LinkedList 的作者说他自己都不用 LinkedList？](https://mp.weixin.qq.com/s/VviqCFkSY5mBvXwIPX243w)

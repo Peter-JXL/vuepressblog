@@ -1,3 +1,12 @@
+---
+title: 4Logic
+date: 2022-07-23 22:27:26
+permalink: /pages/693637/
+categories:
+  - ComputerDigitalCircuit
+tags:
+  - 
+---
 ## 逻辑代数
 
 # 2 逻辑代数中的三种基本运算

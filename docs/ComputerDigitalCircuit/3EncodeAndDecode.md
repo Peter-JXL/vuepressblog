@@ -1,3 +1,12 @@
+---
+title: 3EncodeAndDecode
+date: 2022-07-23 22:26:35
+permalink: /pages/1a1188/
+categories:
+  - ComputerDigitalCircuit
+tags:
+  - 
+---
 ## 编码与解码
 
 

@@ -1,7 +1,7 @@
 module.exports = {
   title: '程序员的网络日志',
   description: '记录，成为更好的自己。',
-  theme: 'reco',
+  theme: 'vdoing',
   locales: {
     '/': {
       lang: 'zh-CN'
@@ -185,28 +185,6 @@ module.exports = {
   },
   plugins: [
     '@vuepress/last-updated',
-    ['@vuepress-reco/vuepress-plugin-bulletin-popover', {
-      width: '300px', // 默认 260px
-      title: '消息提示',
-      body: [
-        {
-          type: 'title',
-          content: '添加冴羽好友入前端交流群',
-          style: 'text-aligin: center;'
-        },
-        {
-          type: 'image',
-          src: 'https://cdn.jsdelivr.net/gh/mqyqingfeng/picture/IMG_3516.JPG'
-        }
-      ],
-      footer: [
-        {
-          type: 'button',
-          text: '打赏',
-          link: '/donate'
-        }
-      ]
-    }],
 
     ['vuepress-plugin-code-copy', true],
 
