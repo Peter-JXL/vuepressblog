@@ -226,6 +226,14 @@ module.exports = {
         shape: 'star', // ['star' | 'circle'], // shape of the particle, default: 'star'
         zIndex: 999999999, // z-index property of the canvas, default: 999999999
       }
-    ]
+    ],
+
+    ['dynamic-title', {
+      // showIcon: '',
+      showText: '欢迎回来  O(∩_∩)O~~',
+      // hideIcon: '',
+      hideText: '等等，你别走啊 ::>_<::',
+      recoverTime: 2000,
+   }]
   ]
 }

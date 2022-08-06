@@ -30,7 +30,8 @@
     "vuepress": "^1.9.7",
     "vuepress-plugin-code-copy": "^1.0.6",
     "vuepress-plugin-copyright": "^1.0.2",
-    "vuepress-plugin-cursor-effects": "^1.1.4"
+    "vuepress-plugin-cursor-effects": "^1.1.4",
+    "vuepress-plugin-dynamic-title": "^1.0.0"
   },
   "dependencies": {
     "vuepress-theme-reco": "^1.6.14"
