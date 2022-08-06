@@ -12,6 +12,7 @@ module.exports = {
   ],
   themeConfig: {    
     logo: 'https://image.peterjxl.com/blog/re0.jpg',
+    lastUpdated: '上次更新',
     nav: [
       { text: '首页', link: '/' },
       {
