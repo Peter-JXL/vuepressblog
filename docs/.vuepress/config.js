@@ -2,15 +2,15 @@ module.exports = {
   title: '程序员的网络日志',
   description: '记录，成为更好的自己。',
   theme: 'reco',
-  locales:{
-    '/':{
+  locales: {
+    '/': {
       lang: 'zh-CN'
     }
   },
   head: [
     ['link', { rel: 'icon', href: 'https://image.peterjxl.com/blog/re0.jpg' }]
   ],
-  themeConfig: {    
+  themeConfig: {
     logo: 'https://image.peterjxl.com/blog/re0.jpg',
     lastUpdated: '上次更新',
     nav: [
@@ -44,7 +44,7 @@ module.exports = {
           { text: 'uTools', link: '/SoftwareuTools/' },
           { text: '番茄盒子', link: '/SoftwareTomato/' },
         ]
-      },    
+      },
       {
         text: '其他', ariaLabel: 'Other',
         items: [
@@ -60,7 +60,7 @@ module.exports = {
     ],
     subSidebar: 'auto',
     sidebar: {
-      '/ComputerScience/':[
+      '/ComputerScience/': [
         '',  // 测边栏第一个页面是：/ComputerScience/README.md，、链接文字自动获取（页面的第一个header），即h1（前端技术）
         '1BeforeComputer', //侧边栏第二个页面是：/ComputerScience/Collegecourses,md，链接文字自动获取（页面的第一个header），即h2（htnl三级标题）
         '2Mechanics',
@@ -69,7 +69,7 @@ module.exports = {
         'Collegecourses',
       ],
 
-      '/ComputerDigitalCircuit/':[
+      '/ComputerDigitalCircuit/': [
         '',
         '1Introduce',
         '2Digital',
@@ -79,8 +79,8 @@ module.exports = {
         '6CombineGate',
         '7shixuGate'
       ],
-      
-      '/ComputerOrganization/':[
+
+      '/ComputerOrganization/': [
         '',
         '1Introduce',
         '2Compute',
@@ -92,7 +92,7 @@ module.exports = {
         '9Bingfa',
       ],
 
-      '/ComputerOS/':[
+      '/ComputerOS/': [
         '',
         '1whatisos',
         '2jincheng',
@@ -106,7 +106,7 @@ module.exports = {
         '10instanceLinux',
       ],
 
-      '/ComputerLinux/':[
+      '/ComputerLinux/': [
         '',
         'in',
         'kill',
@@ -120,7 +120,7 @@ module.exports = {
         'hostname',
       ],
 
-      '/ComputerDataStructer/':[
+      '/ComputerDataStructer/': [
         '',
         '1LinerList',
         '2StackAndQueu',
@@ -152,8 +152,8 @@ module.exports = {
         '6with',
         '7groupby',
       ],
-      
-      '/Computerfontend/':[
+
+      '/Computerfontend/': [
         '',
         '1HTML',
         '2CSS',
@@ -164,7 +164,7 @@ module.exports = {
         '6mock',
       ],
 
-      '/JavaBasic/':[
+      '/JavaBasic/': [
         '',
         '0Install',
         '1HelloWorld',
@@ -178,8 +178,8 @@ module.exports = {
         '9GC',
       ]
 
-     
-      
+
+
     }
 
   },
@@ -204,8 +204,10 @@ module.exports = {
           type: 'button',
           text: '打赏',
           link: '/donate'
-        } 
+        }
       ]
-    }]
+    }],
+
+    ['vuepress-plugin-code-copy', true]
   ]
 }
