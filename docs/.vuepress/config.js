@@ -208,6 +208,16 @@ module.exports = {
       ]
     }],
 
-    ['vuepress-plugin-code-copy', true]
+    ['vuepress-plugin-code-copy', true],
+    
+    [
+      'copyright',
+      {
+        noCopy: true, // 选中的文字将无法被复制
+        authorName: '程序狗', // 选中的文字将无法被复制
+        minLength: 30, // 如果长度超过  30 个字符
+      },
+    ]
+    
   ]
 }
