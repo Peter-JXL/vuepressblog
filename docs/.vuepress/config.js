@@ -16,20 +16,24 @@ module.exports = {
     nav: [
       { text: '首页', link: '/' },
       {
-        text: '编程', ariaLabel: 'program',
+        text: '计算机基础', 
+        ariaLabel: 'program',
+        link: '/ComputerBasic/',
         items: [
-          { text: '计算机科学导论', link: '/computersience/' },
-          { text: '数字电路', link: '/ComputerDigitalCircuit/' },
+          { text: '计算机科学导论', link: '/ComputerSience/' },
+          { text: '数字电路', link: '/ComputerDigital/' },
+          { text: '计算机组成原理', link: '/ComputerOrganization/' },
+          { text: 'C语言', link: '/CProgramLanguage/' },
+          { text: '数据结构', link: '/DataStructure/' },
+          { text: '汇编语言', link: '/AassemblyLanguage/' },
           { text: '操作系统', link: '/ComputerOS/' },
-          { text: 'Linux', link: '/ComputerLinux/' },
-          { text: '数据结构', link: '/ComputerDataStructer/' },
-          { text: '编译原理', link: '/ComputerCompilation/' },
-          { text: '计算机网络', link: '/ComputerNetwork/' },
-          { text: '数据库', link: '/ComputerDataBase/' },
-          { text: '前端', link: '/Computerfontend/' },
-          { text: 'Java', link: '/JavaBasic/' },
+          { text: 'Linux', link: '/Linux/' },
+          { text: '编译原理', link: '/CompilationPrinciple/' },
+          { text: '计算机网络', link: '/Network/' },
+          { text: '数据库', link: '/数据库/' },          
         ]
       },
+
       {
         text: '效率软件推荐', ariaLabel: 'softWare',
         items: [
@@ -45,6 +49,7 @@ module.exports = {
           { text: '番茄盒子', link: '/SoftwareTomato/' },
         ]
       },
+      
       {
         text: '其他', ariaLabel: 'Other',
         items: [
