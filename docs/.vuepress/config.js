@@ -18,7 +18,7 @@ module.exports = {
       {
         text: '编程', ariaLabel: 'program',
         items: [
-          { text: '计算机科学导论', link: '/ComputerScience/' },
+          { text: '计算机科学导论', link: '/computersience/' },
           { text: '数字电路', link: '/ComputerDigitalCircuit/' },
           { text: '操作系统', link: '/ComputerOS/' },
           { text: 'Linux', link: '/ComputerLinux/' },
