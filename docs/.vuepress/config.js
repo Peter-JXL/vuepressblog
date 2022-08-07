@@ -30,12 +30,20 @@ module.exports = {
           { text: 'Linux', link: '/Linux/' },
           { text: '编译原理', link: '/CompilationPrinciple/' },
           { text: '计算机网络', link: '/Network/' },
-          { text: '数据库', link: '/数据库/' },          
+          { text: '数据库', link: '/DataBase/' },          
         ]
       },
 
       {
-        text: '效率软件推荐', ariaLabel: 'softWare',
+        text: 'Java',
+        items: [
+          { text: 'Java基础', link: '/JavaBasic/' },
+          { text: 'JavaWeb', link: '/JavaWeb/' }
+        ]
+      },
+      {
+        text: '效率软件推荐',
+        link: '/Software',
         items: [
           { text: '笔记软件', link: '/SoftwareNote/' },
           { text: 'Quicker', link: '/SoftwareQuicker/' },
@@ -49,9 +57,9 @@ module.exports = {
           { text: '番茄盒子', link: '/SoftwareTomato/' },
         ]
       },
-      
       {
-        text: '其他', ariaLabel: 'Other',
+        text: '其他', 
+        link: '/About',
         items: [
           { text: '网站日记', link: '/other/blogupdatelog.md' },
           { text: '赞赏支持', link: '/other/reward.md' },
