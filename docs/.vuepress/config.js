@@ -57,10 +57,9 @@ module.exports = {
       },
       { text: 'GitHub', link: 'https://github.com/Peter-JXL' }
     ],
-    subSidebar: 'auto',
-    sidebar: {
-      sidebar: 'structuring' //  'structuring' | { mode: 'structuring', collapsable: Boolean} | 'auto' | 自定义
-    },
+    
+    sidebar: 'structuring', //  'structuring' | { mode: 'structuring', collapsable: Boolean} | 'auto' | 自定义
+
 
     footer: {
       createYea: "程序狗 2022",
