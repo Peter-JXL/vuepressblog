@@ -16,7 +16,7 @@ module.exports = {
     nav: [
       { text: '首页', link: '/' },
       {
-        text: '计算机基础', 
+        text: '计算机基础',
         ariaLabel: 'program',
         link: '/ComputerBasic/',
         items: [
@@ -30,7 +30,7 @@ module.exports = {
           { text: 'Linux', link: '/Linux/' },
           { text: '编译原理', link: '/CompilationPrinciple/' },
           { text: '计算机网络', link: '/Network/' },
-          { text: '数据库', link: '/DataBase/' },          
+          { text: '数据库', link: '/DataBase/' },
         ]
       },
 
@@ -58,7 +58,7 @@ module.exports = {
         ]
       },
       {
-        text: '其他', 
+        text: '其他',
         link: '/About',
         items: [
           { text: '网站日记', link: '/other/blogupdatelog.md' },
@@ -70,7 +70,7 @@ module.exports = {
       },
       { text: 'GitHub', link: 'https://github.com/Peter-JXL' }
     ],
-    
+
     sidebar: 'structuring', //  'structuring' | { mode: 'structuring', collapsable: Boolean} | 'auto' | 自定义
 
 
@@ -114,6 +114,20 @@ module.exports = {
       recoverTime: 2000,
     }],
 
-    ['@vuepress/active-header-links']
+    ['@vuepress/active-header-links'],
+
+    [
+      '@vssue/vuepress-plugin-vssue', {
+        // 设置 `platform` 而不是 `api`
+        platform: 'github-v4',   //v3的platform是github，v4的是github-v4
+        locale: 'zh', // 语言设置
+        // 其他的 Vssue 配置
+        owner: 'Peter-JXL',
+        repo: 'vuepressblog',
+        clientId: '9915e3e9f49e30e69ba5',
+        clientSecret: 'a3017f99e465808a70ba3000515bed368d76e796',
+        autoCreateIssue: true // 自动创建评论，默认是false，最好开启，这样首次进入页面的时候就不用去点击创建评论的按钮了。
+      }
+    ],
   ]
 }
