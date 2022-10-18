@@ -1,0 +1,45 @@
+name: Deploy My Server
+
+on:
+  push:
+    branches:
+      - master # 只在master上push触发部署
+      
+jobs:
+  deploy:
+    runs-on: ubuntu-latest # 使用ubuntu系统镜像运行自动化脚本
+
+    steps: # 自动化步骤
+    
+      #下载代码仓库
+      - uses: actions/checkout@v1 
+      
+      # 使用action库，安装node
+      - name: use Node.js  # 使用action库  actions/setup-node安装node
+        uses: actions/setup-node@v1
+       
+      # 安装依赖
+      - name: npm install 
+        run: npm install 
+      
+      #打包项目
+      - name: Build
+        run: npm run docs:build
+
+      #部署到服务器
+      - name: Deploy to Staging My server
+        uses: easingthemes/ssh-deploy@v2.1.6
+        env:
+          #私钥
+          SSH_PRIVATE_KEY: ${{ secrets.MYSERVER }} #后面指定为该仓库配置的私钥
+          ARGS: "-rltgoDzvO"
+          # 源目录，编译后生成的文件目录
+          SOURCE: './docs./vuepress/dist/'
+          #服务器公网地址
+          REMOTE_HOST: '120.27.217.147'
+          #服务器用户名-一般默认root
+          REMOTE_USER: 'root'
+          #服务器中，代码部署的位置
+          TARGET: '/opt/myblog'
+          #去除的文件
+          EXCLUDE: "/dist/, /node_modules/" 
