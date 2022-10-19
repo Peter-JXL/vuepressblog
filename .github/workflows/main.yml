@@ -19,10 +19,8 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 16
+        run: npm ci
        
-      # 安装依赖
-      - name: npm install 
-        run: npm install 
       
       #打包项目
       - name: Build
