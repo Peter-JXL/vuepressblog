@@ -13,6 +13,10 @@ module.exports = {
   themeConfig: {
     logo: 'https://image.peterjxl.com/blog/re0.jpg',
     lastUpdated: '上次更新',
+    repo:'',
+    docsDir:'docs',
+    editLinks: true,
+    editLinkText: '编辑',
     nav: [
       { text: '首页', link: '/' },
       {
