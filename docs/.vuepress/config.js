@@ -1,5 +1,5 @@
 module.exports = {
-  title: '程序员的网络日志',
+  title: '程序员的学习笔记',
   description: '记录，成为更好的自己。',
   theme: 'vdoing',
   locales: {
