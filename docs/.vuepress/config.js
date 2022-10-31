@@ -13,66 +13,65 @@ module.exports = {
   themeConfig: {
     logo: 'https://image.peterjxl.com/blog/re0.jpg',
     lastUpdated: '上次更新',
-    repo:'git@github.com:Peter-JXL/vuepressblog.git',
+    repo:'Peter-JXL/vuepressblog',
     docsDir:'docs',
     editLinks: true,
-    editLinkText: '编辑',
+    editLinkText: '在GitHub上编辑此页',
     nav: [
       { text: '首页', link: '/' },
       {
         text: '计算机基础',
         ariaLabel: 'program',
-        link: '/ComputerBasic/',
+        link: '/ComputerBasic',
         items: [
           { text: '计算机科学导论', link: '/ComputerSience/' },
-          { text: '数字电路', link: '/ComputerDigital/' },
-          { text: '计算机组成原理', link: '/ComputerOrganization/' },
-          { text: 'C语言', link: '/CProgramLanguage/' },
-          { text: '数据结构', link: '/DataStructure/' },
-          { text: '汇编语言', link: '/AassemblyLanguage/' },
+          // { text: '数字电路', link: '/ComputerDigital/' },
+          // { text: '计算机组成原理', link: '/ComputerOrganization/' },
+          // { text: 'C语言', link: '/CProgramLanguage/' },
+          // { text: '数据结构', link: '/DataStructure/' },
+          // { text: '汇编语言', link: '/AassemblyLanguage/' },
           { text: '操作系统', link: '/ComputerOS/' },
-          { text: 'Linux', link: '/Linux/' },
-          { text: '编译原理', link: '/CompilationPrinciple/' },
+          // { text: 'Linux', link: '/Linux/' },
+          // { text: '编译原理', link: '/CompilationPrinciple/' },
           { text: '计算机网络', link: '/Network/' },
-          { text: '数据库', link: '/DataBase/' },
+          // { text: '数据库', link: '/DataBase/' },
         ]
       },
 
-      {
-        text: 'Java',
-        items: [
-          { text: 'Java基础', link: '/JavaBasic/' },
-          { text: 'JavaWeb', link: '/JavaWeb/' }
-        ]
-      },
-      {
-        text: '效率软件推荐',
-        link: '/Software',
-        items: [
-          { text: '笔记软件', link: '/SoftwareNote/' },
-          { text: 'Quicker', link: '/SoftwareQuicker/' },
-          { text: 'Qttabar', link: '/SoftwareQttabar/' },
-          { text: 'Wgesture', link: '/SoftwareWgesture/' },
-          { text: '浏览器与插件', link: '/SoftwareBrowser/' },
-          { text: '视频播放器', link: '/SoftwareVideo/' },
-          { text: '待办清单', link: '/SoftwareTodo/' },
-          { text: '终端软件', link: '/SoftwareCMD/' },
-          { text: 'uTools', link: '/SoftwareuTools/' },
-          { text: '番茄盒子', link: '/SoftwareTomato/' },
-        ]
-      },
+      // {
+      //   text: 'Java',
+      //   items: [
+      //     { text: 'Java基础', link: '/JavaBasic/' },
+      //     { text: 'JavaWeb', link: '/JavaWeb/' }
+      //   ]
+      // },
+      // {
+      //   text: '效率软件推荐',
+      //   link: '/Software',
+      //   items: [
+      //     { text: '笔记软件', link: '/SoftwareNote/' },
+      //     { text: 'Quicker', link: '/SoftwareQuicker/' },
+      //     { text: 'Qttabar', link: '/SoftwareQttabar/' },
+      //     { text: 'Wgesture', link: '/SoftwareWgesture/' },
+      //     { text: '浏览器与插件', link: '/SoftwareBrowser/' },
+      //     { text: '视频播放器', link: '/SoftwareVideo/' },
+      //     { text: '待办清单', link: '/SoftwareTodo/' },
+      //     { text: '终端软件', link: '/SoftwareCMD/' },
+      //     { text: 'uTools', link: '/SoftwareuTools/' },
+      //     { text: '番茄盒子', link: '/SoftwareTomato/' },
+      //   ]
+      // },
       {
         text: '其他',
         link: '/About',
         items: [
-          { text: '网站日记', link: '/other/blogupdatelog.md' },
-          { text: '赞赏支持', link: '/other/reward.md' },
-          { text: '关于本站', link: '/other/about.md' },
-          { text: '如何搭建一个博客', link: '/other/BuildAWebSite' },
-          { text: '如何搭建一个邮箱', link: '/other/BuildMail' }
+          { text: '关于本站', link: '/About/Web/' },
+          { text: '网站日记', link: '/About/WebLog/' },
+          { text: '赞赏支持', link: '/About/reward/' },
+          { text: '如何搭建一个博客', link: '/About/BuildBlog/' },
+          { text: '如何搭建一个邮箱', link: '/About/BuildMail/' }
         ]
       },
-      { text: 'GitHub', link: 'https://github.com/Peter-JXL' }
     ],
 
     sidebar: 'structuring', //  'structuring' | { mode: 'structuring', collapsable: Boolean} | 'auto' | 自定义
