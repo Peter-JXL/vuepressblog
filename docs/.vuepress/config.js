@@ -13,7 +13,7 @@ module.exports = {
   themeConfig: {
     logo: 'https://image.peterjxl.com/blog/re0.jpg',
     lastUpdated: '上次更新',
-    repo:'',
+    repo:'git@github.com:Peter-JXL/vuepressblog.git',
     docsDir:'docs',
     editLinks: true,
     editLinkText: '编辑',
