@@ -12,11 +12,25 @@ module.exports = {
   ],
   themeConfig: {
     logo: 'https://image.peterjxl.com/blog/re0.jpg',
+
+    // 为每个文章底部添加 上次更新字段
     lastUpdated: '上次更新',
+
+    //为每个文章底部添加“在GitHub上编辑此页”，点击后会跳转到GitHub的对应文件的地址。会自动填充为GitHub.com/Peter-JXL/vuepressblog/文件地址
     repo:'Peter-JXL/vuepressblog',
     docsDir:'docs',
     editLinks: true,
     editLinkText: '在GitHub上编辑此页',
+
+    //配置全文搜索algolia
+    algolia: {
+      appId: 'HFCGE1I7YO',
+      apikey: '557697d1f20e77362b502b71ecf41e2a',
+      indexName: 'peterjxl'
+    },
+
+
+    //配置导航栏
     nav: [
       { text: '首页', link: '/' },
       {
@@ -86,11 +100,16 @@ module.exports = {
     }
 
   },
+
+  //以下是引用插件
   plugins: [
-    '@vuepress/last-updated',
 
-    ['vuepress-plugin-code-copy', true],
+    '@vuepress/last-updated',  //引入更新时间插件
+    'fulltext-search',  //全文搜索用的插件
+    ['vuepress-plugin-code-copy', true],  //复制代码块的插件
 
+
+    //版权相关的复制
     [
       'copyright',
       {
@@ -100,7 +119,7 @@ module.exports = {
       },
     ],
 
-
+    //光标效果的插件
     [
       'cursor-effects', {
         size: 2, // size of the particle, default: 2
@@ -109,6 +128,8 @@ module.exports = {
       }
     ],
 
+
+    //网站动态标题
     ['dynamic-title', {
       // showIcon: '',
       showText: '欢迎回来  O(∩_∩)O~~',
@@ -119,6 +140,7 @@ module.exports = {
 
     ['@vuepress/active-header-links'],
 
+    //评论区插件
     [
       '@vssue/vuepress-plugin-vssue', {
         // 设置 `platform` 而不是 `api`
