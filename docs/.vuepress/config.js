@@ -29,8 +29,7 @@ module.exports = {
       indexName: 'peterjxl'
     },
 
-    //bodyBgImg: 'https://image.peterjxl.com/blog/Emilia.jpg',  // 你的图片路径(必须位于 public 下)，可以是 URL
-    bodyBgImg: '/img/Emilia.jpg',  // 你的图片路径(必须位于 public 下)，可以是 URL
+    bodyBgImg: 'https://image.peterjxl.com/blog/re-background.jpg',  // 你的图片路径(必须位于 public 下)，可以是 URL
     bodyBgImgOpacity: 1, // body 背景图透明度，选值 0 ~ 1.0, 默认0.5
 
     indexImg: {
