@@ -41,6 +41,7 @@
     "@vssue/api-github-v4": "^1.4.7",
     "@vssue/vuepress-plugin-vssue": "^1.4.8",
     "blueimp-md5": "^2.19.0",
-    "gitalk": "^1.7.2"
+    "gitalk": "^1.7.2",
+    "vuepress-plugin-reading-progress": "^1.0.10"
   }
 }

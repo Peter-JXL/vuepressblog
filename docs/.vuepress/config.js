@@ -128,6 +128,7 @@ module.exports = {
     'fulltext-search',  //全文搜索用的插件
     ['vuepress-plugin-code-copy', true],  //复制代码块的插件
 
+    'reading-progress', //阅读进度条插件
 
     //版权相关的复制
     [
