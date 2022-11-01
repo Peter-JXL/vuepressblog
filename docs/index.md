@@ -14,6 +14,7 @@ features:
 - title: 理论与实践结合
   details: 纸上觉来终觉浅，绝知此事要躬行
 ---
+
 <ClientOnly>
   <IndexBigImg />
 </ClientOnly>
