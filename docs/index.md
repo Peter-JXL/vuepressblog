@@ -2,8 +2,7 @@
 home: true
 pageClass: vdoing-index-class
 heroImage: https://image.peterjxl.com/blog/re0.jpg
-heroText: 程序员的学习笔记
-tagline: 计算机基础知识学习
+heroText: 从01开始
 actionText: 开始学习
 actionLink: /ComputerBasic/
 features:

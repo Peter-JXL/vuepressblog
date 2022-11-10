@@ -1,6 +1,6 @@
 module.exports = {
-  title: '程序员的学习笔记',
-  description: '记录，成为更好的自己。',
+  title: '从01开始',
+  // description: '记录，成为更好的自己。',
   theme: 'vdoing',
   locales: {
     '/': {
@@ -29,8 +29,30 @@ module.exports = {
       indexName: 'peterjxl'
     },
 
-    bodyBgImg: 'https://image.peterjxl.com/blog/re-background.jpg',  // 你的图片路径(必须位于 public 下)，可以是 URL
-    // bodyBgImg: '/img/Emilia.jpg',  // 本地测试用，你的图片路径(必须位于 public 下)，可以是 URL
+    bodyBgImg: [
+      'https://image.peterjxl.com/blog/re-background.jpg',
+      'https://image.peterjxl.com/blog/saber.jpg',
+      'https://image.peterjxl.com/blog/Rin.jpeg',
+      'https://image.peterjxl.com/blog/Mikasa.jpg',
+      'https://image.peterjxl.com/blog/hutao-2.jpg',
+      'https://image.peterjxl.com/blog/hutao.jpg',
+      'https://image.peterjxl.com/blog/Emilia-2.jpg',
+      'https://image.peterjxl.com/blog/Emilia.jpg',
+      'https://image.peterjxl.com/blog/Elysia.jpg',
+    ],  // 你的图片路径(必须位于 public 下)，可以是 URL
+    
+    // 本地测试用，你的图片路径(必须位于 public 下)，可以是 URL
+    // bodyBgImg: [
+    //   '/img/Emilia.jpg',
+    //   '/img/Emilia-2.jpg',
+    //   '/img/Elysia.jpg',
+    //   '/img/hutao.jpg',
+    //   '/img/hutao-2.jpg',
+    //   '/img/Mikasa.jpg',
+    //   '/img/Rin.jpeg',
+    //   '/img/saber.jpg',
+    //   '/img/re-background.jpg'
+    // ],  
     bodyBgImgOpacity: 1, // body 背景图透明度，选值 0 ~ 1.0, 默认0.5
 
     indexImg: {
