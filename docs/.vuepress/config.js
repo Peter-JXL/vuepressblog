@@ -8,7 +8,19 @@ module.exports = {
     }
   },
   head: [
-    ['link', { rel: 'icon', href: 'https://image.peterjxl.com/blog/re0.jpg' }]
+    ['link', { rel: 'icon', href: 'https://image.peterjxl.com/blog/re0.jpg' }],
+    [
+      'script', {}, `
+        var _hmt = _hmt || [];
+        (function() {
+          var hm = document.createElement("script");
+          hm.src = "https://hm.baidu.com/hm.js?935c298d3de674300e25695d1ece4c34";
+          var s = document.getElementsByTagName("script")[0]; 
+          s.parentNode.insertBefore(hm, s);
+        })();
+      </script>
+      `
+    ]
   ],
   themeConfig: {
     logo: 'https://image.peterjxl.com/blog/re0.jpg',
