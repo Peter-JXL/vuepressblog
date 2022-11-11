@@ -16,4 +16,6 @@ features:
 
 <ClientOnly>
   <IndexBigImg />
+  <WebInfo/>
 </ClientOnly>
+
