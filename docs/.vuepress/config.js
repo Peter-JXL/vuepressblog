@@ -160,7 +160,7 @@ module.exports = {
   plugins: [
 
     '@vuepress/last-updated',  //引入更新时间插件
-    'fulltext-search',  //全文搜索用的插件
+    
     ['vuepress-plugin-code-copy', true],  //复制代码块的插件
 
     'reading-progress', //阅读进度条插件
@@ -194,21 +194,9 @@ module.exports = {
       recoverTime: 2000,
     }],
 
+    //菜单高亮。页面滚动时自动激活侧边栏链接的插件，效果就是右边内容滚动的时候，看到哪里了，左侧菜单会自动高亮显示当前看的目录
     ['@vuepress/active-header-links'],
 
-    //评论区插件
-    [
-      '@vssue/vuepress-plugin-vssue', {
-        // 设置 `platform` 而不是 `api`
-        platform: 'github-v4',   //v3的platform是github，v4的是github-v4
-        locale: 'zh', // 语言设置
-        // 其他的 Vssue 配置
-        owner: 'Peter-JXL',
-        repo: 'vuepressblog',
-        clientId: '9915e3e9f49e30e69ba5',
-        clientSecret: 'a3017f99e465808a70ba3000515bed368d76e796',
-        autoCreateIssue: true // 自动创建评论，默认是false，最好开启，这样首次进入页面的时候就不用去点击创建评论的按钮了。
-      }
-    ],
+    
   ]
 }
