@@ -47,6 +47,16 @@ export default <UserPlugins> [
         name: 'custom-plugins',
         clientAppRootComponentFiles: ["PageInfo"] // 2.x 版本 globalUIComponents 改名为 clientAppRootComponentFiles
     }
-  ]
+  ],
+
+  [
+    'vuepress-plugin-zooming', // 放大图片
+    {
+      selector: '.theme-vdoing-content img:not(.no-zoom)', // 排除class是no-zoom的图片
+      options: {
+        bgColor: 'rgba(0,0,0,0.6)',
+      },
+    },
+  ],
 
 ]

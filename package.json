@@ -42,6 +42,7 @@
     "@vssue/vuepress-plugin-vssue": "^1.4.8",
     "blueimp-md5": "^2.19.0",
     "gitalk": "^1.7.2",
-    "vuepress-plugin-reading-progress": "^1.0.10"
+    "vuepress-plugin-reading-progress": "^1.0.10",
+    "vuepress-plugin-zooming": "^1.1.8"
   }
 }

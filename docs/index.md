@@ -1,17 +1,10 @@
 ---
 home: true
 pageClass: vdoing-index-class
-heroImage: https://image.peterjxl.com/blog/re0.jpg
-heroText: 从01开始
-actionText: 开始学习
-actionLink: /ComputerBasic/
-features:
-- title: 打基础
-  details: 致力于分享从零开始学习计算机基础的笔记
-- title: 成系列
-  details: 成系列的教程合集，告别碎片化学习
-- title: 理论与实践结合
-  details: 纸上觉来终觉浅，绝知此事要躬行
+heroText: Peter JXL Blog
+# 文章列表显示方式: detailed 默认，显示详细版文章列表（包括作者、分类、标签、摘要、分页等）| simple => 显示简约版文章列表（仅标题和日期）| none 不显示文章列表
+postList: detailed
+
 ---
 
 <ClientOnly>
