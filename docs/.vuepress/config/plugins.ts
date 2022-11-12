@@ -1,8 +1,8 @@
 import { UserPlugins } from 'vuepress/config'
 
 
-export default <UserPlugins> [
-  
+export default <UserPlugins>[
+
   '@vuepress/last-updated',  //引入更新时间插件
 
   ['vuepress-plugin-code-copy', true],  //复制代码块的插件
@@ -44,8 +44,8 @@ export default <UserPlugins> [
   //站点信息配置
   [
     {
-        name: 'custom-plugins',
-        clientAppRootComponentFiles: ["PageInfo"] // 2.x 版本 globalUIComponents 改名为 clientAppRootComponentFiles
+      name: 'custom-plugins',
+      clientAppRootComponentFiles: ["PageInfo"] // 2.x 版本 globalUIComponents 改名为 clientAppRootComponentFiles
     }
   ],
 
@@ -62,12 +62,12 @@ export default <UserPlugins> [
 
   //站点地图文件，用于推送给百度
   [
-    'sitemap', 
+    'sitemap',
     {
       hostname: 'https://www.peterjxl.com'
     }
   ],
-  
+
 
   //谷歌统计插件
   [
@@ -75,5 +75,15 @@ export default <UserPlugins> [
     {
       'ga': 'G-8PPPBTJ1HM' // UA-00000000-0
     }
-  ]
+  ],
+
+  [
+    'autometa', {
+      site: {
+        name: 'peterjxl'
+      },
+      canonical_base: 'https://www.peterjxl.com',
+    },
+  ],
+
 ]
