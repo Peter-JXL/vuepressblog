@@ -37,6 +37,7 @@
     "vuepress-theme-vdoing": "^1.12.7"
   },
   "dependencies": {
+    "@vuepress/plugin-google-analytics": "^1.9.7",
     "blueimp-md5": "^2.19.0",
     "gitalk": "^1.7.2",
     "vuepress-plugin-reading-progress": "^1.0.10",

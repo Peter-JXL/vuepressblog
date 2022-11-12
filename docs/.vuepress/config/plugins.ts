@@ -59,12 +59,21 @@ export default <UserPlugins> [
     },
   ],
 
+
+  //站点地图文件，用于推送给百度
   [
     'sitemap', 
     {
       hostname: 'https://www.peterjxl.com'
     }
-  ]
+  ],
   
 
+  //谷歌统计插件
+  [
+    '@vuepress/google-analytics',
+    {
+      'ga': 'G-8PPPBTJ1HM' // UA-00000000-0
+    }
+  ]
 ]
