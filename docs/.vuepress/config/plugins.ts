@@ -59,4 +59,12 @@ export default <UserPlugins> [
     },
   ],
 
+  [
+    'sitemap', 
+    {
+      hostname: 'https://www.peterjxl.com'
+    }
+  ]
+  
+
 ]
