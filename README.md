@@ -1,8 +1,10 @@
 # vuepressblog
 
 ## 介绍
-个人博客，博客地址：http://peterjxl.com/
-GitHub项目地址：[uepressblog: 个人博客](https://github.com/Peter-JXL/vuepressblog)
+个人博客，博客地址：https://peterjxl.com/
+
+GitHub项目地址：[Vuepressblog: 个人博客](https://github.com/Peter-JXL/vuepressblog)
+
 Gitee项目地址：[vuepressblog: 个人博客](https://gitee.com/peterjxl/vuepressblog)
 
 
