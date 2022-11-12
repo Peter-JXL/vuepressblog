@@ -50,6 +50,12 @@ export default <VdoingThemeConfig>{
   // 为每个文章底部添加 上次更新字段
   lastUpdated: '上次更新',
 
+  //不在文章底部显示最近更新栏
+  updateBar:{
+    showToArticle: false, 
+    moreArticle: '/archives/'
+  },
+
   //为每个文章底部添加“在GitHub上编辑此页”，点击后会跳转到GitHub的对应文件的地址。会自动填充为GitHub.com/Peter-JXL/vuepressblog/文件地址
   repo: 'Peter-JXL/vuepressblog',
   docsDir: 'docs',
@@ -99,7 +105,7 @@ export default <VdoingThemeConfig>{
 
   // 站点配置（首页 & 文章页）
   blogInfo: {
-    blogCreate: '2021-10-19', // 博客创建时间
+    blogCreate: '2022-04-01', // 博客创建时间
     indexView: true,  // 开启首页的访问量和排名统计，默认 true（开启）
     pageView: true,  // 开启文章页的浏览量统计，默认 true（开启）
     readingTime: true,  // 开启文章页的预计阅读时间，条件：开启 eachFileWords，默认 true（开启）。可在 eachFileWords 的 readEachFileWords 的第二个和第三个参数自定义，默认 1 分钟 300 中文、160 英文
@@ -113,5 +119,33 @@ export default <VdoingThemeConfig>{
     // 说明：成功获取一次访问量，访问量 + 1，所以第一次获取失败后，设置的每个隔段重新获取时间，将会影响访问量的次数。如 100 可能每次获取访问量 + 3
   },
 
-  
+  // 博主信息，显示在首页侧边栏
+  blogger:{
+    avatar: 'https://image.peterjxl.com/blog/re0.jpg',  //头像
+    name: 'peterjxl',
+    slogan: '人生如逆旅,我亦是行人' // 个性签名
+  },
+
+
+  // 社交图标，显示于博主信息栏和页脚栏
+  social: {
+    // iconfontCssFile: '//at.alicdn.com/t/font_1678482_u4nrnp8xp6g.css', // 可选，阿里图标库在线css文件地址，对于主题没有的图标可自由添加
+    icons: [
+      {
+        iconClass: "icon-github",
+        title: "GitHub",
+        link: "https://github.com/Peter-JXL",
+      },
+      {
+        iconClass: "icon-gitee",
+        title: "Gitee",
+        link: "https://gitee.com/peterjxl",
+      },
+      {
+        iconClass: "icon-youjian",
+        title: "联系我",
+        link: "mailto:peterjxl@qq.com",
+      },
+    ],
+  },
 }
