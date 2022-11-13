@@ -14,7 +14,7 @@ export default <VdoingThemeConfig>{
       ariaLabel: 'program',
       link: '/ComputerBasic',
       items: [
-        { text: '计算机科学导论', link: '/ComputerSience/' },
+        { text: '计算机科学导论', link: '/ComputerHistory/' },
         { text: '操作系统', link: '/ComputerOS/' },
         { text: '计算机网络', link: '/Network/' },
       ]
