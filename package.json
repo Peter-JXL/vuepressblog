@@ -7,8 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "docs:dev": "vuepress dev docs --temp .temp",
     "docs:build": "vuepress build docs",
-    "deploy": "vuepress build docs && node ./deploy.js",
-    "editFm": "node utils/editFrontmatter.js"
+    "deploy": "vuepress build docs && node ./deploy.js"
   },
   "repository": {
     "type": "git",
@@ -25,25 +24,20 @@
     "@vuepress-reco/vuepress-plugin-bgm-player": "^1.1.4",
     "@vuepress-reco/vuepress-plugin-bulletin-popover": "^1.6.13",
     "@vuepress/plugin-active-header-links": "^1.9.7",
+    "@vuepress/plugin-google-analytics": "^1.9.7",
     "cross-env": "^7.0.3",
     "ora": "^5.0.0",
     "scp2": "^0.5.0",
     "vuepress": "^1.9.7",
     "vuepress-plugin-autometa": "^0.1.13",
+    "vuepress-plugin-baidu-autopush": "^1.0.1",
     "vuepress-plugin-code-copy": "^1.0.6",
     "vuepress-plugin-copyright": "^1.0.2",
     "vuepress-plugin-cursor-effects": "^1.1.4",
     "vuepress-plugin-dynamic-title": "^1.0.0",
-    "vuepress-plugin-fulltext-search": "^2.2.1",
-    "vuepress-theme-vdoing": "^1.12.7"
-  },
-  "dependencies": {
-    "@vuepress/plugin-google-analytics": "^1.9.7",
-    "blueimp-md5": "^2.19.0",
-    "gitalk": "^1.7.2",
-    "vuepress-plugin-baidu-autopush": "^1.0.1",
     "vuepress-plugin-reading-progress": "^1.0.10",
     "vuepress-plugin-sitemap": "^2.3.1",
-    "vuepress-plugin-zooming": "^1.1.8"
+    "vuepress-plugin-zooming": "^1.1.8",
+    "vuepress-theme-vdoing": "^1.12.7"
   }
 }
