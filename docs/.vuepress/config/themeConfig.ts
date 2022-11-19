@@ -19,7 +19,16 @@ export default <VdoingThemeConfig>{
         { text: '计算机网络', link: '/Network/' },
       ]
     },
-
+    {
+      text: 'Java',
+      ariaLabel: 'Java',
+      link: '/Java',
+      items: [
+        { text: 'JavaSE', link: '/JavaSE/' },
+        { text: 'JavaEE', link: '/JavaEE/' },
+        { text: 'JavaWeb', link: '/JavaWeb/' },
+      ]
+    },
     {
       text: '其他',
       link: '/About',
