@@ -86,4 +86,10 @@ export default <UserPlugins>[
     },
   ],
 
+  //Twikoo
+  {
+    name: 'custom-plugins',
+    globalUIComponents: ["Twikoo"] // 2.x 版本 globalUIComponents 改名为 clientAppRootComponentFiles
+  }
+
 ]
