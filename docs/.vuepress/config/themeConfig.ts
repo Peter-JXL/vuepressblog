@@ -82,15 +82,7 @@ export default <VdoingThemeConfig>{
 
   //背景大图轮换及其相关配置
   bodyBgImg: [
-    'https://image.peterjxl.com/blog/re-background.jpg',
-    'https://image.peterjxl.com/blog/saber.jpg',
-    'https://image.peterjxl.com/blog/Rin.jpeg',
-    'https://image.peterjxl.com/blog/Mikasa.jpg',
-    'https://image.peterjxl.com/blog/hutao-2.jpg',
-    'https://image.peterjxl.com/blog/hutao.jpg',
-    'https://image.peterjxl.com/blog/Emilia-2.jpg',
-    'https://image.peterjxl.com/blog/Emilia.jpg',
-    'https://image.peterjxl.com/blog/Elysia.jpg',
+    'https://image.peterjxl.com/backgruond-city.jpg',  //如果使用本地图片：/img/backgruond-city.jpg
   ],  // 如果是本地图片，图片路径必须位于 .vuepress/public 下
   bodyBgImgOpacity: 1, // body 背景图透明度，选值 0 ~ 1.0, 默认0.5
   indexImg: {
@@ -99,7 +91,7 @@ export default <VdoingThemeConfig>{
     // 因为本主题的默认背景色偏向白色，如果 navColor 是 2，建议需要开启(true)，否则白背景 + 白字体 = 看不见
     bgTimeColor: true,     // 是否开启图片的背景色随一天的不同时间而变化，并且开启时间窗口提示，默认是 false。时间分为四种：白天（原图）、黄昏（偏黄）、晚上（偏黑）、深夜（偏深黑）
     bgTimeColorArray: ['transparent', 'rgba(0, 0, 0, .3)', 'rgba(0, 0, 0, .3)', 'rgba(0, 0, 0, .5)'],   // 第一个是白天的颜色（默认原图），第二个是黄昏的颜色，第三个是晚上的颜色，第四个是深夜的颜色。bgTimeColor 为 true 生效。提示：如果不想要这个效果，但是又想要时间窗口提示效果，则改为 ['transparent', 'transparent', 'transparent', 'transparent']
-    descFade: false,   // 是否开启图片中间描述的淡入效果，默认为 false
+    descFade: true,   // 是否开启图片中间描述的淡入效果，默认为 false
     desc: [
       "那就从零开始。"
     ],  // 多个描述，如果填写则覆盖 config.js 的 description ，不填写默认读取 config.js 的 description，descFadeIn 为 true 生效

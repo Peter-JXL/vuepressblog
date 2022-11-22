@@ -1,10 +1,11 @@
 ---
 home: true
 pageClass: vdoing-index-class
-heroText: Peter JXL Blog
-# 文章列表显示方式: detailed 默认，显示详细版文章列表（包括作者、分类、标签、摘要、分页等）| simple => 显示简约版文章列表（仅标题和日期）| none 不显示文章列表
+heroImage: https://image.peterjxl.com/blog/re0.jpg
+heroText: 程序狗的blog
+actionText: 了解本站 → 
+actionLink: /About/Web/
 postList: detailed
-
 ---
 
 <ClientOnly>
