@@ -86,6 +86,9 @@ export default <UserPlugins>[
     },
   ],
 
+  //全局搜索插件
+  ['fulltext-search'],
+
   //Twikoo
   {
     name: 'custom-plugins',

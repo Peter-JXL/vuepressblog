@@ -31,4 +31,7 @@ export default <HeadTags> [
     ['link', { rel: 'stylesheet', href: 'https://at.alicdn.com/t/font_3077305_pt8umhrn4k9.css' }],
     ['script', { src: 'https://cdn.staticfile.org/twikoo/1.6.7/twikoo.all.min.js' }],
 
+
+    ['link', {  href: "https://cdn.jsdelivr.net/npm/@docsearch/css@alpha", rel: "stylesheet" }],
+    ['script', {  src: "https://cdn.jsdelivr.net/npm/@docsearch/js@alpha" }]
 ]
