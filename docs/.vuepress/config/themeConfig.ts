@@ -73,11 +73,11 @@ export default <VdoingThemeConfig>{
 
 
   //配置全文搜索algolia
-  // algolia: {
-  //   appId: 'HFCGE1I7YO',
-  //   apikey: '557697d1f20e77362b502b71ecf41e2a',
-  //   indexName: 'peterjxl'
-  // },
+  algolia: {
+    appId: 'HFCGE1I7YO',
+    apikey: '557697d1f20e77362b502b71ecf41e2a',
+    indexName: 'peterjxl'
+  },
 
 
   //背景大图轮换及其相关配置

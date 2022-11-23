@@ -90,25 +90,6 @@ export default <UserPlugins>[
   //全局搜索插件
   //['fulltext-search'],
 
-  docsearchPlugin({
-    appId: 'HFCGE1I7YO',
-    apiKey: '557697d1f20e77362b502b71ecf41e2a',
-    indexName: 'peterjxl',
-    searchParameters: {
-      facetFilters: ['tags:v2'],  
-    },
-    locales: {
-      '/zh': {
-        placeholder: '搜索文档',
-        translations: {
-          button: {
-            buttonText: '搜索文档',
-          },
-        },
-      },
-    },
-  }),
-
   //Twikoo
   {
     name: 'custom-plugins',
