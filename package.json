@@ -21,13 +21,6 @@
   "author": "peterjxl",
   "license": "ISC",
   "devDependencies": {
-    "@vuepress-reco/vuepress-plugin-bgm-player": "^1.1.4",
-    "@vuepress-reco/vuepress-plugin-bulletin-popover": "^1.6.13",
-    "@vuepress/plugin-active-header-links": "^1.9.7",
-    "@vuepress/plugin-google-analytics": "^1.9.7",
-    "cross-env": "^7.0.3",
-    "ora": "^5.0.0",
-    "scp2": "^0.5.0",
     "vuepress": "^1.9.7",
     "vuepress-plugin-autometa": "^0.1.13",
     "vuepress-plugin-baidu-autopush": "^1.0.1",
@@ -40,6 +33,12 @@
     "vuepress-plugin-reading-progress": "^1.0.10",
     "vuepress-plugin-sitemap": "^2.3.1",
     "vuepress-plugin-zooming": "^1.1.8",
-    "vuepress-theme-vdoing": "^1.12.7"
+    "vuepress-theme-vdoing": "^1.12.7",
+    "@vuepress/plugin-active-header-links": "^1.9.7",
+    "@vuepress/plugin-docsearch": "^2.0.0-beta.53",
+    "@vuepress/plugin-google-analytics": "^1.9.7",
+    "cross-env": "^7.0.3",
+    "ora": "^5.0.0",
+    "scp2": "^0.5.0"
   }
 }
