@@ -92,6 +92,46 @@ export default <UserPlugins>[
   {
     name: 'custom-plugins',
     globalUIComponents: ["Twikoo"] // 2.x 版本 globalUIComponents 改名为 clientAppRootComponentFiles
-  }
+  },
 
+  //回到顶部按钮--猫爪形状，和自带的冲突了，暂时略过
+  //['go-top']
+
+  //在背景里添加一条彩虹背景带
+  //['ribbon'],
+
+  //Live2D~ 由于图片可能要翻墙才能显示（在GitHub上），暂时不用
+  // [
+  //   "vuepress-plugin-live2d",
+  //   {
+  //     "modelName": "shizuku",  //可选值8个类型（z16，Epsilon2.1，izumi，koharu，shizuku，miku, hijiki小黑猫, tororo
+  //     "mobileShow": false, //是否在移动端显示，默认false
+  //     position: 'left' //位置
+  //   }
+  // ]
+
+  [
+    'vuepress-plugin-helper-live2d', {
+      live2d: {
+        // 是否启用(关闭请设置为false)(default: true)
+        enable: true,
+        // 模型名称(default: hibiki)>>>取值请参考：
+        // https://github.com/JoeyBling/hexo-theme-yilia-plus/wiki/live2d%E6%A8%A1%E5%9E%8B%E5%8C%85%E5%B1%95%E7%A4%BA
+        model: 'hijiki',
+        display: {
+          position: "left", // 显示位置：left/right(default: 'right')
+          width: 135, // 模型的长度(default: 135)
+          height: 300, // 模型的高度(default: 300)
+          hOffset: 65, //  水平偏移(default: 65)
+          vOffset: 0, //  垂直偏移(default: 0)
+        },
+        mobile: {
+          show: false // 是否在移动设备上显示(default: false)
+        },
+        react: {
+          opacity: 0.8 // 模型透明度(default: 0.8)
+        }
+      }
+    }
+  ]
 ]
