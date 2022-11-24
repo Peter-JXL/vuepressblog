@@ -1,6 +1,4 @@
 import { UserPlugins } from 'vuepress/config'
-import { docsearchPlugin } from '@vuepress/plugin-docsearch'
-
 
 export default <UserPlugins>[
 
