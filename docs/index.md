@@ -7,7 +7,6 @@ actionText: 了解本站 →
 actionLink: /About/Web/
 postList: detailed
 ---
-
 <ClientOnly>
   <IndexBigImg />
   <WebInfo/>
