@@ -35,7 +35,6 @@ export default <VdoingThemeConfig>{
       items: [
         { text: '关于本站', link: '/About/Web/' },
         { text: '网站日记', link: '/About/WebLog/' },
-        { text: '赞赏支持', link: '/About/reward/' },
         { text: '如何搭建一个博客', link: '/About/BuildBlog/' },
         { text: '如何搭建一个邮箱', link: '/About/BuildMail/' }
       ]
