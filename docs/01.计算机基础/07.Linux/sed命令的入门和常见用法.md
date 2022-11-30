@@ -1,0 +1,1362 @@
+---
+title: sed命令的入门和常见用法
+date: 2022-11-30 21:28:39
+permalink: /Linux/sed/
+categories:
+  - 计算机基础
+  - Linux
+tags:
+  - 
+---
+# sed命令的入门和常见用法
+
+
+
+## 前言
+
+阅读之前，读者应该有以下知识
+
+1. 命令行基础（懂得如何打开cmd和使用命令）
+2. sed可以在Linux或Git Bash下运行，读者应该了解使用Linux或Git，知道什么是cat命令
+3. 正则表达式的基础
+
+当然，相信读到本文的人，既然都接触到sed了，一般都有一定的编程经验。
+
+本文较长，读者可以分几个时间段读。
+
+
+
+本文主要参考：[sed 的基本使用【详图】CSDN博客](https://blog.csdn.net/a1158321146/article/details/123532275) 目前正在联系作者授权，如侵删。
+
+
+
+
+
+## sed介绍
+
+sed 是什么？
+
+> awk、grep、sed是linux操作文本的三大利器，合称文本三剑客，也是必须掌握的linux命令之一。三者的功能都是处理文本，但侧重点各不相同，其中属awk功能最强大，但也最复杂。grep更适合单纯的查找或匹配文本，sed更适合编辑匹配到的文本，awk更适合格式化文本，对文本进行较复杂格式处理。
+
+
+
+sed的工作原理：**在处理文本时逐行读取文件内容，读到匹配的行就根据指令做操作，不匹配就跳过。** 
+
+调用 sed 命令的语法有两种：
+
+* 在命令行指定 sed 指令对文本进行处理：`sed + 选项 '指令' 文件`
+* 先将 sed 指令保存到文件中，将该文件作为参数进行调用，  `sed + 选项 -f 包含sed指令的文件 文件`
+
+
+
+以下选项读者看看即可，有个印象，后面我们详细介绍
+
+sed的常用选项：
+
+|选项|含义|
+| :---------------: | :---------------------------------------------------------------------------------------: |
+|-e|它告诉sed将下一个参数解释为一个sed指令，只有当命令行上给出多个sed指令时才需要使用-e选项|
+|-f|后跟保存了sed指令的文件|
+|-i|直接对内容进行修改，不加-i时默认只是预览，不会对文件做实际修改|
+|-n|取消默认输出，sed默认会输出所有文本内容，使用-n参数后只显示处理过的行|
+
+
+
+sed中的常用指令：
+
+|命令|含义|
+| :-----------------: | :--------------------------------------------------------------: |
+|a-追加|向匹配行后面插入内容|
+|i-插入|向匹配行前插入内容|
+|c-更改|更改匹配行的内容|
+|d-删除|删除匹配的内容|
+|s-替换|替换掉匹配的内容|
+|p-打印|打印出匹配的内容，通常与-n选项和用|
+|=|用来打印被匹配的行的行号|
+|n|读取下一行，遇到n时会自动跳入下一行|
+|r,w|读和写编辑命令，r用于将内容读入文件，w用于将匹配内容写入到文件|
+
+
+
+
+
+
+
+## 使用示例
+
+我们先准备下环境，如果在Linux上一般可直接使用，如果是Windows下可以用Git bash。本文主要是在Linux下测试，Git bash下没做过多测试，一般也一样。
+
+我们先新建一个test.txt文件，里面的内容如下：
+
+```
+11
+22
+33
+44
+55
+22
+```
+
+
+
+### 向匹配行后面插入内容：a
+
+#### 添加一行内容
+
+```shell
+sed 'lahello' test.txt  #数字1 表示行号，a表示添加add，该命令就是向第一行后面添加hello
+```
+
+现在我们回顾下sed之类的格式：  `sed + 选项 '指令' 文件`。 这里我们没用选项，只用了指令`lahello`，而test.txt就是文件。
+
+
+
+
+
+
+
+我们测试下：
+
+```shell
+# 原始文件内容
+$ cat test.txt
+11
+22
+33
+44
+55
+22
+
+# 使用sed 命令后输出，
+$ sed '1ahello' test.txt
+11
+hello
+22
+33
+44
+55
+22
+
+# 没有修改原始内容，因为没有用 -i选项 保存文件内容
+$ cat test.txt 
+11
+22
+33
+44
+55
+22
+```
+
+因为我们没用在 -i 选项，所以不会保存插入hello的内容到文件里，第二条指令 `sed '1ahello' test.txt` 的输出只是预览。
+
+现在我们试着保存：
+
+```SHELL
+$ sed -i '1ahello' test.txt
+$ cat test.txt 
+11
+hello
+22
+33
+44
+55
+22
+```
+
+现在我们删除第文件第2行的hello（重新初始化文件），便于后面的测试
+
+
+
+
+
+#### 批量添加
+
+```shell
+sed '/22/achina' test.txt   #向文件内容为22的下一行添加china，如果文件中有多行的内容为22，则每一行后面都会添加
+```
+
+
+
+```shell
+# 原始文件内容
+$ cat test.txt
+11
+22
+33
+44
+55
+22
+
+# 在每一行后都添加了 china
+$ sed '/22/achina' test.txt
+11
+22
+china
+33
+44
+55
+22
+china
+```
+
+
+
+
+
+
+
+#### 最后一行添加
+
+在文件最后一行添加内容：使用 `$`
+
+```shell
+sed '$a富强' test.txt		#  
+```
+
+
+
+```SHELL
+# 原始文件内容
+$ cat test.txt
+11
+22
+33
+44
+55
+22
+
+$ sed '$afuk' test.txt
+11
+22
+33
+44
+55
+22
+fuk
+```
+
+
+
+
+
+
+
+### 向匹配行前插入内容：i
+
+#### 添加一行内容
+
+`-i` 命令表示在匹配行之前插入
+
+```shell
+sed '3igood' test.txt  # 在第三行之前插入good
+```
+
+
+
+```SHELL
+# 原始文件内容
+$ cat test.txt
+11
+22
+33
+44
+55
+22
+
+$ sed '3igood' test.txt
+11
+22
+good
+33
+44
+55
+22
+```
+
+
+
+
+
+#### 批量添加
+
+在包含china之前的行插入数据，如果含多个，则都会插入
+
+```shell
+sed '/22/inice' test.txt  # 在内容为22的内容之前的行插入nice，如果含多个，则都会插入
+```
+
+　　​
+
+```shell
+# 原始文件内容
+$ cat test.txt
+11
+22
+33
+44
+55
+22
+
+$ sed '/22/inice' test.txt
+11
+nice
+22
+33
+44
+55
+nice
+22
+```
+
+
+
+
+
+
+
+#### 最后一行之前添加
+
+```SHELL
+# 原始文件内容
+$ cat test.txt
+11
+22
+33
+44
+55
+22
+$ sed '$inice' test.txt
+11
+22
+33
+44
+55
+nice
+22
+```
+
+
+
+
+
+
+
+### 更改匹配行：c
+
+c命令用于更改匹配行的内容
+
+
+
+#### 替换单行
+
+举例：
+
+```shell
+sed '5cfive' test.txt  # 将第5行的替换为five
+```
+
+测试：
+
+```SHELL
+# 原始文件内容
+$ cat test.txt
+11
+22
+33
+44
+55
+22
+$ sed '5cfive' test.txt 
+11
+22
+33
+44
+five
+22
+```
+
+
+
+
+
+#### 批量替换
+
+举例：
+
+```shell
+sed '/22/ctwo' test.txt  #将包含22的全部替换为two
+```
+
+测试
+
+```shell
+# 原始文件内容
+$ cat test.txt
+11
+22
+33
+44
+55
+22
+$ sed '/22/ctwo' test.txt 
+11
+two
+33
+44
+55
+two
+```
+
+
+
+
+
+
+
+
+
+
+
+### 删除匹配行：d
+
+d命令表示删除匹配行
+
+#### 删除某一行
+
+```shell
+sed '7d' test.txt 				#删除第7行的数据
+```
+
+
+
+```SHELL
+# 原始文件内容
+$ cat test.txt
+11
+22
+33
+44
+55
+22
+$ sed '6d' test.txt 
+11
+22
+33
+44
+55
+```
+
+
+
+
+
+
+
+#### 隔行删除
+
+```shell
+sed '1~2d' test.txt  	#从第一行开始删除，每隔两行删掉一个，删掉奇数行
+```
+
+　
+
+
+
+```shell
+# 原始文件内容
+$ cat test.txt
+11
+22
+33
+44
+55
+22
+$ sed '1~2d' test.txt 
+22
+44
+22
+```
+
+
+
+#### 范围删除
+
+```shell
+sed '1,2d' test.txt			#删掉1-2行
+```
+
+　　
+
+```SHELL
+# 原始文件内容
+$ cat test.txt
+11
+22
+33
+44
+55
+22
+$ sed '1,2d' test.txt 
+33
+44
+55
+22
+```
+
+
+
+
+
+#### 删除 除了1-2行之外的行
+
+```shell
+sed '1,2!d' test.txt	#除了1-2行之外的行
+```
+
+
+
+```SHELL
+# 原始文件内容
+$ cat test.txt
+11
+22
+33
+44
+55
+22
+$ sed '1,2!d' test.txt 
+11
+22
+```
+
+
+
+
+
+
+
+#### 删除最后一行
+
+```shell
+sed '$d' test.txt		#删除最后一行
+```
+
+　　​
+
+
+
+```SHELL
+# 原始文件内容
+$ cat test.txt
+11
+22
+33
+44
+55
+22
+$ sed '$d' test.txt 
+11
+22
+33
+44
+55
+```
+
+
+
+
+
+#### 删除 除了包含china之外的行
+
+```shell
+sed '/china/!d' test.txt 			#删除 除了包含china之外的行
+```
+
+
+
+```SHELL
+# 原始文件内容
+$ cat test.txt
+11
+22
+33
+44
+55
+22
+$ sed '/22/!d' test.txt 
+22
+22
+```
+
+
+
+
+
+#### 多个删除
+
+删除匹配22的行以及下一行
+
+```shell
+sed '/22/,+1d' test.txt  #删除匹配22的行以及下一行
+```
+
+
+
+```SHELL
+# 原始文件内容
+$ cat test.txt
+11
+22
+33
+44
+55
+22
+$ sed '/22/,+1d' test.txt 
+11
+44
+55
+```
+
+
+
+删除从匹配到22的行到最后一行
+
+```shell
+sed '/22/,$d' test.txt  #删除从匹配到22的行到最后一行
+```
+
+
+
+```SHELL
+# 原始文件内容
+$ cat test.txt
+11
+22
+33
+44
+55
+22
+$ sed '/22/,$d' test.txt 
+11
+```
+
+
+
+#### 删除空行
+
+```shell
+sed '/^$/d' test.txt  #删除空行 ( ^表示开始，$表示结尾，^$表示没有内容的行，因此匹配的是空行)
+```
+
+
+
+```SHELL
+$ cat test.txt 
+11
+22
+33
+44
+
+55
+
+22
+
+[wasadmin@zbapp1 ~]<20221229 17:55:56>$ sed '/^$/d' test.txt 
+11
+22
+33
+44
+55
+22
+```
+
+
+
+#### 删除不匹配的行
+
+```shell
+sed '/22\|^$/!d' test.txt  # 删除不匹配 22 或者 空行 的行。先匹配22或空行， 然后！表示取反
+```
+
+
+
+```SHELL
+$ cat test.txt 
+11
+22
+33
+
+44
+55
+22
+
+[wasadmin@zbapp1 ~]<20221229 18:06:04>$ sed '/22\|^$/!d' test.txt 
+22
+
+22
+
+```
+
+
+
+#### 删除1~5行中，匹配内容22的行
+
+```shell
+sed '1,5{/22/d}' test.txt 	#删除1~5行中，匹配内容22的行
+```
+
+
+
+```SHELL
+$ cat test.txt 
+11
+22
+33
+44
+55
+22
+
+
+$ sed '1,5{/22/d}' test.txt 
+11
+33
+44
+55
+22
+```
+
+
+
+
+
+
+
+### 替换掉匹配的内容：s
+
+#### 替换第一个匹配的内容
+
+s命令用户替换匹配的内容（和c命令不同，C命令是整个行都替换掉）
+
+示例：like替换成love，默认只替换每行匹配到的第一个
+
+```shell
+sed 's/like/love/' test.txt
+```
+
+
+
+```SHELL
+$ cat test.txt 
+11
+I like spider man
+33
+44
+55
+I like emilia, like rem
+$ sed 's/like/love/' test.txt 
+11
+I love spider man
+33
+44
+55
+I love emilia, like rem
+```
+
+可以看到最后一行，还有一个like没被替换
+
+
+
+#### 替换第二个匹配的内容
+
+我们可以加个2 表明将第二个匹配到的内容替换：
+
+```SHELL
+sed 's/like/love/2' test.txt    # 将每行第二个匹配到的like替换成love
+```
+
+
+
+```shell
+$ cat test.txt 
+11
+I like spider man
+33
+44
+55
+I like emilia, like rem
+$ sed 's/like/love/2' test.txt 
+11
+I like spider man
+33
+44
+55
+I like emilia, love rem
+```
+
+
+
+#### 替换所有匹配的内容
+
+g可将所有like替换成love
+
+```shell
+$ cat test.txt 
+11
+I like spider man
+33
+44
+55
+I like emilia, like rem
+$ sed 's/like/love/g' test.txt 
+11
+I love spider man
+33
+44
+55
+I love emilia, love rem
+```
+
+可以看到最后一行的like也被替换成love了
+
+
+
+#### 读取、替换和写入
+
+看一个稍微复杂一点的脚本。将每行中所有匹配的china替换成中国，并将替换后的行采用覆写的方式写入yi.txt文件中。
+
+```SHELL
+sed -n 's/china/中国/gpw yi.txt' test.txt 
+sed -n 's/china/zhongguo/gpw yi.txt' test.txt 
+```
+
+
+
+```SHELL
+$ cat -n test.txt 
+     1	11
+     2	hello
+     3	
+     4	I love china love
+     5	china
+     6	
+     7	*******
+     8	I love china
+     9	china
+$ cat yi.txt 
+1
+2
+3
+4
+```
+
+
+
+
+
+```SHELL
+$ sed -n 's/china/zhongguo/gpw yi.txt' test.txt 
+I love zhongguo love
+zhongguo
+I love zhongguo
+zhongguo
+
+$ cat yi.txt 
+I love zhongguo love
+zhongguo
+I love zhongguo
+zhonggug
+```
+
+
+
+
+
+#### 匹配有‘#’号的行，替换匹配行中逗号后的所有内容为空
+
+```shell
+sed '/#/s/,.*//g' test.txt    #	匹配有‘#’号的行，替换匹配行中逗号后的所有内容为空  (,.*)表示逗号后的所在内容
+```
+
+
+
+```SHELL
+$ cat 1.txt 
+# comment,Hello
+1.txt first line
+1.txt second line
+
+$ sed '/#/s/,.*//g' 1.txt 
+# comment
+1.txt first line
+1.txt second line
+```
+
+
+
+#### 替换每行中的最后两个字符为空
+
+```shell
+sed 's/..$//g' test.txt # 每个点代表一个字符，$表示匹配末尾  （..$）表示匹配最后两个字符， 两个 // 中间是没有内容的，表示用空字符替换
+```
+
+
+
+```SHELL
+$ cat test.txt 
+11
+I like spider man
+33
+44
+55
+I like emilia, like rem
+
+$ sed 's/..$//g' test.txt 
+
+I like spider m
+
+
+
+I like emilia, like r
+```
+
+
+
+
+
+
+
+#### 将文件中以’#'开头的行替换成空行
+
+```shell
+sed 's/^#.*//' test.txt   #	( ^#)表示匹配以#开头，（.*）代表所有内容
+```
+
+
+
+```SHELL
+$ cat 1.txt 
+# comment
+1.txt first line
+1.txt second line
+
+
+$ sed 's/^#.*//' 1.txt 
+
+1.txt first line
+1.txt second line
+```
+
+
+
+### 删除空行和 # 开头的行
+
+
+
+```shell
+sed 's/^#.*//;/^$/d' test.txt # 先替换test.txt文件中所有注释的空行为空行，然后删除空行，替换和删除操作中间用分号隔开
+```
+
+
+
+```SHELL
+$ cat 1.txt 
+# comment
+1.txt first line
+
+1.txt second line
+$ sed 's/^#.*//;/^$/d' 1.txt
+1.txt first line
+1.txt second line
+```
+
+
+
+
+
+#### 将每一行中行首的数字加上一个小括号
+
+```shell
+sed 's/^[0-9]/(&)/' yi.txt   #将每一行中行首的数字加上一个小括号   (^[0-9])表示行首是数字，&符号代表匹配的内容
+```
+
+
+
+```SHELL
+$ cat test.txt 
+11
+I like spider man
+33
+44
+55
+I like emilia, like rem
+
+$ sed 's/^[0-9]/(&)/' test.txt 
+(1)1
+I like spider man
+(3)3
+(4)4
+(5)5
+I like emilia, like rem
+```
+
+
+
+
+
+### 打印：n
+
+
+
+#### 打印匹配行
+
+除了grep  用sed也能打印匹配的行，并且更灵活。使用示例如下，不一一演示了。
+
+
+
+指定行数打印：
+
+```shell
+sed -n '4p' test.txt   	  #打印文件中的第4行内容
+sed -n '2~2p' test.txt	  #从第二行开始，每隔两行打印一行，波浪号后面的2表示步长
+sed -n '$p' test.txt	  #打印文件的最后一行
+sed -n '1,3p' test.txt	    #打印1到3行
+sed -n '3,$p' test.txt	    #打印从第3行到最后一行的内容
+```
+
+
+
+打印匹配到的行：
+
+```SHELL
+sed -n '/love/p' test.txt    #逐行读取文件，打印匹配love的行
+sed -n '/china/,3p' test.txt  #逐行读取文件，打印从匹配china的行到第3行的内容
+sed -n '1,/china/p' test.txt	#打印第一行到匹配china的行
+sed -n '/\*/,$p' test.txt		#打印从匹配*的行到最后一行的内容
+sed  -n '/\*/,+1p'  test.txt    #打印匹配*的行及其向后一行，如果有多行匹配too，则匹配的每一行都会向后多打印一行
+sed  -n '/china/,/\*/p'  test.txt   #打印从匹配内容china到匹配内容*的行
+```
+
+
+
+
+
+
+
+#### 打印行号 ： =
+
+等号 = 可以指定打印行号
+
+
+
+#### 打印所有行号
+
+```SHELL
+$ cat test.txt 
+11
+I like spider man
+33
+44
+55
+I like emilia, like rem
+$ sed -n '=' test.txt 
+1
+2
+3
+4
+5
+6
+```
+
+共6行，打印了6个行号
+
+
+
+#### 打印指定行号
+
+我们可以打印 用正则匹配到的行 的 行号，例如
+
+```shell
+sed -n "$="  test.txt  #  打印文件最后一行的行号
+sed -n '/like/=' test.txt #打印匹配like的行的行号
+```
+
+
+
+```shell
+$ cat -n test.txt 
+     1	11
+     2	I like spider man
+     3	33
+     4	44
+     5	55
+     6	I like emilia, like rem
+$ sed -n '/like/=' test.txt 
+2
+6
+```
+
+
+
+#### 打印行号和内容
+
+打印匹配like的行的行号和内容（可用于查看日志中有like的行及其内容）
+
+```shell
+sed -n '/like/{=;p}' test.txt
+```
+
+
+
+```SHELL
+$ cat -n test.txt 
+     1	11
+     2	I like spider man
+     3	33
+     4	44
+     5	55
+     6	I like emilia, like rem
+
+$ sed -n '/like/{=;p}' test.txt 
+2
+I like spider man
+6
+I like emilia, like rem
+```
+
+
+
+### 读取内容：r
+
+r 命令可用于读入内容，可以理解为插入某个文件的内容
+
+#### 插入全部内容
+
+将文件2.txt中的内容，读入1.txt中，会在1.txt中的每一行后都读入2.txt的内容
+
+```shell
+sed 'r 2.txt' 1.txt 
+```
+
+
+
+```SHELL
+$ cat 1.txt 
+1.txt first line
+1.txt second line
+
+$ cat 2.txt 
+2.txt first line
+2.txt second line
+
+$ sed 'r 2.txt' 1.txt 
+1.txt first line
+2.txt first line
+2.txt second line
+1.txt second line
+2.txt first line
+2.txt second line
+```
+
+
+
+#### 在指定行插入
+
+在1.txt第2行之后插入文件2.txt的内容：格式
+
+```shell
+sed '3r 2.txt' 1.txt
+```
+
+
+
+```SHELL
+$ sed '2r 2.txt' 1.txt 
+1.txt first line
+1.txt second line
+2.txt first line
+2.txt second line
+```
+
+
+
+在最后一行插入
+
+在1.txt的最后一行插入2.txt的内容：
+
+```shell
+sed '$r 2.txt' 1.txt
+```
+
+
+
+```SHELL
+$ sed '$r 2.txt' 1.txt
+1.txt first line
+1.txt second line
+2.txt first line
+2.txt second line
+```
+
+
+
+
+
+注意，如果指定的行数超过了原本的文件的行数，插入不会生效。例如1.txt只有2行，如果要在第三行后插入文件2.txt的内容，不会生效：
+
+```SHELL
+$ sed '3r 2.txt' 1.txt 
+1.txt first line
+1.txt second line
+```
+
+
+
+
+
+#### 在匹配行插入
+
+在匹配 first 的行之后插入文件2.txt的内容，如果1.txt中有多行匹配则在每一行之后都会插入
+
+```shell
+sed '/first/r 2.txt' 1.txt
+```
+
+
+
+```SHELL
+$ cat 1.txt 
+1.txt first line
+1.txt second line
+
+$ cat 2.txt 
+2.txt first line
+2.txt second line
+
+$ sed '/first/r 2.txt' 1.txt
+1.txt first line
+2.txt first line
+2.txt second line
+1.txt second line
+```
+
+
+
+
+
+
+
+
+
+
+
+### 写入：w
+
+```shell
+sed  -n  'w 2.txt'   1.txt   #将1.txt文件的内容写入2.txt文件，如果2.txt文件不存在则创建，如果2.txt存在则覆盖之前的内容
+
+sed  -n -e '1w  2.txt'  -e '$w 2.txt'   1.txt   #将1.txt的第1行和最后一行内容写入2.txt
+
+sed  -n -e '1w  2.txt'  -e '$w  3.txt'  1.txt   #将1.txt的第1行和最后一行分别写入2.txt和3.txt
+
+sed  -n  '/abc\|123/w  2.txt'    1.txt   #将1.txt中匹配abc或123的行的内容，写入到2.txt中
+
+sed  -n '/666/,$w 2.txt'   1.txt   #将1.txt中从匹配666的行到最后一行的内容，写入到2.txt中
+
+sed  -n  '/xyz/,+2w  2.txt'     1.txt     #将1.txt中从匹配xyz的行及其后2行的内容，写入到2.txt中
+```
+
+
+
+
+
+### sed在脚本中的使用
+
+批量更改当前目录中的文件后缀名：
+
+```shell
+#!/bin/bash
+if [ $# -ne 2 ];then        #判断用户的输入，如果参数个数不为2则打印脚本用法
+  echo "Usage:$0 + old-file new-file"
+  exit
+fi
+for i in *$1*                         #对包含用户给定参数的文件进行遍历
+do
+  if [ -f $i ];then
+     iname=`basename $i`        #获取文件名
+     newname=`echo $iname | sed -e "s/$1/$2/g"`   #对文件名进行替换并赋值给新的变量
+     mv  $iname  $newname          #对文件进行重命名
+   fi
+done
+
+exit 666
+```
+
+
+
+```shell
+#!/bin/bash
+read -p "input the old file:" old        #提示用户输入要替换的文件后缀
+read -p "input the new file:" new
+[ -z $old ] || [ -z $new ] && echo "error" && exit      #判断用户是否有输入，如果没有输入怎打印error并退出
+for file in `ls *.$old`
+do
+  if [ -f $file ];then
+     newfile=${file%$old}                        #对文件进行去尾
+     mv $file ${newfile}$new                   #文件重命名
+  fi
+
+done
+```
+
+　　
+
+```shell
+#!/bin/bash
+
+if [ $# -ne 2 ];then        #判断位置变量的个数是是否为2
+   echo "Usage:$0  old-file  new-file"
+   exit
+fi
+for file in `ls`                      #在当前目录中遍历文件
+do
+  if [[ $file =~ $1$ ]];then   #对用户给出的位置变量$1进行正则匹配，$1$表示匹配以变量$1的值为结尾的文件
+     echo $file                      #将匹配项输出到屏幕进行确认
+     new=${file%$1}             #对文件进行去尾处理，去掉文件后缀保留文件名，并将文件名赋给变量new                
+     mv $file ${new}$2          #将匹配文件重命名为：文件名+新的后缀名
+  fi
+
+done
+```
+
+
+
+```shell
+#!/bin/bash
+
+if [ $# -ne 2 ];then        #判断位置变量的个数是是否为2
+	echo "Usage:$0  old-file  new-file"
+  	exit
+fi
+for file in `ls`                      #在当前目录中遍历文件
+do
+  if [[ $file =~ $1$ ]];then   #对用户给出的位置变量$1进行正则匹配，$1$表示匹配以变量$1的值为结尾的文件
+     echo $file                      #将匹配项输出到屏幕进行确认
+     new=${file%$1}             #对文件进行去尾处理，去掉文件后缀保留文件名，并将文件名赋给变量new                
+     mv $file ${new}$2          #将匹配文件重命名为：文件名+新的后缀名
+  fi
+
+done
+```
+
+
+
+
+
+
+
+
+
+## 官网
+
+文章知识点与官方知识档案匹配，可进一步学习相关知识
+
