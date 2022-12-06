@@ -12,10 +12,10 @@ export default <VdoingThemeConfig>{
     {
       text: '计算机基础',
       ariaLabel: 'program',
-      link: '/ComputerBasic',
       items: [
         { text: '计算机科学导论', link: '/ComputerHistory/' },
         { text: '操作系统', link: '/ComputerOS/' },
+        { text: 'Linux', link: '/Linux/' },
         { text: '计算机网络', link: '/Network/' },
       ]
     },
