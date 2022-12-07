@@ -17,6 +17,8 @@ export default <VdoingThemeConfig>{
         { text: '操作系统', link: '/ComputerOS/' },
         { text: 'Linux', link: '/Linux/' },
         { text: '计算机网络', link: '/Network/' },
+        { text: '计算机常识', link: '/literacy/' },
+        
       ]
     },
     {
