@@ -32,6 +32,14 @@ export default <VdoingThemeConfig>{
         { text: 'JavaWeb', link: '/JavaWeb/' },
       ]
     },
+
+    {
+        text: '效率软件推荐',
+        items: [
+          { text: '输入法', link: '/TypeWriting/' },
+        ]
+    },
+  
     {
       text: '其他',
       link: '/About',
