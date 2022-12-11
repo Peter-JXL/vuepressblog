@@ -14,6 +14,7 @@ export default <VdoingThemeConfig>{
       ariaLabel: 'program',
       items: [
         { text: '计算机科学导论', link: '/ComputerHistory/' },
+        { text: '数字电路', link: '/ComputerDigital/' },
         { text: '操作系统', link: '/ComputerOS/' },
         { text: 'Linux', link: '/Linux/' },
         { text: '计算机网络', link: '/Network/' },
