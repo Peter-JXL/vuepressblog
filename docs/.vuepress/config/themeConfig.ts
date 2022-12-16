@@ -15,6 +15,7 @@ export default <VdoingThemeConfig>{
       items: [
         { text: '计算机科学导论', link: '/ComputerHistory/' },
         { text: '数字电路', link: '/ComputerDigital/' },
+        { text: '计算机组成原理', link: '/ComputerOrganization/' },
         { text: '操作系统', link: '/ComputerOS/' },
         { text: 'Linux', link: '/Linux/' },
         { text: '计算机网络', link: '/Network/' },
@@ -35,6 +36,7 @@ export default <VdoingThemeConfig>{
 
     {
         text: '效率软件推荐',
+        link: '/Software',
         items: [
           { text: '输入法', link: '/TypeWriting/' },
         ]
