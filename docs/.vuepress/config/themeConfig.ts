@@ -16,10 +16,15 @@ export default <VdoingThemeConfig>{
         { text: '计算机科学导论', link: '/ComputerHistory/' },
         { text: '数字电路', link: '/ComputerDigital/' },
         { text: '计算机组成原理', link: '/ComputerOrganization/' },
+        // { text: '汇编语言', link: '/AassemblyLanguage/' },
+        // { text: 'C语言', link: '/CProgramLanguage/' },
+        // { text: '数据结构', link: '/DataStructure/' },
         { text: '操作系统', link: '/ComputerOS/' },
         { text: 'Linux', link: '/Linux/' },
         { text: '计算机网络', link: '/Network/' },
+        // { text: '数据库', link: '/DataBase/' },
         { text: '计算机常识', link: '/literacy/' },
+        // { text: '编译原理', link: '/CompilationPrinciple/' },
         
       ]
     },
@@ -38,7 +43,18 @@ export default <VdoingThemeConfig>{
         text: '效率软件推荐',
         link: '/Software',
         items: [
+          // { text: 'Windows使用技巧', link: '/Windows/' },
           { text: '输入法', link: '/TypeWriting/' },
+          // { text: '浏览器与插件', link: '/SoftwareBrowser/' },
+          // { text: '笔记软件', link: '/SoftwareNote/' },
+          // { text: '终端软件', link: '/SoftwareCMD/' },
+          // { text: 'Quicker', link: '/SoftwareQuicker/' },
+          // { text: 'Qttabar', link: '/SoftwareQttabar/' },
+          // { text: 'Wgesture', link: '/SoftwareWgesture/' },
+          // { text: '视频播放器', link: '/SoftwareVideo/' },
+          // { text: '待办清单', link: '/SoftwareTodo/' },
+          // { text: 'uTools', link: '/SoftwareuTools/' },
+          // { text: '番茄盒子', link: '/SoftwareTomato/' },
         ]
     },
   
