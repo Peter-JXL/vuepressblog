@@ -1,7 +1,7 @@
 # vuepressblog
 
 ## 介绍
-个人博客，博客地址：https://peterjxl.com/
+个人博客，博客地址：https://www.peterjxl.com/
 
 GitHub项目地址：[Vuepressblog: 个人博客](https://github.com/Peter-JXL/vuepressblog)
 
@@ -43,8 +43,4 @@ Gitee项目地址：[vuepressblog: 个人博客](https://gitee.com/peterjxl/vuep
 
 点个Star，就是最大的支持。
 
-如果您想丰富网站内容，可以：
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+如果您想丰富网站内容，可以提交PR，或者在网站评论和邮件联系
