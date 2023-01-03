@@ -40,7 +40,14 @@ export default <VdoingThemeConfig>{
     },
 
     {
-        text: '效率软件推荐',
+      text: '读书与学习',
+      items: [
+        { text: '学习网课的心得', link: '/Book/Learn-Method/About/' },
+      ]
+    },
+
+    {
+        text: '效率软件',
         link: '/Software',
         items: [
           // { text: 'Windows使用技巧', link: '/Windows/' },
