@@ -9,14 +9,14 @@ export default <UserPlugins>[
   'reading-progress', //阅读进度条插件
 
   //版权相关的复制
-  [
-    'copyright',
-    {
-      noCopy: true, // 选中的文字将无法被复制
-      authorName: '程序狗', // 选中的文字将无法被复制
-      minLength: 200, // 如果长度超过  30 个字符
-    },
-  ],
+  // [
+  //   'copyright',
+  //   {
+  //     noCopy: true, // 选中的文字将无法被复制
+  //     authorName: '程序狗', // 选中的文字将无法被复制
+  //     minLength: 200, // 如果长度超过  30 个字符
+  //   },
+  // ],
 
   //光标效果的插件
   [
