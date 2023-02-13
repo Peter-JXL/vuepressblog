@@ -43,6 +43,7 @@
   },
   "dependencies": {
     "vuepress-plugin-helper-live2d": "^1.0.2",
-    "vuepress-plugin-live2d": "^0.0.7"
+    "vuepress-plugin-live2d": "^0.0.7",
+    "vuepress-plugin-meilisearch": "^0.13.0"
   }
 }

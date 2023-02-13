@@ -133,5 +133,19 @@ export default <UserPlugins>[
         }
       }
     }
-  ]
+  ],
+
+  // 全文搜索插件 meilisearch
+  [
+    'vuepress-plugin-meilisearch',
+      {
+          hostUrl: 'https://ms-5305a0b50310-2021.sgp.meilisearch.io',        // meilisearch 服务端域名
+          apiKey: "6c612bdb206c82118a0d5775625462158058d03a8c21a1c4a43d4bb0c2180956", // 只有搜索权限的 key
+          indexUid: 'VuePressBlog',
+          // placeholder: 'Search as you type...',   // 在搜索栏中显示的占位符
+          maxSuggestions: 9,                      // 最多显示几个搜索结果
+          cropLength: 30,                         // 每个搜索结果最多显示多少个字符
+      },
+  ],
+
 ]
