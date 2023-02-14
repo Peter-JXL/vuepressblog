@@ -45,7 +45,7 @@ jobs:
           #去除的文件
           EXCLUDE: "/dist/, /node_modules/" 
   scrape-docs:
-    needs: test_website
+    needs: deploy
     runs-on: ubuntu-20.04
     steps:
         - uses: actions/checkout@v2
