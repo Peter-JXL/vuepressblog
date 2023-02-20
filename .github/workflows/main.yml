@@ -37,7 +37,7 @@ jobs:
           # 源目录，编译后生成的文件目录
           SOURCE: './docs/.vuepress/dist/'
           #服务器公网地址
-          REMOTE_HOST: '120.27.217.147'
+          REMOTE_HOST: ${{ secrets.MY_SERVER_IP }}
           #服务器用户名-一般默认root
           REMOTE_USER: 'root'
           #服务器中，代码部署的位置
