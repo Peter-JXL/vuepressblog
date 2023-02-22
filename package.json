@@ -35,6 +35,7 @@
     "vuepress-plugin-cursor-effects": "^1.1.4",
     "vuepress-plugin-dynamic-title": "^1.0.0",
     "vuepress-plugin-go-top": "^1.0.4",
+    "vuepress-plugin-one-click-copy": "^1.0.6",
     "vuepress-plugin-reading-progress": "^1.0.10",
     "vuepress-plugin-ribbon": "^1.1.6",
     "vuepress-plugin-sitemap": "^2.3.1",

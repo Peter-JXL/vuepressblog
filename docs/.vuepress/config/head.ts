@@ -31,5 +31,10 @@ export default <HeadTags> [
     ['link', { rel: 'stylesheet', href: 'https://at.alicdn.com/t/font_3077305_pt8umhrn4k9.css' }],
 
     //Twikoo评论区前端文件
-    ['script', { src: 'https://cdn.staticfile.org/twikoo/1.6.7/twikoo.all.min.js' }]
+    ['script', { src: 'https://cdn.staticfile.org/twikoo/1.6.7/twikoo.all.min.js' }],
+
+    // 代码复制模块的小箭头图标，参考https://notes.youngkbt.cn/about/website/code-block-hidden
+    ['link', { rel: 'stylesheet', href: '//at.alicdn.com/t/font_3114978_qe0b39no76.css' }],
+
+    
 ]

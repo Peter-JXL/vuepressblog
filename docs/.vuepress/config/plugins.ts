@@ -2,21 +2,7 @@ import { UserPlugins } from 'vuepress/config'
 
 export default <UserPlugins>[
 
-  '@vuepress/last-updated',  //引入更新时间插件
-
-  ['vuepress-plugin-code-copy', true],  //复制代码块的插件
-
   'reading-progress', //阅读进度条插件
-
-  //版权相关的复制
-  // [
-  //   'copyright',
-  //   {
-  //     noCopy: true, // 选中的文字将无法被复制
-  //     authorName: '程序狗', // 选中的文字将无法被复制
-  //     minLength: 200, // 如果长度超过  30 个字符
-  //   },
-  // ],
 
   //光标效果的插件
   [
@@ -40,14 +26,6 @@ export default <UserPlugins>[
   //菜单高亮。页面滚动时自动激活侧边栏链接的插件，效果就是右边内容滚动的时候，看到哪里了，左侧菜单会自动高亮显示当前看的目录
   ['@vuepress/active-header-links'],
 
-  //站点信息配置
-  [
-    {
-      name: 'custom-plugins',
-      clientAppRootComponentFiles: ["PageInfo"] // 2.x 版本 globalUIComponents 改名为 clientAppRootComponentFiles
-    }
-  ],
-
   [
     'vuepress-plugin-zooming', // 放大图片
     {
@@ -60,13 +38,7 @@ export default <UserPlugins>[
 
 
   //站点地图文件，用于推送给百度
-  [
-    'sitemap',
-    {
-      hostname: 'https://www.peterjxl.com'
-    }
-  ],
-
+  ['sitemap',{ hostname: 'https://www.peterjxl.com'}],
 
   //谷歌统计插件
   [
@@ -85,31 +57,14 @@ export default <UserPlugins>[
     },
   ],
 
-  //全局搜索插件
-  //['fulltext-search'],
-
-  //Twikoo
+  //Twikoo，代码块插件，站点信息配置插件
   {
     name: 'custom-plugins',
-    globalUIComponents: ["Twikoo"] // 2.x 版本 globalUIComponents 改名为 clientAppRootComponentFiles
+    globalUIComponents: ["Twikoo", "BlockToggle", "PageInfo"] // 2.x 版本 globalUIComponents 改名为 clientAppRootComponentFiles
   },
 
-  //回到顶部按钮--猫爪形状，和自带的冲突了，暂时略过
-  //['go-top']
 
-  //在背景里添加一条彩虹背景带
-  //['ribbon'],
-
-  //Live2D~ 由于图片可能要翻墙才能显示（在GitHub上），暂时不用
-  // [
-  //   "vuepress-plugin-live2d",
-  //   {
-  //     "modelName": "shizuku",  //可选值8个类型（z16，Epsilon2.1，izumi，koharu，shizuku，miku, hijiki小黑猫, tororo
-  //     "mobileShow": false, //是否在移动端显示，默认false
-  //     position: 'left' //位置
-  //   }
-  // ]
-
+  // 看板娘
   [
     'vuepress-plugin-helper-live2d', {
       live2d: {
@@ -148,4 +103,14 @@ export default <UserPlugins>[
       },
   ],
 
+  // 代码块复制按钮
+  [
+    'one-click-copy',
+    {
+      copySelector: ['div[class*="language-"] pre', 'div[class*="aside-code"] aside'], // String or Array
+      copyMessage: '复制成功', // default is 'Copy successfully and then paste it for use.'
+      duration: 1000, // prompt message display time.
+      showInMobile: false, // whether to display on the mobile side, default: false.
+    },
+  ],
 ]
