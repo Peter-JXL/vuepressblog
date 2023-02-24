@@ -44,7 +44,7 @@ export default <UserPlugins>[
   [
     '@vuepress/google-analytics',
     {
-      'ga': 'G-8PPPBTJ1HM' // UA-00000000-0
+      'ga': ' G-Z4BJQ4VJG4' // UA-00000000-0
     }
   ],
 
