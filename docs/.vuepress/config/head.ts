@@ -4,7 +4,7 @@ export default <HeadTags> [
   
     //图标
     ['link', { rel: 'icon', href: 'https://image.peterjxl.com/blog/re0.jpg' }],
-    ['meta', { name: 'keywords', content: '计算机基础 操作系统 计算机网络 Java'}],
+    ['meta', { name: 'keywords', content: '博客,编程,个人网站,读书,学习成长,计算机基础,操作系统,计算机网络,Java,JavaWEB,Spring,SpringBoot,微服务,SpringCloud,Docker,Git,Gitee,GitHub'}],
 
     //此标记可告知浏览器如何在移动设备上呈现网页。该标记的存在可向 Google 表明该网页适合移动设备。
     ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1' }],

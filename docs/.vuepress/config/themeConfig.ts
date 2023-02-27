@@ -171,6 +171,16 @@ export default <VdoingThemeConfig>{
     // iconfontCssFile: '//at.alicdn.com/t/font_1678482_u4nrnp8xp6g.css', // 可选，阿里图标库在线css文件地址，对于主题没有的图标可自由添加
     icons: [
       {
+        iconClass: "icon-weixin",
+        title: "微信",
+        link: "peterjxlblog",
+      },
+      {
+        iconClass: "icon-youjian",
+        title: "邮件",
+        link: "mailto:peterjxl@qq.com",
+      },
+      {
         iconClass: "icon-github",
         title: "GitHub",
         link: "https://github.com/Peter-JXL",
@@ -181,9 +191,39 @@ export default <VdoingThemeConfig>{
         link: "https://gitee.com/peterjxl",
       },
       {
-        iconClass: "icon-youjian",
-        title: "联系我",
-        link: "mailto:peterjxl@qq.com",
+        iconClass: "icon-zhihu",
+        title: "知乎",
+        link: "https://www.zhihu.com/people/ao-chuang-2",
+      },
+      {
+        iconClass: "icon-juejin",
+        title: "掘金",
+        link: "https://juejin.cn/user/465848663017144",
+      },
+      {
+        iconClass: "icon-jianshu",
+        title: "简书",
+        link: "https://www.jianshu.com/u/9bca3159ae44",
+      },
+      {
+        iconClass: "icon-sf",
+        title: "思否",
+        link: "https://segmentfault.com/u/peterjxl",
+      },
+      {
+        iconClass: "icon-bokeyuan",
+        title: "博客园",
+        link: "https://www.cnblogs.com/peterJXL/",
+      },
+      {
+        iconClass: "icon-csdn",
+        title: "CSDN",
+        link: "https://blog.csdn.net/weixin_38125348",
+      },
+      {
+        iconClass: "icon-bilibili",
+        title: "Bilibili",
+        link: "https://space.bilibili.com/53069777",
       },
     ],
   },
