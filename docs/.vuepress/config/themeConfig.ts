@@ -65,6 +65,17 @@ export default <VdoingThemeConfig>{
           // { text: '番茄盒子', link: '/SoftwareTomato/' },
         ]
     },
+
+    {
+      text: '职场系列',
+      link: '/Job/',
+      // items: [
+      //   { text: '校招', link: '/Job/On-Campus-Recruitment/' },
+      //   { text: '五险一金等', link: '/Job/five-insurances-and-one-fund/' },
+      //   { text: '润', link: '/Job/run/' },
+      //   { text: '社招', link: '/Job/social-requirement' }
+      // ]
+    },
   
     {
       text: '其他',
@@ -73,11 +84,12 @@ export default <VdoingThemeConfig>{
         { text: '关于本站', link: '/About/Web/' },
         { text: '网站日记', link: '/About/WebLog/' },
         { text: '友人帐', link: '/About/friend-link/' },
-        { text: '如何搭建一个博客', link: '/About/BuildBlog/' },
-        { text: '如何搭建一个邮箱', link: '/About/BuildMail/' },
+        { text: '如何搭建一个博客', link: '/Blog/' },
+        // { text: '如何搭建一个邮箱', link: '/About/BuildMail/' },
       
       ]
     },
+
   ],
 
 
