@@ -183,11 +183,6 @@ export default <VdoingThemeConfig>{
     // iconfontCssFile: '//at.alicdn.com/t/font_1678482_u4nrnp8xp6g.css', // 可选，阿里图标库在线css文件地址，对于主题没有的图标可自由添加
     icons: [
       {
-        iconClass: "icon-weixin",
-        title: "微信",
-        link: "peterjxlblog",
-      },
-      {
         iconClass: "icon-youjian",
         title: "邮件",
         link: "mailto:peterjxl@qq.com",
