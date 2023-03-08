@@ -25,9 +25,7 @@ jobs:
       #打包项目
       - name: Build
         run: npm run docs:build
-
-     
-  deplpy:
+  deploy:
     needs: build
     runs-on: ubuntu-20.04
     steps: 
@@ -41,8 +39,6 @@ jobs:
           port: ${{ secrets.MY_SERVER_PORT }}
           source: "./docs/.vuepress/dist"
           target: "/opt/myblog"
-  
-  
   scrape-docs:
     needs: deploy
     runs-on: ubuntu-20.04
