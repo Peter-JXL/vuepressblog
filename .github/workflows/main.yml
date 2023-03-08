@@ -39,7 +39,8 @@ jobs:
           #服务器公网地址
           REMOTE_HOST: ${{ secrets.MY_SERVER_IP }}
           #服务器用户名-一般默认root
-          REMOTE_USER: 'root'
+          REMOTE_USER: ${{ secrets.MY_SERVER_USER }}
+          REMOTE_PORT: ${{MY_SERVER_PORT}}
           #服务器中，代码部署的位置
           TARGET: '/opt/myblog'
           #去除的文件
