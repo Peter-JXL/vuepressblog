@@ -29,6 +29,12 @@ jobs:
     needs: build
     runs-on: ubuntu-20.04
     steps: 
+      - name: List files
+        run: pwd
+        shell: bash
+      - name: List files
+        run: ls ./docs/.vuepress/dist -a
+        shell: bash
        #部署到服务器
       - name: Deploy to Staging My server
         uses: appleboy/scp-action@master
