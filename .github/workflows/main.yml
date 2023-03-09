@@ -25,12 +25,24 @@ jobs:
       #打包项目
       - name: Build
         run: npm run docs:build
+      - name: List files
+        run: pwd
+        shell: bash
+      - name: List files
+        run: ls -a
+        shell: bash
   deploy:
     needs: build
     runs-on: ubuntu-20.04
     steps: 
       - name: List files
         run: pwd
+        shell: bash
+      - name: List files
+        run: ls -a
+        shell: bash
+      - name: CD
+        run: cd ..
         shell: bash
       - name: List files
         run: ls -a
