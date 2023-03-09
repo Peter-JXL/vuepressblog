@@ -31,8 +31,8 @@ jobs:
     steps: 
        #部署到服务器
       - name: Deploy to Staging My server
-        uses: appleboy/scp-action@master
-        env:
+      - uses: appleboy/scp-action@master
+        with:
           host: ${{ secrets.MY_SERVER_IP }}
           username: ${{ secrets.MY_SERVER_USER }}
           password: ${{ secrets.MY_SERVER_PASSWORD }}
