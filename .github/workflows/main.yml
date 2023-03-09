@@ -33,6 +33,9 @@ jobs:
         run: pwd
         shell: bash
       - name: List files
+        run: ls -a
+        shell: bash
+      - name: List files
         run: ls ./docs/.vuepress/dist -a
         shell: bash
        #部署到服务器
