@@ -35,6 +35,8 @@ jobs:
           SSH_PRIVATE_KEY: ${{ secrets.MYSERVER }} #后面指定为该仓库配置的私钥
           SOURCE: './docs/.vuepress/dist/'  # 源目录，编译后生成的文件目录
           TARGET: '/opt/myblog' #服务器中，代码部署的位置
+          EXCLUDE: "/dist/, /node_modules/"
+          ARGS: "-rltgoDzvO"
   scrape-docs:
     needs: build
     runs-on: ubuntu-20.04
