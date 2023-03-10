@@ -25,6 +25,12 @@ jobs:
       #打包项目
       - name: Build
         run: npm run docs:build
+      - name: pwd
+        run: pwd
+        shell: bash
+      - name: List files
+        run: ls -a
+        shell: bash
       # 部署项目
       - name: Deploy to Staging My server
         env: 
