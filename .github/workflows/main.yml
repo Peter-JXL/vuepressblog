@@ -25,25 +25,16 @@ jobs:
       #打包项目
       - name: Build
         run: npm run docs:build
-      - name: pwd
-        run: pwd
-        shell: bash
-      - name: List files
-        run: ls -a
-        shell: bash
       # 部署项目
       - name: Deploy to Staging My server
-        env: 
-          SOURCE_DIR: docs/.vuepress/dist
-          TARGET_DIR: /opt/myblog
-        uses: appleboy/scp-action@master
-        with:
-          host: ${{ secrets.MY_SERVER_IP }}
-          username: ${{ secrets.MY_SERVER_USER }}
-          password: ${{ secrets.MY_SERVER_PASSWORD }}
-          port: ${{ secrets.MY_SERVER_PORT }}
-          source: $SOURCE_DIR
-          target: $TARGET_DIR
+        uses: easingthemes/ssh-deploy@v2.1.6
+        env:
+          REMOTE_HOST: ${{ secrets.MY_SERVER_IP }}   # 服务器公网地址      
+          REMOTE_USER: ${{ secrets.MY_SERVER_USER }} # 服务器用户名，默认root
+          REMOTE_PORT: ${{MY_SERVER_PORT}}  # 服务器端口，默认22
+          SSH_PRIVATE_KEY: ${{ secrets.MYSERVER }} #后面指定为该仓库配置的私钥
+          SOURCE: './docs/.vuepress/dist/'  # 源目录，编译后生成的文件目录
+          TARGET: '/opt/myblog' #服务器中，代码部署的位置
   scrape-docs:
     needs: build
     runs-on: ubuntu-20.04
