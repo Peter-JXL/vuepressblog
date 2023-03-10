@@ -34,7 +34,7 @@ jobs:
       # 部署项目
       - name: Deploy to Staging My server
         env: 
-          SOURCE_DIR: ./docs/.vuepress/dist
+          SOURCE_DIR: docs/.vuepress/dist
           TARGET_DIR: /opt/myblog
         uses: appleboy/scp-action@master
         with:
