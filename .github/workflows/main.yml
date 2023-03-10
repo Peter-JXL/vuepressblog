@@ -5,7 +5,7 @@ on:
     branches:
       - master # 只在master上push触发部署
 
-# 分3个job，build用于构建，deploy用于部署，scrape-docs是美丽云的搜索引擎数据库更新
+# 分2个job，build用于构建+部署，scrape-docs是美丽云的搜索引擎数据库更新
 jobs:
   build:
     runs-on: ubuntu-latest # 使用ubuntu系统镜像运行自动化脚本
@@ -25,52 +25,21 @@ jobs:
       #打包项目
       - name: Build
         run: npm run docs:build
-      - name: List files
-        run: pwd
-        shell: bash
-      - name: List files
-        run: ls -a
-        shell: bash
+      # 部署项目
       - name: Deploy to Staging My server
+        env: 
+          SOURCE_DIR: ./docs/.vuepress/dist
+          TARGET_DIR: /opt/myblog
         uses: appleboy/scp-action@master
         with:
           host: ${{ secrets.MY_SERVER_IP }}
           username: ${{ secrets.MY_SERVER_USER }}
           password: ${{ secrets.MY_SERVER_PASSWORD }}
           port: ${{ secrets.MY_SERVER_PORT }}
-          source: "./docs/.vuepress/dist"
-          target: "/opt/myblog"
-  deploy:
-    needs: build
-    runs-on: ubuntu-20.04
-    steps: 
-      - name: List files
-        run: pwd
-        shell: bash
-      - name: List files
-        run: ls -a
-        shell: bash
-      - name: CD
-        run: cd ..
-        shell: bash
-      - name: List files
-        run: ls -a
-        shell: bash
-      - name: List files
-        run: ls ./docs/.vuepress/dist -a
-        shell: bash
-       #部署到服务器
-      - name: Deploy to Staging My server
-        uses: appleboy/scp-action@master
-        with:
-          host: ${{ secrets.MY_SERVER_IP }}
-          username: ${{ secrets.MY_SERVER_USER }}
-          password: ${{ secrets.MY_SERVER_PASSWORD }}
-          port: ${{ secrets.MY_SERVER_PORT }}
-          source: "./docs/.vuepress/dist"
-          target: "/opt/myblog"
+          source: $SOURCE_DIR
+          target: $TARGET_DIR
   scrape-docs:
-    needs: deploy
+    needs: build
     runs-on: ubuntu-20.04
     steps:
         - uses: actions/checkout@v2
