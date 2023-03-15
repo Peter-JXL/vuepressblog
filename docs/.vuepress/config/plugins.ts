@@ -1,5 +1,6 @@
 import { UserPlugins } from 'vuepress/config'
 
+
 export default <UserPlugins>[
 
   'reading-progress', //阅读进度条插件
@@ -113,4 +114,13 @@ export default <UserPlugins>[
       showInMobile: false, // whether to display on the mobile side, default: false.
     },
   ],
+
+  // rss订阅
+  [ 
+    'feed', 
+    {
+      canonical_base: 'https://www.peterjxl.com',
+      count: 5000,
+    } 
+  ]
 ]
