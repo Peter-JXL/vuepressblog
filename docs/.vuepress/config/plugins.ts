@@ -95,10 +95,10 @@ export default <UserPlugins>[
   [
     'vuepress-plugin-meilisearch',
       {
-          hostUrl: 'https://ms-5305a0b50310-2021.sgp.meilisearch.io',        // meilisearch 服务端域名
-          apiKey: "6c612bdb206c82118a0d5775625462158058d03a8c21a1c4a43d4bb0c2180956", // 只有搜索权限的 key
+          hostUrl: 'https://ms-d5cd9beb9237-2021.sfo.meilisearch.io',        // meilisearch 服务端域名
+          apiKey: "7b866aef763feb67aa5e26b7776b7dcece010ab3df6fecdaf68a570d78a9f42f", // 只有搜索权限的 key
           indexUid: 'VuePressBlog',
-          // placeholder: 'Search as you type...',   // 在搜索栏中显示的占位符
+          placeholder: '支持全文搜索',   // 在搜索栏中显示的占位符
           maxSuggestions: 9,                      // 最多显示几个搜索结果
           cropLength: 30,                         // 每个搜索结果最多显示多少个字符
       },

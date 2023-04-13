@@ -52,7 +52,7 @@ jobs:
               CONFIG_FILE_PATH: ${{ github.workspace }}/docs/.vuepress/config/docs-scraper-config.json
           run: |
               docker run -t --rm \
-                -e MEILISEARCH_HOST_URL="https://ms-5305a0b50310-2021.sgp.meilisearch.io" \
+                -e MEILISEARCH_HOST_URL="https://ms-d5cd9beb9237-2021.sfo.meilisearch.io" \
                 -e MEILISEARCH_API_KEY=$API_KEY \
                 -v $CONFIG_FILE_PATH:/docs-scraper/config.json \
                 getmeili/docs-scraper:v0.12.7 pipenv run ./docs_scraper config.json
