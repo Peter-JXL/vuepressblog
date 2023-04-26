@@ -35,8 +35,11 @@ export default <VdoingThemeConfig>{
       link: '/Java',
       items: [
         { text: 'JavaSE', link: '/JavaSE/' },
+        { text: 'Java高级', link: '/JavaSenior/' },
         { text: 'JavaEE', link: '/JavaEE/' },
         { text: 'JavaWeb', link: '/JavaWeb/' },
+        { text: '主流框架', link: '/Java-Framework /' },
+        
       ]
     },
 
