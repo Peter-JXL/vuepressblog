@@ -40,7 +40,7 @@ export default <VdoingThemeConfig>{
         { text: 'JavaWeb', link: '/JavaWeb/' },
         { text: 'Spring', link: '/Spring/' },
         { text: '主流框架', link: '/Java-Framework/' },
-        
+        { text: 'SpringMVC', link: '/SpringMVC/' },      
       ]
     },
 
