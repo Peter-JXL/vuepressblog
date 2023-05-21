@@ -36,10 +36,26 @@ export default <VdoingThemeConfig>{
       items: [
         { text: 'JavaSE', link: '/JavaSE/' },
         { text: 'Java高级', link: '/JavaSenior/' },
-        { text: 'JavaEE', link: '/JavaEE/' },
-        { text: 'JavaWeb', link: '/JavaWeb/' },
+        { text: 'JavaEE', link: '/JavaEE/' , items: [
+          { text: 'Ant', link: '/JavaEE/Ant/' },
+          { text: 'Maven', link: '/JavaEE/Maven/' },
+          { text: 'Log4j', link: '/JavaEE/Log4j/' },
+          { text: 'Junit', link: '/JavaEE/Junit/' },     
+          { text: 'JDBC', link: '/JavaEE/JDBC/' },    
+          { text: 'XML-JSON', link: '/JavaEE/XML-JSON/' },
+        ] },
+
+        { text: 'JavaWeb', link: '/JavaWeb/', items: [
+          { text: '服务器软件', link: '/JavaWeb/Web-Container/' },
+          { text: 'Servlet', link: '/JavaWeb/Servlet/' },
+          
+        ] },
         { text: 'Spring', link: '/Spring/' },
-        { text: '主流框架', link: '/Java-Framework/' },
+        { text: '主流框架', link: '/Java-Framework/' , items: [
+          { text: 'Mybatis', link: '/Java-Framework/Mybatis/' },
+          { text: 'Lucene', link: '/Java-Framework/Lucene/' },
+          
+        ]},
         { text: 'SpringMVC', link: '/SpringMVC/' },      
       ]
     },
@@ -73,12 +89,15 @@ export default <VdoingThemeConfig>{
     {
       text: '职场系列',
       link: '/Job/',
-      // items: [
+      items: [
       //   { text: '校招', link: '/Job/On-Campus-Recruitment/' },
       //   { text: '五险一金等', link: '/Job/five-insurances-and-one-fund/' },
       //   { text: '润', link: '/Job/run/' },
       //   { text: '社招', link: '/Job/social-requirement' }
-      // ]
+      { text: '节假日TodoList', link: '/Life/holiday-TodoList/' },
+      { text: '其他', link: '/Job/other/' },
+      ]
+      
     },
   
     {
