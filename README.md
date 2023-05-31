@@ -1,7 +1,5 @@
 # vuepressblog
 
-最新声明：本博客于2023-3开始禁止境外IP访问，待后期更换高防CDN后酌情考虑开放境外访问，境外用户可在Gitee上在线阅读博客。
-
 ## 介绍
 个人博客，博客地址：https://www.peterjxl.com/
 
