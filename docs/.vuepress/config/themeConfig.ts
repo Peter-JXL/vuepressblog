@@ -55,6 +55,7 @@ export default <VdoingThemeConfig>{
           { text: 'Mybatis', link: '/Java-Framework/Mybatis/' },
           { text: 'Lucene', link: '/Java-Framework/Lucene/' },
           { text: 'Elasticsearch', link: '/Java-Framework/Elasticsearch/' },
+          { text: 'RabbitMQ', link: '/Java-Framework/RabbitMQ/' },
           
         ]},
         { text: 'SpringMVC', link: '/SpringMVC/' },      
