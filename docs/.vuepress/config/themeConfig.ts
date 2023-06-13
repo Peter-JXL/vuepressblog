@@ -15,7 +15,11 @@ export default <VdoingThemeConfig>{
       items: [
         { text: '计算机科学导论', link: '/ComputerHistory/' },
         { text: '数字电路', link: '/ComputerDigital/' },
-        { text: '计算机组成原理', link: '/ComputerOrganization/' },
+        { 
+          text: '计算机组成原理', link: '/ComputerOrganization/', items:[
+            { text: '计算机组成原理-北大网课', link: '/ComputerOrganization/PekingUniversity/' }
+          ]
+        },
         // { text: '汇编语言', link: '/AassemblyLanguage/' },
         // { text: 'C语言', link: '/CProgramLanguage/' },
         // { text: '数据结构', link: '/DataStructure/' },
