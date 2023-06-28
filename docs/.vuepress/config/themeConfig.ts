@@ -60,7 +60,7 @@ export default <VdoingThemeConfig>{
           { text: 'Lucene', link: '/Java-Framework/Lucene/' },
           { text: 'Elasticsearch', link: '/Java-Framework/Elasticsearch/' },
           { text: 'RabbitMQ', link: '/Java-Framework/RabbitMQ/' },
-          
+          { text: 'MyCat', link: '/Java-Framework/MyCat/' },
         ]},
         { text: 'SpringMVC', link: '/SpringMVC/' },      
       ]
