@@ -61,6 +61,7 @@ export default <VdoingThemeConfig>{
           { text: 'Elasticsearch', link: '/Java-Framework/Elasticsearch/' },
           { text: 'RabbitMQ', link: '/Java-Framework/RabbitMQ/' },
           { text: 'MyCat', link: '/Java-Framework/MyCat/' },
+          { text: 'Lombok', link: '/Java-Framework/Lombok/' },
         ]},
         { text: 'SpringMVC', link: '/SpringMVC/' },      
       ]
