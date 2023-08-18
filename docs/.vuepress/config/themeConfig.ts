@@ -56,6 +56,7 @@ export default <VdoingThemeConfig>{
         ] },
         { text: 'Spring', link: '/Spring/' },
         { text: '主流框架', link: '/Java-Framework/' , items: [
+          { text: 'Redis', link: '/Java-Framework/Redis/' },
           { text: 'Mybatis', link: '/Java-Framework/Mybatis/' },
           { text: 'Lucene', link: '/Java-Framework/Lucene/' },
           { text: 'Elasticsearch', link: '/Java-Framework/Elasticsearch/' },
