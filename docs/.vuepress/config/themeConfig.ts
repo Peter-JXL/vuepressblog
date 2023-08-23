@@ -65,6 +65,7 @@ export default <VdoingThemeConfig>{
           { text: 'Lombok', link: '/Java-Framework/Lombok/' },
         ]},
         { text: 'SpringMVC', link: '/SpringMVC/' },      
+        { text: 'SpringBoot', link: '/SpringBoot/' },      
       ]
     },
 
