@@ -25,6 +25,7 @@ export default <VdoingThemeConfig>{
         // { text: '数据结构', link: '/DataStructure/' },
         { text: '操作系统', link: '/ComputerOS/' },
         { text: 'Linux', link: '/Linux/' },
+        { text: 'Docker', link: '/Docker/' },
         { text: '计算机网络', link: '/Network/' },
         // { text: '数据库', link: '/DataBase/' },
         { text: '计算机常识', link: '/literacy/' },
