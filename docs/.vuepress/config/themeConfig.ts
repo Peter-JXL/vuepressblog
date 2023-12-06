@@ -100,12 +100,21 @@ export default <VdoingThemeConfig>{
       text: '职场系列',
       link: '/Job/',
       items: [
-      //   { text: '校招', link: '/Job/On-Campus-Recruitment/' },
-      //   { text: '五险一金等', link: '/Job/five-insurances-and-one-fund/' },
-      //   { text: '润', link: '/Job/run/' },
-      //   { text: '社招', link: '/Job/social-requirement' }
-      { text: '节假日TodoList', link: '/Life/holiday-TodoList/' },
-      { text: '其他', link: '/Job/other/' },
+        //   { text: '校招', link: '/Job/On-Campus-Recruitment/' },
+        //   { text: '五险一金等', link: '/Job/five-insurances-and-one-fund/' },
+        //   { text: '润', link: '/Job/run/' },
+        //   { text: '社招', link: '/Job/social-requirement' }
+        { text: '节假日TodoList', link: '/Life/holiday-TodoList/' },
+        { text: '其他', link: '/Job/other/' },
+      ]
+      
+    },
+
+    {
+      text: '英语',
+      link: '/English/',
+      items: [
+        { text: '英语的文化', link: '/English/culture/' }
       ]
       
     },
