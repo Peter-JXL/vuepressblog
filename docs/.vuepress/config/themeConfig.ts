@@ -15,11 +15,7 @@ export default <VdoingThemeConfig>{
       items: [
         { text: '计算机科学导论', link: '/ComputerHistory/' },
         { text: '数字电路', link: '/ComputerDigital/' },
-        { 
-          text: '计算机组成原理', link: '/ComputerOrganization/', items:[
-            { text: '计算机组成原理-北大网课', link: '/ComputerOrganization/PekingUniversity/' }
-          ]
-        },
+        { text: '计算机组成原理', link: '/ComputerOrganization/'},
         // { text: '汇编语言', link: '/AassemblyLanguage/' },
         // { text: 'C语言', link: '/CProgramLanguage/' },
         // { text: '数据结构', link: '/DataStructure/' },
@@ -41,30 +37,35 @@ export default <VdoingThemeConfig>{
       items: [
         { text: 'JavaSE', link: '/JavaSE/' },
         { text: 'Java高级', link: '/JavaSenior/' },
-        { text: 'JavaEE', link: '/JavaEE/' , items: [
+
+        { text: 'JavaEE', items:[
           { text: 'Ant', link: '/JavaEE/Ant/' },
           { text: 'Maven', link: '/JavaEE/Maven/' },
           { text: 'Log4j', link: '/JavaEE/Log4j/' },
           { text: 'Junit', link: '/JavaEE/Junit/' },     
           { text: 'JDBC', link: '/JavaEE/JDBC/' },    
-          { text: 'XML-JSON', link: '/JavaEE/XML-JSON/' },
+          { text: 'XML-JSON', link: '/JavaEE/XML-JSON/' }
         ] },
+        
 
-        { text: 'JavaWeb', link: '/JavaWeb/', items: [
+        { text: 'JavaWeb', items:[
           { text: '服务器软件', link: '/JavaWeb/Web-Container/' },
           { text: 'Servlet', link: '/JavaWeb/Servlet/' },
-          
-        ] },
+        ]},
+       
         { text: 'Spring', link: '/Spring/' },
-        { text: '主流框架', link: '/Java-Framework/' , items: [
+
+        { text: '主流框架', items: [
           { text: 'Redis', link: '/Java-Framework/Redis/' },
           { text: 'Mybatis', link: '/Java-Framework/Mybatis/' },
           { text: 'Lucene', link: '/Java-Framework/Lucene/' },
           { text: 'Elasticsearch', link: '/Java-Framework/Elasticsearch/' },
           { text: 'RabbitMQ', link: '/Java-Framework/RabbitMQ/' },
           { text: 'MyCat', link: '/Java-Framework/MyCat/' },
-          { text: 'Lombok', link: '/Java-Framework/Lombok/' },
+          { text: 'Lombok', link: '/Java-Framework/Lombok/' }
         ]},
+        
+
         { text: 'SpringMVC', link: '/SpringMVC/' },      
         { text: 'SpringBoot', link: '/SpringBoot/' },      
       ]
@@ -78,8 +79,7 @@ export default <VdoingThemeConfig>{
     },
 
     {
-        text: '效率软件',
-        link: '/Software',
+        text: '效率软件', link: '/Software',
         items: [
           // { text: 'Windows使用技巧', link: '/Windows/' },
           { text: '输入法', link: '/TypeWriting/' },
