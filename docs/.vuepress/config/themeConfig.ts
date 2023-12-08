@@ -39,9 +39,10 @@ export default <VdoingThemeConfig>{
         { text: 'Java高级', link: '/JavaSenior/' },
 
         { text: 'JavaEE', items:[
+          { text: '构建、依赖管理', link: '/JavaEE/1-Build/' },
           { text: 'Ant', link: '/JavaEE/Ant/' },
           { text: 'Maven', link: '/JavaEE/Maven/' },
-          { text: 'Log4j', link: '/JavaEE/Log4j/' },
+          { text: '日志框架', link: '/JavaEE/Log4j/' },
           { text: 'Junit', link: '/JavaEE/Junit/' },     
           { text: 'JDBC', link: '/JavaEE/JDBC/' },    
           { text: 'XML-JSON', link: '/JavaEE/XML-JSON/' }
@@ -50,10 +51,13 @@ export default <VdoingThemeConfig>{
 
         { text: 'JavaWeb', items:[
           { text: '服务器软件', link: '/JavaWeb/Web-Container/' },
+          { text: '环境管理和配置管理-科普篇', link: '/JavaWeb/environment-and-code-version-manage/' },
           { text: 'Servlet', link: '/JavaWeb/Servlet/' },
         ]},
        
-        { text: 'Spring', link: '/Spring/' },
+        { text: 'Spring', items:[
+          { text: 'Spring基础', link: '/Spring-Basic/' },
+        ] },
 
         { text: '主流框架', items: [
           { text: 'Redis', link: '/Java-Framework/Redis/' },
@@ -66,8 +70,13 @@ export default <VdoingThemeConfig>{
         ]},
         
 
-        { text: 'SpringMVC', link: '/SpringMVC/' },      
-        { text: 'SpringBoot', link: '/SpringBoot/' },      
+        { text: 'SpringMVC', items:[
+          { text: 'SpringMVC基础', link: '/SpringMVC-Basic/' },
+        ]},      
+
+        { text: 'SpringBoot', items:[
+          { text: 'SpringBoot基础', link: '/SpringBoot-Basic/' },
+        ]},      
       ]
     },
 
@@ -101,11 +110,11 @@ export default <VdoingThemeConfig>{
       link: '/Job/',
       items: [
         //   { text: '校招', link: '/Job/On-Campus-Recruitment/' },
-        //   { text: '五险一金等', link: '/Job/five-insurances-and-one-fund/' },
+        { text: '五险一金等', link: '/Job/Social-welfare/' },
         //   { text: '润', link: '/Job/run/' },
         //   { text: '社招', link: '/Job/social-requirement' }
         { text: '节假日TodoList', link: '/Life/holiday-TodoList/' },
-        { text: '其他', link: '/Job/other/' },
+        { text: '杂谈', link: '/Job/other/' },
       ]
       
     },
@@ -114,6 +123,8 @@ export default <VdoingThemeConfig>{
       text: '英语',
       link: '/English/',
       items: [
+        { text: '从字母开始', link: '/English/Alphabet/' },
+        { text: '音标', link: '/English/Symbols/' },
         { text: '英语的文化', link: '/English/culture/' }
       ]
       
@@ -123,10 +134,12 @@ export default <VdoingThemeConfig>{
       text: '其他',
       link: '/About',
       items: [
-        { text: '关于本站', link: '/About/Web/' },
-        { text: '网站日记', link: '/About/WebLog/' },
+        { text: '网站介绍', link: '/About/Web/' },
+        { text: '网站动态', link: '/About/WebLog/' },
         { text: '友人帐', link: '/About/friend-link/' },
         { text: '如何搭建一个博客', link: '/Blog/' },
+        { text: '分享资料', link: '/About/share/' },
+        { text: '2022年度总结', link: '/About/summary-2022/' },
         // { text: '如何搭建一个邮箱', link: '/About/BuildMail/' },
       
       ]
