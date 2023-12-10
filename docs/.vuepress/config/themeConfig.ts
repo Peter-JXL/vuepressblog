@@ -125,7 +125,10 @@ export default <VdoingThemeConfig>{
       items: [
         { text: '从字母开始', link: '/English/Alphabet/' },
         { text: '音标', link: '/English/Symbols/' },
-        { text: '英语的文化', link: '/English/culture/' }
+        { text: '英语的文化', link: '/English/culture/' },
+        { text: '英语兔', link: '/English/yingyutu/' }
+
+        
       ]
       
     },
