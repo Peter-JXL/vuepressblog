@@ -127,8 +127,15 @@ export default <VdoingThemeConfig>{
         { text: '音标', link: '/English/Symbols/' },
         { text: '英语的文化', link: '/English/culture/' },
         { text: '英语兔', link: '/English/yingyutu/' }
+      ]
+      
+    },
 
-        
+    {
+      text: '个人学习',
+      link: '/world-view/',
+      items: [
+        { text: '房地产相关', link: '/property/' },
       ]
       
     },
