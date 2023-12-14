@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "vuepress dev docs --temp .temp",
     "build": "set NODE_OPTIONS=--max_old_space_size=8192 && vuepress build docs",
-    "deploy": "vuepress build docs && node ./deploy.js"
+    "deploy": "npm run build && node ./deploy.js"
   },
   "repository": {
     "type": "git",
