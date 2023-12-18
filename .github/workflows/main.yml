@@ -5,7 +5,7 @@ on:
     branches:
       - master # 只在master上push触发部署
 
-# 分2个job，build用于构建+部署，scrape-docs是美丽云的搜索引擎数据库更新
+# 分2个job，build用于构建+部署
 jobs:
   build:
     runs-on: ubuntu-latest # 使用ubuntu系统镜像运行自动化脚本
@@ -24,7 +24,7 @@ jobs:
       
       #打包项目
       - name: Build
-        run: npm run docs:build
+        run: npm run build
       # 部署项目
       - name: Deploy to Staging My server
         uses: easingthemes/ssh-deploy@v2.1.6
@@ -37,22 +37,3 @@ jobs:
           TARGET: '/opt/myblog' #服务器中，代码部署的位置
           EXCLUDE: "/dist/, /node_modules/"
           ARGS: "-rltgoDzvO"
-  scrape-docs:
-    needs: build
-    runs-on: ubuntu-20.04
-    steps:
-        - uses: actions/checkout@v2
-        - uses: actions/setup-node@v2
-          with:
-              node-version: 14
-              registry-url: https://registry.npmjs.org/
-        - name: Run docs-scraper
-          env:
-              API_KEY: ${{ secrets.MEILISEARCH_API_KEY }}
-              CONFIG_FILE_PATH: ${{ github.workspace }}/docs/.vuepress/config/docs-scraper-config.json
-          run: |
-              docker run -t --rm \
-                -e MEILISEARCH_HOST_URL="https://ms-d5cd9beb9237-2021.sfo.meilisearch.io" \
-                -e MEILISEARCH_API_KEY=$API_KEY \
-                -v $CONFIG_FILE_PATH:/docs-scraper/config.json \
-                getmeili/docs-scraper:v0.12.7 pipenv run ./docs_scraper config.json
