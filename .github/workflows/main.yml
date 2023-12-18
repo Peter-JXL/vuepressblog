@@ -21,7 +21,11 @@ jobs:
       # 安装依赖
       - name: npm install 
         run: npm install 
-      
+
+      # 设置允许使用的内存大小
+      - name: set memory 
+        run: set NODE_OPTIONS=--max_old_space_size=8192
+
       #打包项目
       - name: Build
         run: npm run build
