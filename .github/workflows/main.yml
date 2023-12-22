@@ -22,13 +22,9 @@ jobs:
       - name: npm install 
         run: npm install 
 
-      # 设置允许使用的内存大小
-      - name: set memory 
-        run: set NODE_OPTIONS=--max_old_space_size=8192
-
-      #打包项目
+      # 打包项目
       - name: Build
-        run: npm run build
+        run: set NODE_OPTIONS=--max_old_space_size=8192 && vuepress build docs
       # 部署项目
       - name: Deploy to Staging My server
         uses: easingthemes/ssh-deploy@v2.1.6
