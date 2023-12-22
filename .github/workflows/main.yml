@@ -24,7 +24,7 @@ jobs:
 
       # 打包项目
       - name: Build
-        run: set NODE_OPTIONS=--max_old_space_size=8192 && vuepress build docs
+        run: set NODE_OPTIONS=--max_old_space_size=8192 && npm run build
       # 部署项目
       - name: Deploy to Staging My server
         uses: easingthemes/ssh-deploy@v2.1.6
