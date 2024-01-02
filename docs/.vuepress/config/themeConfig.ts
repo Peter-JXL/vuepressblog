@@ -150,8 +150,13 @@ export default <VdoingThemeConfig>{
         { text: '如何搭建一个博客', link: '/Blog/' },
         { text: '分享资料', link: '/About/share/' },
         { text: '2022年度总结', link: '/About/summary-2022/' },
+        { text: '年度总结', items: [
+          { text: '2022年度总结', link: '/About/summary-2022/' },
+          { text: '2023年度总结', link: '/About/summary-2023/' },
+          
+        ]}
         // { text: '如何搭建一个邮箱', link: '/About/BuildMail/' },
-      
+        
       ]
     },
 
