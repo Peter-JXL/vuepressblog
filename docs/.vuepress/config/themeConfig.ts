@@ -139,6 +139,14 @@ export default <VdoingThemeConfig>{
       ]
       
     },
+
+    {
+      text: '健身',
+      items: [
+        { text: '口腔健康', link: '/Oral-health/' },
+      ]
+      
+    },
   
     {
       text: '其他',
