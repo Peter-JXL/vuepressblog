@@ -22,8 +22,8 @@ jobs:
       - name: npm install 
         run: npm install 
 
-      - name: set NODE_OPTIONS
-        run: export NODE_OPTIONS="--max-old-space-size=8192"
+      - name: set memory
+        run: npm install -g increase-memory-limit && increase-memory-limit
 
       # 打包项目
       - name: Build
