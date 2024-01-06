@@ -5,32 +5,25 @@ on:
     branches:
       - master # 只在master上push触发部署
 
-# 分2个job，build用于构建+部署
 jobs:
   build:
     runs-on: ubuntu-latest # 使用ubuntu系统镜像运行自动化脚本
-    steps: # 自动化步骤
-      #下载代码仓库
-      - uses: actions/checkout@v1 
+    steps: 
+      # 下载GitHub项目
+      - name: Checkout
+        uses: actions/checkout@v1 
       
       # 使用action库，安装node
-      - name: use Node.js  # 使用action库  actions/setup-node安装node
+      - name: use Node.js
         uses: actions/setup-node@v3
         with:
           node-version: 16
-      # 安装依赖
+
+      # 安装依赖和构建项目
       - name: npm install 
-        run: npm install 
+        run: npm install && npm run build
 
-      - name: npm install cross-env increase-memory-limit 
-        run: npm install cross-env increase-memory-limit
-      
-      - name: Setup memory parameter
-        run: npm run fix-memory-limit
 
-      # 打包项目
-      - name: Build
-        run: npm run build --max-old-space-size=8192
       # 部署项目
       - name: Deploy to Staging My server
         uses: easingthemes/ssh-deploy@v2.1.6
