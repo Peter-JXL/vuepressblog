@@ -22,12 +22,9 @@ jobs:
       - name: npm install 
         run: npm install 
 
-      - name: set memory
-        run: npm install -g increase-memory-limit && increase-memory-limit
-
       # 打包项目
       - name: Build
-        run: set NODE_OPTIONS=--max_old_space_size=8192 && npm run build
+        run: npm run build --max-old-space-size=8192
       # 部署项目
       - name: Deploy to Staging My server
         uses: easingthemes/ssh-deploy@v2.1.6
