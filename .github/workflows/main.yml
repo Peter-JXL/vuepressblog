@@ -22,6 +22,12 @@ jobs:
       - name: npm install 
         run: npm install 
 
+      - name: npm install cross-env increase-memory-limit 
+        run: npm install cross-env increase-memory-limit
+      
+      - name: Setup memory parameter
+        run: npm run fix-memory-limit
+
       # 打包项目
       - name: Build
         run: npm run build --max-old-space-size=8192
