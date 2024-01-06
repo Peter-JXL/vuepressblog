@@ -13,7 +13,7 @@ export default <VdoingThemeConfig>{
       text: '计算机基础',
       ariaLabel: 'program',
       items: [
-        { text: '计算机科学导论', link: '/ComputerHistory/' },
+        { text: '计算机简史', link: '/ComputerHistory/' },
         { text: '数字电路', link: '/ComputerDigital/' },
         { text: '计算机组成原理', link: '/ComputerOrganization/'},
         // { text: '汇编语言', link: '/AassemblyLanguage/' },
