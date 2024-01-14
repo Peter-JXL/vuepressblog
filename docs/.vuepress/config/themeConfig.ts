@@ -90,7 +90,7 @@ export default <VdoingThemeConfig>{
     {
         text: '效率软件', link: '/Software',
         items: [
-          // { text: 'Windows使用技巧', link: '/Windows/' },
+          { text: 'Windows使用技巧', link: '/Windows/' },
           { text: '输入法', link: '/TypeWriting/' },
           // { text: '浏览器与插件', link: '/SoftwareBrowser/' },
           // { text: '笔记软件', link: '/SoftwareNote/' },
