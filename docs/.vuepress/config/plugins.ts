@@ -91,18 +91,18 @@ export default <UserPlugins>[
     }
   ],
 
-  // 全文搜索插件 meilisearch，已停用
-  // [
-  //   'vuepress-plugin-meilisearch',
-  //     {
-  //         hostUrl: 'https://ms-d5cd9beb9237-2021.sfo.meilisearch.io',        // meilisearch 服务端域名
-  //         apiKey: "7b866aef763feb67aa5e26b7776b7dcece010ab3df6fecdaf68a570d78a9f42f", // 只有搜索权限的 key
-  //         indexUid: 'VuePressBlog',
-  //         placeholder: '支持全文搜索',   // 在搜索栏中显示的占位符
-  //         maxSuggestions: 9,                      // 最多显示几个搜索结果
-  //         cropLength: 30,                         // 每个搜索结果最多显示多少个字符
-  //     },
-  // ],
+  // 全文搜索插件 meilisearch
+  [
+    'vuepress-plugin-meilisearch',
+      {
+          hostUrl: 'https://search.peterjxl.com',        // meilisearch 服务端域名
+          apiKey: "6c9ce274ed9e7d8b8134d2c9584965a02318ee1774f23326529a61ca614de94f", // 只有搜索权限的 key
+          indexUid: 'VuePressBlog',
+          placeholder: '支持全文搜索',   // 在搜索栏中显示的占位符
+          maxSuggestions: 9,                      // 最多显示几个搜索结果
+          cropLength: 30,                         // 每个搜索结果最多显示多少个字符
+      },
+  ],
 
   // 代码块复制按钮
   [
