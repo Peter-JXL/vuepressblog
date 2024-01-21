@@ -112,7 +112,7 @@ export default <VdoingThemeConfig>{
         //   { text: '校招', link: '/Job/On-Campus-Recruitment/' },
         { text: '关于档案', link: '/On-campus-recruitment/archives/' },
         { text: '五险一金等', link: '/Job/Social-welfare/' },
-        { text: 'Fuck you money', link: '/Job/Fuck-you-money/' },
+        { text: 'F**k you money', link: '/Job/F**k-you-money/' },
         { text: '离职注意事项', link: '/Job/dimission/' },
         //   { text: '社招', link: '/Job/social-requirement' }
         { text: '杂谈', link: '/Job/other/' },
