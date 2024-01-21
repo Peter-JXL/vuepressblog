@@ -25,6 +25,7 @@ export default <VdoingThemeConfig>{
         { text: '计算机网络', link: '/Network/' },
         // { text: '数据库', link: '/DataBase/' },
         { text: '计算机常识', link: '/literacy/' },
+        { text: 'MySQL', link: '/MySQL/' },
         { text: 'Git', link: '/Git/' },
         // { text: '编译原理', link: '/CompilationPrinciple/' },
         
