@@ -158,15 +158,13 @@ export default <VdoingThemeConfig>{
         { text: '网站动态', link: '/About/WebLog/' },
         { text: '友人帐', link: '/About/friend-link/' },
         { text: '如何搭建一个博客', link: '/Blog/' },
+        { text: '关于邮件服务器', link: '/About/BuildMail/' },
         { text: '本站的分享资料', link: '/About/share/' },
         { text: '归档', link: '/archives/' },
         { text: '年度总结', items: [
           { text: '2022年度总结', link: '/About/summary-2022/' },
           { text: '2023年度总结', link: '/About/summary-2023/' },
-          
-        ]}
-        // { text: '如何搭建一个邮箱', link: '/About/BuildMail/' },
-        
+        ]}        
       ]
     },
 
