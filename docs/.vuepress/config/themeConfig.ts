@@ -110,11 +110,10 @@ export default <VdoingThemeConfig>{
       text: '职场系列',
       link: '/Job/',
       items: [
-        //   { text: '校招', link: '/Job/On-Campus-Recruitment/' },
-        { text: '关于档案', link: '/On-campus-recruitment/archives/' },
+        { text: '校招', link: '/Job/on-campus-recruitment/' },
         { text: '五险一金等', link: '/Job/Social-welfare/' },
-        { text: 'F**k you money', link: '/Job/F**k-you-money/' },
-        { text: '离职注意事项', link: '/Job/dimission/' },
+        { text: '职场规划', link: '/Job/career-planning/' },
+        { text: '关于离职', link: '/Job/dimission/' },
         //   { text: '社招', link: '/Job/social-requirement' }
         { text: '杂谈', link: '/Job/other/' },
       ]
