@@ -127,7 +127,8 @@ export default <VdoingThemeConfig>{
         { text: '从字母开始', link: '/English/Alphabet/' },
         { text: '音标', link: '/English/Symbols/' },
         { text: '英语的文化', link: '/English/culture/' },
-        { text: '英语兔', link: '/English/yingyutu/' }
+        { text: '英语兔的相关视频', link: '/English/yingyutu/' },
+        { text: 'Larry想做技术大佬的相关视频', link: '/English/Larry/' }
       ]
       
     },
