@@ -133,14 +133,13 @@ export default <VdoingThemeConfig>{
       
     },
 
-    // {
-    //   text: '个人学习',
-    //   link: '/world-view/',
-    //   items: [
-    //     { text: '房地产相关', link: '/property/' },
-    //   ]
-      
-    // },
+    {
+      text: '个人学习',
+      link: '/world-view/',
+      items: [
+        { text: '住房相关', link: '/property/' },
+      ]
+    },
 
     {
       text: '健身',
