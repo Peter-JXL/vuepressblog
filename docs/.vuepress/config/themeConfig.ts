@@ -95,7 +95,7 @@ export default <VdoingThemeConfig>{
           { text: '输入法', link: '/TypeWriting/' },
           // { text: '浏览器与插件', link: '/SoftwareBrowser/' },
           // { text: '笔记软件', link: '/SoftwareNote/' },
-          // { text: '终端软件', link: '/SoftwareCMD/' },
+          { text: '终端软件', link: '/Terminal/' },
           // { text: 'Quicker', link: '/SoftwareQuicker/' },
           // { text: 'Qttabar', link: '/SoftwareQttabar/' },
           // { text: 'Wgesture', link: '/SoftwareWgesture/' },
