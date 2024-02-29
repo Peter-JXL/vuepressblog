@@ -124,8 +124,10 @@ export default <VdoingThemeConfig>{
       text: '英语',
       link: '/English/',
       items: [
-        { text: '从字母开始', link: '/English/Alphabet/' },
+        { text: '简介', link: '/English/Introduce' },
+        { text: '字母', link: '/English/Alphabet/' },
         { text: '音标', link: '/English/Symbols/' },
+        { text: '单词', link: '/English/Word/' },
         { text: '英语的文化', link: '/English/culture/' },
         { text: '英语兔的相关视频', link: '/English/yingyutu/' },
         { text: 'Larry想做技术大佬的相关视频', link: '/English/Larry/' }
@@ -145,6 +147,14 @@ export default <VdoingThemeConfig>{
       text: '健身',
       items: [
         { text: '口腔健康', link: '/Oral-health/' },
+      ]
+      
+    },
+
+    {
+      text: '游戏',
+      items: [
+        { text: '三国杀', link: '/sanguosha/' },
       ]
       
     },
