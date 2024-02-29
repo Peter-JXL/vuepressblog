@@ -124,7 +124,7 @@ export default <VdoingThemeConfig>{
       text: '英语',
       link: '/English/',
       items: [
-        { text: '简介', link: '/English/Introduce' },
+        { text: '简介', link: '/English/Introduce/' },
         { text: '字母', link: '/English/Alphabet/' },
         { text: '音标', link: '/English/Symbols/' },
         { text: '单词', link: '/English/Word/' },
