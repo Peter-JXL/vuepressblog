@@ -96,6 +96,7 @@ export default <VdoingThemeConfig>{
           { text: '浏览器', link: '/Browser/' },
           // { text: '笔记软件', link: '/SoftwareNote/' },
           { text: '终端软件', link: '/Terminal/' },
+          { text: '装机', link: '/Computer-Diy/' },
           // { text: 'Quicker', link: '/SoftwareQuicker/' },
           // { text: 'Qttabar', link: '/SoftwareQttabar/' },
           // { text: 'Wgesture', link: '/SoftwareWgesture/' },
