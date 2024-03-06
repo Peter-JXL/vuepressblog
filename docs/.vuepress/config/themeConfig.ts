@@ -145,6 +145,14 @@ export default <VdoingThemeConfig>{
     },
 
     {
+      text: '经济学',
+      link: '/Economy/',
+      items: [
+        { text: '住房相关', link: '/property/' },
+      ]
+    },
+
+    {
       text: '健身',
       items: [
         { text: '口腔健康', link: '/Oral-health/' },
