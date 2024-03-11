@@ -148,7 +148,7 @@ export default <VdoingThemeConfig>{
       text: '经济学',
       link: '/Economy/',
       items: [
-        { text: '住房相关', link: '/property/' },
+        { text: '关于税', link: '/Economy/revenue/' }        
       ]
     },
 
