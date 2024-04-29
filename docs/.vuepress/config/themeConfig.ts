@@ -125,11 +125,12 @@ export default <VdoingThemeConfig>{
       text: '英语',
       link: '/English/',
       items: [
+        { text: '英语学习方法论', link: '/English/Learning-Methodology/' },
         { text: '简介', link: '/English/Introduce/' },
         { text: '字母', link: '/English/Alphabet/' },
         { text: '音标', link: '/English/Symbols/' },
         { text: '单词', link: '/English/Word/' },
-        { text: '英语的文化', link: '/English/culture/' },
+        { text: '语法', link: '/English/Grammar/' },
         { text: '英语兔的相关视频', link: '/English/yingyutu/' },
         { text: 'Larry想做技术大佬的相关视频', link: '/English/Larry/' }
       ]
