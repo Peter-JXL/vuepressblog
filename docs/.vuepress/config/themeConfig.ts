@@ -125,8 +125,8 @@ export default <VdoingThemeConfig>{
       text: '英语',
       link: '/English/',
       items: [
+        { text: '教程简介', link: '/English/Introduce/' },
         { text: '英语学习方法论', link: '/English/Learning-Methodology/' },
-        { text: '简介', link: '/English/Introduce/' },
         { text: '字母', link: '/English/Alphabet/' },
         { text: '音标', link: '/English/Symbols/' },
         { text: '单词', link: '/English/Word/' },
@@ -217,15 +217,6 @@ export default <VdoingThemeConfig>{
   docsDir: 'docs',
   editLinks: true,
   editLinkText: '在GitHub上编辑此页',
-
-
-  //配置全文搜索algolia
-  algolia: {
-    appId: 'HFCGE1I7YO',
-    apikey: '557697d1f20e77362b502b71ecf41e2a',
-    indexName: 'peterjxl'
-  },
-
 
   //背景大图轮换及其相关配置
   bodyBgImg: [
