@@ -156,6 +156,8 @@ export default <VdoingThemeConfig>{
     {
       text: '健身',
       items: [
+        { text: '睡眠', link: '/sleep/' },
+        { text: '皮肤', link: '/skin/' },
         { text: '口腔健康', link: '/Oral-health/' },
       ]
       
