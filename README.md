@@ -1,7 +1,7 @@
 # PeterJXL Blog
 
 
-[](./images/Blog-Cover.PNG)
+![](./images/Blog-Cover.PNG)
 
 
 
@@ -10,7 +10,7 @@
 本站所有文章都是作者原创，内容包括：计算机基础、Java、职场、效率软件、英语.... 长期更新，全部开源，欢迎订阅！
 
 
-本人热爱计算机，未来想要自己“实现”一台计算机，从零开始写 CPU + 操作系统 + 编译原理 + 网络协议 +...... 想要自己写一套计算机基础的书，让所有人都能拥有扎实的基础，提高我国的计算机水平，而不是做一个 CURD Boy，API Caller，CV 工程师....
+本人热爱计算机，未来想要自己“实现”一台计算机，从零开始写 CPU + 操作系统 + 编译原理 + 网络协议 + ... 想要自己写一套计算机基础的书，让所有人都能拥有扎实的基础，提高我国的计算机水平，而不是做一个 CURD Boy，API Caller，CV 工程师...
 
 本人利用业余时间不断学习，坚持输出文章两年多，这才有了今天的网站！
 
@@ -27,15 +27,17 @@
 * [计算机常识](https://www.peterjxl.com/literacy/)
 * [MySQL](https://www.peterjxl.com/MySQL/)
 * [Git](https://www.peterjxl.com/Git/)
+* ...
 
 
 
-## 📖《Java》
+## 📖 Java
 
 Java 基础部分：
 
 * [JavaSE](https://www.peterjxl.com/JavaSE/)
 * [Java高级](https://www.peterjxl.com/JavaSenior/)
+* ...
 
 
 
@@ -48,6 +50,7 @@ Java EE 部分：
 * [Junit](https://www.peterjxl.com/JavaEE/Junit/)
 * [JDBC](https://www.peterjxl.com/JavaEE/JDBC/)
 * [XML与JSON](https://www.peterjxl.com/JavaEE/XML-JSON/)
+* ...
 
 
 
@@ -56,7 +59,7 @@ JavaWeb：
 * [服务器软件](https://peterjxl.com/JavaWeb/Web-Container/)
 * [环境管理和配置管理-科普篇](https://peterjxl.com/JavaWeb/environment-and-code-version-manage/)
 * [Servlet](https://peterjxl.com/JavaWeb/Servlet/)
-
+* ...
 
 
 Spring：
@@ -64,7 +67,7 @@ Spring：
 * [Spring 基础](https://peterjxl.com/Spring-Basic/)
 * [SpringMVC](https://peterjxl.com/SpringMVC-Basic/)
 * [SpringBoot](https://peterjxl.com/SpringBoot-Basic/)
-
+* ...
 
 
 主流框架：
@@ -76,6 +79,7 @@ Spring：
 * [RabbitMQ](https://peterjxl.com/Java-Framework/RabbitMQ/)
 * [MyCat](https://peterjxl.com/Java-Framework/MyCat/)
 * [Lombok](https://peterjxl.com/Java-Framework/Lombok/)
+* ...
 
 
 
@@ -89,13 +93,14 @@ Spring：
 * [语法 ](https://peterjxl.com/English/Grammar/)
 * [英语兔的相关视频 ](https://peterjxl.com/English/yingyutu/)
 * [Larry想做技术大佬的相关视频 ](https://peterjxl.com/English/Larry/)
-
+* ...
 
 
 ## 📖 职场：
 
 * [五险一金等 ](https://peterjxl.com/Job/Social-welfare/)
 * [职场规划 ](https://peterjxl.com/Job/career-planning/)
+* ...
 
 
 ## 📖 效率软件：
@@ -105,13 +110,36 @@ Spring：
 * [浏览器 ](https://peterjxl.com/Browser/)
 * [终端相关博客 ](https://peterjxl.com/Terminal/)
 * [装机相关博客 ](https://peterjxl.com/Computer-Diy/)
+* ...
+
+
+### 本站的搭建过程
+
+写了一套从零开始搭建博客的教程，详细描述了本博客是如何搭建的，欢迎阅读：
+
+[从零开始搭建博客](https://peterjxl.com/Blog/)
+
+
+
+## 📖 友情链接
+
+欢迎添加友链 👋：[友人帐](https://peterjxl.com/About/friend-link/)
 
 
 ## 公众号
 
+
+新开了个公众号，原因如下：
+
+1. 该网站是个人网站，用爱发电，服务器、CDN、域名、证书都是要钱的；用爱发电难以维系，开公众号希望能补贴一下网站费用。
+2. 个人博客经常被 DDoS 攻击，费用也很高，容易导致网站打不开；而微信公众号不用担心这个问题。
+3. 写技术文章，几乎不可避免会被抄袭。抄袭者会将文章标为“原创”，甚至在文中加入广告，但个人网站很难证明自己的原创性；而微信公众号可以。
+4. 个人网站的流量主要来自搜索引擎，但搜索引擎对个人网站的收录和排名非常不友好；微信公众号的流量主要来自用户，用户可以主动搜索和关注。
+
+
 最新文章都会在公众号首发，欢迎关注！
 
-[](./images/QR-Code.png)
+![](./images/QR-Code.png)
 
 
 ## 勘误及提问
