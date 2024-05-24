@@ -37,7 +37,7 @@ export default <VdoingThemeConfig>{
       link: '/Java',
       items: [
         { text: 'JavaSE', link: '/JavaSE/' },
-        { text: 'Java高级', link: '/JavaSenior/' },
+        { text: 'Java 高级', link: '/JavaSenior/' },
 
         { text: 'JavaEE', items:[
           { text: '构建、依赖管理', link: '/JavaEE/1-Build/' },
@@ -218,7 +218,7 @@ export default <VdoingThemeConfig>{
   repo: 'Peter-JXL/vuepressblog',
   docsDir: 'docs',
   editLinks: true,
-  editLinkText: '在GitHub上编辑此页',
+  editLinkText: '在 GitHub 上编辑此页',
 
   //背景大图轮换及其相关配置
   bodyBgImg: [
@@ -263,8 +263,8 @@ export default <VdoingThemeConfig>{
   // 博主信息，显示在首页侧边栏
   blogger:{
     avatar: 'https://image.peterjxl.com/blog/re0.jpg',  //头像
-    name: 'peterjxl',
-    slogan: '人生如逆旅,我亦是行人' // 个性签名
+    name: 'PeterJXL',
+    slogan: '那就从零开始' // 个性签名
   },
 
 

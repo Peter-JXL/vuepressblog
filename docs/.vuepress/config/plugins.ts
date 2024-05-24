@@ -122,5 +122,6 @@ export default <UserPlugins>[
       canonical_base: 'https://www.peterjxl.com',
       count: 5000,
     } 
-  ]
+  ],
+
 ]

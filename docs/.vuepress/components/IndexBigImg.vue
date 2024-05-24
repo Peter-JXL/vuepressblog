@@ -215,7 +215,7 @@ export default {
           `下午好呀~~，现在是 ${hours}:${minutes}:${seconds}，繁忙的下午也要适当休息哦🥤🏀~~`,
           "info",
           50,
-          4000
+          2000
         );
       } else if (hours >= 16 && hours <= 19) {
         div.style.backgroundColor = this.bgTimeColorArray[1];
@@ -223,7 +223,7 @@ export default {
           `到黄昏了~~，现在是 ${hours}:${minutes}:${seconds}，该准备吃饭啦🥗🍖~~`,
           "info",
           50,
-          4000
+          2000
         );
       } else if (hours >= 19 && hours < 24) {
         div.style.backgroundColor = this.bgTimeColorArray[2];
@@ -231,7 +231,7 @@ export default {
           `晚上好呀~~，现在是 ${hours}:${minutes}:${seconds}，该准备洗漱睡觉啦🥱😪~~`,
           "info",
           50,
-          4000
+          2000
         );
       } else if (hours >= 0 && hours < 6) {
         div.style.backgroundColor = this.bgTimeColorArray[3];
@@ -239,7 +239,7 @@ export default {
           `别再熬夜了~~，现在是 ${hours}:${minutes}:${seconds}，早点睡吧，让我们一起欣赏早上的太阳~~😇🛏`,
           "info",
           50,
-          4000
+          2000
         );
       }
       document.getElementsByClassName(banner)[0].parentNode.append(div);
