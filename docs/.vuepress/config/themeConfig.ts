@@ -270,7 +270,7 @@ export default <VdoingThemeConfig>{
 
   // 社交图标，显示于博主信息栏和页脚栏
   social: {
-    // iconfontCssFile: '//at.alicdn.com/t/font_1678482_u4nrnp8xp6g.css', // 可选，阿里图标库在线 css 文件地址，对于主题没有的图标可自由添加
+    // iconfontCssFile: 'https://at.alicdn.com/t/font_1678482_u4nrnp8xp6g.css', // 可选，阿里图标库在线 css 文件地址，对于主题没有的图标可自由添加
     icons: [
       {
         iconClass: "icon-youjian",
