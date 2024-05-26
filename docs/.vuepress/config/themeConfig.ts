@@ -270,7 +270,7 @@ export default <VdoingThemeConfig>{
 
   // 社交图标，显示于博主信息栏和页脚栏
   social: {
-    // iconfontCssFile: '//at.alicdn.com/t/font_1678482_u4nrnp8xp6g.css', // 可选，阿里图标库在线css文件地址，对于主题没有的图标可自由添加
+    // iconfontCssFile: '//at.alicdn.com/t/font_1678482_u4nrnp8xp6g.css', // 可选，阿里图标库在线 css 文件地址，对于主题没有的图标可自由添加
     icons: [
       {
         iconClass: "icon-youjian",
@@ -287,11 +287,24 @@ export default <VdoingThemeConfig>{
         title: "Gitee",
         link: "https://gitee.com/peterjxl",
       },
-      // {
-      //   iconClass: "icon-zhihu",
-      //   title: "知乎",
-      //   link: "https://www.zhihu.com/people/ao-chuang-2",
-      // },
+
+      {
+        iconClass: "icon-csdn",
+        title: "CSDN",
+        link: "https://blog.csdn.net/weixin_38125348",
+      },
+
+      {
+        iconClass: "icon-bokeyuan",
+        title: "博客园",
+        link: "https://www.cnblogs.com/PeterJXL/",
+      },
+
+      {
+        iconClass: "icon-zhihu",
+        title: "知乎",
+        link: "https://www.zhihu.com/people/ao-chuang-2",
+      },
       // {
       //   iconClass: "icon-juejin",
       //   title: "掘金",
@@ -307,16 +320,7 @@ export default <VdoingThemeConfig>{
       //   title: "思否",
       //   link: "https://segmentfault.com/u/peterjxl",
       // },
-      // {
-      //   iconClass: "icon-bokeyuan",
-      //   title: "博客园",
-      //   link: "https://www.cnblogs.com/peterJXL/",
-      // },
-      // {
-      //   iconClass: "icon-csdn",
-      //   title: "CSDN",
-      //   link: "https://blog.csdn.net/weixin_38125348",
-      // },
+     
       // {
       //   iconClass: "icon-bilibili",
       //   title: "Bilibili",
