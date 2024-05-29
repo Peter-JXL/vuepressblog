@@ -1,5 +1,6 @@
 import { VdoingThemeConfig } from "vuepress-theme-vdoing/types";
 import { readFileList, readTotalFileWords, readEachFileWords } from '../webSiteInfo/readFile'
+import htmlModules from './htmlModules' // 自定义插入的html块
 
 
 export default <VdoingThemeConfig>{
@@ -263,12 +264,11 @@ export default <VdoingThemeConfig>{
   // 博主信息，显示在首页侧边栏
   blogger:{
     avatar: 'https://image.peterjxl.com/blog/re0.jpg',  //头像
-    name: 'PeterJXL',
-    slogan: '那就从零开始' // 个性签名
+    name: 'PeterJXL'
   },
 
 
-  // 社交图标，显示于博主信息栏和页脚栏
+  // 社交图标，显示于博主信息栏和页脚栏。参考文档：https://doc.xugaoyi.com/pages/a20ce8/#social
   social: {
     // iconfontCssFile: 'https://at.alicdn.com/t/font_1678482_u4nrnp8xp6g.css', // 可选，阿里图标库在线 css 文件地址，对于主题没有的图标可自由添加
     icons: [
@@ -305,6 +305,12 @@ export default <VdoingThemeConfig>{
         title: "知乎",
         link: "https://www.zhihu.com/people/ao-chuang-2",
       },
+
+      {
+        iconClass: "icon-rss",
+        title: "RSS",
+        link: "https://www.peterjxl.com/rss.xml",
+      },
       // {
       //   iconClass: "icon-juejin",
       //   title: "掘金",
@@ -328,4 +334,6 @@ export default <VdoingThemeConfig>{
       // },
     ],
   },
+
+  htmlModules
 }
