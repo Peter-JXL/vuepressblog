@@ -282,11 +282,11 @@ export default <VdoingThemeConfig>{
         title: "GitHub",
         link: "https://github.com/Peter-JXL",
       },
-      {
-        iconClass: "icon-gitee",
-        title: "Gitee",
-        link: "https://gitee.com/peterjxl",
-      },
+      // {
+      //   iconClass: "icon-gitee",
+      //   title: "Gitee",
+      //   link: "https://gitee.com/peterjxl",
+      // },
 
       {
         iconClass: "icon-csdn",
