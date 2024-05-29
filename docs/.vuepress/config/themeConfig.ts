@@ -335,5 +335,7 @@ export default <VdoingThemeConfig>{
     ],
   },
 
+
+  // 挂载自定义 HTML 模块，这里挂载的是微信公众号
   htmlModules
 }
