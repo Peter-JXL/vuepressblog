@@ -177,6 +177,7 @@ export default <VdoingThemeConfig>{
       link: '/About',
       items: [
         { text: '网站介绍', link: '/About/Web/' },
+        { text: '关于我', link: '/About/me/' },
         { text: '网站动态', link: '/About/WebLog/' },
         { text: '友人帐', link: '/About/friend-link/' },
         { text: '如何搭建一个博客', link: '/Blog/' },
@@ -189,7 +190,6 @@ export default <VdoingThemeConfig>{
         ]}        
       ]
     },
-
   ],
 
 
