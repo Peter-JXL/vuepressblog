@@ -291,7 +291,7 @@ export default <VdoingThemeConfig>{
       {
         iconClass: "icon-csdn",
         title: "CSDN",
-        link: "https://blog.csdn.net/weixin_38125348",
+        link: "https://peterjxl.blog.csdn.net/",
       },
 
       {
