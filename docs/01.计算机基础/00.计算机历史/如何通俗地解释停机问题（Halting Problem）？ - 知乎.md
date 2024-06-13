@@ -17,6 +17,8 @@ titleTag: 转载
 
 本文转载自：如何通俗地解释停机问题（Halting Problem）？ - [黄雁捷Anton](https://www.zhihu.com/people/huang-yan-jie-anton)的[回答](https://www.zhihu.com/question/20081359/answer/22043224) - 知乎
 
+<!-- more -->
+
 就我个人的理解来说，既然要通俗，肯定会不严谨。所以如果这个回答能够引起题主些许的兴趣与兴致，我还是非常推荐楼主去了解数学与编程\~\~毕竟这些东西还是要用数学语言说才准确详实
 
 如果不要求太准确的话，我想停机问题大概可以这样子无数学语言地通俗解释：
