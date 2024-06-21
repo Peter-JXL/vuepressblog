@@ -9,7 +9,6 @@
 
 本站大部分文章都是作者原创（转载会注明出处），内容包括：计算机基础、Java、职场、效率软件、英语.... 长期更新，全部开源，欢迎 Star！
 
-
 本人热爱计算机，未来想要自己“实现”一台计算机，从零开始写 CPU + 操作系统 + 编译原理 + 网络协议 + ... 想要自己写一套计算机基础的书，让所有人都能拥有扎实的基础，提高我国的计算机水平，而不是做一个 CURD Boy，API Caller，CV 工程师...
 
 本人利用业余时间不断学习，坚持输出文章两年多，不知不觉博客数量已经 900+ 了 😀
@@ -85,7 +84,7 @@ Spring：
 
 ## 📖 从零开始学英语：
 
-* [教程简介](https://peterjxl.com/English/Introduce/#英语是什么)
+* [教程简介](https://peterjxl.com/English/Introduce/)
 * [英语学习方法](https://peterjxl.com/English/Learning-Methodology/)
 * [字母](https://peterjxl.com/English/Alphabet/)
 * [音标](https://peterjxl.com/English/Symbols/)
