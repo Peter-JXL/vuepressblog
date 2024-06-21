@@ -173,7 +173,7 @@ Spring：
 
 ## 勘误及提问
 
-如果有疑问或者发现错误，可以在对应的文章底部留言，也可以提交 [Issues](https://github.com/Peter-JXL/vuepressblog/issues) 和 [PR](https://github.com/Peter-JXL/vuepressblog/pulls)。
+如果有疑问或者发现错误，可以在对应的文章底部留言，也可以点击对应文章底部的“在 GitHub 上编辑此页”并提交 PR：
 
 ![](./images/Edit%20this%20page%20on%20Github.png)
 
