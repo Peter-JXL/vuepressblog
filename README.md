@@ -173,6 +173,16 @@ Spring：
 
 ## 勘误及提问
 
-如果有疑问或者发现错误，可以在相应的 Issues 进行提问或勘误，也可以对应的文章底部留言，还可以直接提交 PR。
+如果有疑问或者发现错误，可以在对应的文章底部留言，也可以提交 [Issues](https://github.com/Peter-JXL/vuepressblog/issues) 和 [PR](https://github.com/Peter-JXL/vuepressblog/pulls)。
 
-如果喜欢或者有所启发，欢迎 Star，对作者也是一种鼓励。
+![](./images/Edit%20this%20page%20on%20Github.png)
+
+
+
+## 求 Star
+
+如果喜欢或者有所启发，欢迎 Star，对作者也是一种鼓励 ❤❤❤
+
+
+
+
