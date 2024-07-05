@@ -99,6 +99,7 @@ Spring：
 
 * [五险一金等](https://peterjxl.com/Job/Social-welfare/)
 * [职场规划](https://peterjxl.com/Job/career-planning/)
+* ‍[在银行工作这三年](https://www.peterjxl.com/Job/work-in-bank/)
 * ...
 
 
@@ -143,7 +144,7 @@ Spring：
 
 ## 友情链接
 
-欢迎添加友链 👋：[友人帐](https://peterjxl.com/About/friend-link/)
+欢迎互换友链 👋：[友人帐](https://peterjxl.com/About/friend-link/)
 
 
 ## RSS
