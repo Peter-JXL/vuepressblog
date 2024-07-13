@@ -37,4 +37,11 @@ export default <HeadTags> [
     ['link', { rel: 'stylesheet', href: '//at.alicdn.com/t/font_3114978_qe0b39no76.css' }],
 
     
+    // 浏览器控制台输出
+    [
+      'script', {}, `
+        console.log('别看了，没有报错的网站不是好网站！😡😡😡')
+      </script>
+      `
+    ],
 ]
