@@ -1,7 +1,7 @@
 {
     "index_uid": "VuePressBlog",
-    "sitemap_urls": ["https://peterjxl.com/sitemap.xml"],
-    "start_urls": ["https://peterjxl.com"],
+    "sitemap_urls": ["https://www.peterjxl.com/sitemap.xml"],
+    "start_urls": ["https://www.peterjxl.com"],
     "selectors": {
         "lvl0": {
             "selector": "h1",
