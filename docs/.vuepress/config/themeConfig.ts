@@ -4,8 +4,8 @@ import htmlModules from './htmlModules' // 自定义插入的html块
 
 
 export default <VdoingThemeConfig>{
+  
   logo: 'https://image.peterjxl.com/blog/re0.jpg',
-
 
   //配置导航栏
   nav: [
@@ -183,13 +183,21 @@ export default <VdoingThemeConfig>{
         { text: '如何搭建一个博客', link: '/Blog/' },
         { text: '关于邮件服务器', link: '/About/BuildMail/' },
         { text: '本站的分享资料', link: '/About/share/' },
-        { text: '时光轴', link: '/archives/' },
         { text: '年度总结', items: [
           { text: '2022年度总结', link: '/About/summary-2022/' },
           { text: '2023年度总结', link: '/About/summary-2023/' },
         ]}        
       ]
     },
+
+    {
+      text: '索引',
+      items: [
+        { text: '分类', link: '/categories/' }, 
+        { text: '标签', link: '/tags/' },
+        { text: '归档', link: '/archives/' }
+      ]
+    }
   ],
 
 
