@@ -98,6 +98,8 @@ export default <VdoingThemeConfig>{
           // { text: '笔记软件', link: '/SoftwareNote/' },
           { text: '终端软件', link: '/Terminal/' },
           { text: '装机', link: '/Computer-Diy/' },
+          { text: 'WPS', link: '/WPS/' },
+          { text: '手机', link: '/phone/' },
           // { text: 'Quicker', link: '/SoftwareQuicker/' },
           // { text: 'Qttabar', link: '/SoftwareQttabar/' },
           // { text: 'Wgesture', link: '/SoftwareWgesture/' },
@@ -150,7 +152,8 @@ export default <VdoingThemeConfig>{
       text: '经济学',
       link: '/Economy/',
       items: [
-        { text: '关于税', link: '/Economy/revenue/' }        
+        { text: '关于税', link: '/Economy/revenue/' },
+        { text: '理财', link: '/Economy/management/' }        
       ]
     },
 
