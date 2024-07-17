@@ -30,7 +30,7 @@ const htmlModule: VdoingThemeConfig['htmlModules'] = {
       margin: 0 0 8px 0;
     ">公众号</p>
     <img src="https://image.peterjxl.com/qrcode_for_gh_2d711788ddcb_344.jpg"  style="width:100%;" />
-    关注公众号，回复[<b>计算机网络微课堂</b>]，可获取相关资料
+    关注公众号，回复[<b>网络</b>]，可获取相关资料 PDF 版
     </p>
     </div>`,
   // `<!-- 纵向自适应 -->
