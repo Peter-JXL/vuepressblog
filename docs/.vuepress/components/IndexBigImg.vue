@@ -184,11 +184,11 @@ export default {
       if (navColor == 1) {
         title.className = "site-name can-hide";
         nav.className = "nav-links can-hide";
-        search.className = "search-box";
+        // search.className = "search-box";
       } else if (navColor == 2) {
         title.className = "site-name site-name1 can-hide";
         nav.className = "nav-links nav-links1 can-hide";
-        search.className = "search-box search-box1";
+        // search.className = "search-box search-box1";
       }
     },
     // 背景色随时间变化，时间提示框内容随时间变化
