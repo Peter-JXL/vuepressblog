@@ -1,13 +1,12 @@
 import { VdoingThemeConfig } from "vuepress-theme-vdoing/types";
 import { readFileList, readTotalFileWords, readEachFileWords } from '../webSiteInfo/readFile'
-import htmlModules from './htmlModules' // 自定义插入的html块
-
+import htmlModules from './htmlModules' // 自定义插入的 html 块，例如我用于在首页自定义展示了“微信公众号”模块
 
 export default <VdoingThemeConfig>{
-  
+
   logo: 'https://image.peterjxl.com/blog/re0.jpg',
 
-  //配置导航栏
+  // 配置导航栏
   nav: [
     { text: '首页', link: '/' },
     {
@@ -16,20 +15,14 @@ export default <VdoingThemeConfig>{
       items: [
         { text: '计算机简史', link: '/ComputerHistory/' },
         { text: '数字电路', link: '/ComputerDigital/' },
-        { text: '计算机组成原理', link: '/ComputerOrganization/'},
-        // { text: '汇编语言', link: '/AassemblyLanguage/' },
-        // { text: 'C语言', link: '/CProgramLanguage/' },
-        // { text: '数据结构', link: '/DataStructure/' },
+        { text: '计算机组成原理', link: '/ComputerOrganization/' },
         { text: '操作系统', link: '/ComputerOS/' },
         { text: 'Linux', link: '/Linux/' },
         { text: 'Docker', link: '/Docker/' },
         { text: '计算机网络', link: '/Network/' },
-        // { text: '数据库', link: '/DataBase/' },
         { text: '计算机常识', link: '/literacy/' },
         { text: 'MySQL', link: '/MySQL/' },
         { text: 'Git', link: '/Git/' },
-        // { text: '编译原理', link: '/CompilationPrinciple/' },
-        
       ]
     },
     {
@@ -39,77 +32,64 @@ export default <VdoingThemeConfig>{
       items: [
         { text: 'JavaSE', link: '/JavaSE/' },
         { text: 'Java 高级', link: '/JavaSenior/' },
-
-        { text: 'JavaEE', items:[
-          { text: '构建、依赖管理', link: '/JavaEE/1-Build/' },
-          { text: 'Ant', link: '/JavaEE/Ant/' },
-          { text: 'Maven', link: '/JavaEE/Maven/' },
-          { text: '日志框架', link: '/JavaEE/Log4j/' },
-          { text: 'Junit', link: '/JavaEE/Junit/' },     
-          { text: 'JDBC', link: '/JavaEE/JDBC/' },    
-          { text: 'XML-JSON', link: '/JavaEE/XML-JSON/' }
-        ] },
-        
-
-        { text: 'JavaWeb', items:[
-          { text: '服务器软件', link: '/JavaWeb/Web-Container/' },
-          { text: '环境管理和配置管理-科普篇', link: '/JavaWeb/environment-and-code-version-manage/' },
-          { text: 'Servlet', link: '/JavaWeb/Servlet/' },
-        ]},
-       
-        { text: 'Spring', items:[
-          { text: 'Spring基础', link: '/Spring-Basic/' },
-        ] },
-
-        { text: '主流框架', items: [
-          { text: 'Redis', link: '/Java-Framework/Redis/' },
-          { text: 'Mybatis', link: '/Java-Framework/Mybatis/' },
-          { text: 'Lucene', link: '/Java-Framework/Lucene/' },
-          { text: 'Elasticsearch', link: '/Java-Framework/Elasticsearch/' },
-          { text: 'RabbitMQ', link: '/Java-Framework/RabbitMQ/' },
-          { text: 'MyCat', link: '/Java-Framework/MyCat/' },
-          { text: 'Lombok', link: '/Java-Framework/Lombok/' }
-        ]},
-        
-
-        { text: 'SpringMVC', items:[
-          { text: 'SpringMVC基础', link: '/SpringMVC-Basic/' },
-        ]},      
-
-        { text: 'SpringBoot', items:[
-          { text: 'SpringBoot基础', link: '/SpringBoot-Basic/' },
-        ]},      
+        {
+          text: 'JavaEE', items: [
+            { text: '构建、依赖管理', link: '/JavaEE/1-Build/' },
+            { text: 'Ant', link: '/JavaEE/Ant/' },
+            { text: 'Maven', link: '/JavaEE/Maven/' },
+            { text: '日志框架', link: '/JavaEE/Log4j/' },
+            { text: 'Junit', link: '/JavaEE/Junit/' },
+            { text: 'JDBC', link: '/JavaEE/JDBC/' },
+            { text: 'XML-JSON', link: '/JavaEE/XML-JSON/' }
+          ]
+        },
+        {
+          text: 'JavaWeb', items: [
+            { text: '服务器软件', link: '/JavaWeb/Web-Container/' },
+            { text: '环境管理和配置管理-科普篇', link: '/JavaWeb/environment-and-code-version-manage/' },
+            { text: 'Servlet', link: '/JavaWeb/Servlet/' },
+          ]
+        },
+        {
+          text: 'Spring', items: [
+            { text: 'Spring基础', link: '/Spring-Basic/' },
+          ]
+        },
+        {
+          text: '主流框架', items: [
+            { text: 'Redis', link: '/Java-Framework/Redis/' },
+            { text: 'Mybatis', link: '/Java-Framework/Mybatis/' },
+            { text: 'Lucene', link: '/Java-Framework/Lucene/' },
+            { text: 'Elasticsearch', link: '/Java-Framework/Elasticsearch/' },
+            { text: 'RabbitMQ', link: '/Java-Framework/RabbitMQ/' },
+            { text: 'MyCat', link: '/Java-Framework/MyCat/' },
+            { text: 'Lombok', link: '/Java-Framework/Lombok/' }
+          ]
+        },
+        {
+          text: 'SpringMVC', items: [
+            { text: 'SpringMVC基础', link: '/SpringMVC-Basic/' },
+          ]
+        },
+        {
+          text: 'SpringBoot', items: [
+            { text: 'SpringBoot基础', link: '/SpringBoot-Basic/' },
+          ]
+        },
       ]
     },
-
-    // {
-    //   text: '读书与学习',
-    //   items: [
-    //     { text: '学习网课的心得', link: '/Book/Learn-Method/About/' },
-    //   ]
-    // },
-
     {
-        text: '效率软件', link: '/Software',
-        items: [
-          { text: 'Windows使用技巧', link: '/Windows/' },
-          { text: '输入法', link: '/TypeWriting/' },
-          { text: '浏览器', link: '/Browser/' },
-          // { text: '笔记软件', link: '/SoftwareNote/' },
-          { text: '终端软件', link: '/Terminal/' },
-          { text: '装机', link: '/Computer-Diy/' },
-          { text: 'WPS', link: '/WPS/' },
-          { text: '手机', link: '/phone/' },
-          // { text: 'Quicker', link: '/SoftwareQuicker/' },
-          // { text: 'Qttabar', link: '/SoftwareQttabar/' },
-          // { text: 'Wgesture', link: '/SoftwareWgesture/' },
-          // { text: '视频播放器', link: '/SoftwareVideo/' },
-          // { text: '待办清单', link: '/SoftwareTodo/' },
-          // { text: 'uTools', link: '/SoftwareuTools/' },
-          // { text: '番茄盒子', link: '/SoftwareTomato/' },
-        ]
+      text: '效率软件', link: '/Software',
+      items: [
+        { text: 'Windows使用技巧', link: '/Windows/' },
+        { text: '输入法', link: '/TypeWriting/' },
+        { text: '浏览器', link: '/Browser/' },
+        { text: '终端软件', link: '/Terminal/' },
+        { text: '装机', link: '/Computer-Diy/' },
+        { text: 'WPS', link: '/WPS/' },
+        { text: '手机', link: '/phone/' },
+      ]
     },
-
     {
       text: '职场系列',
       link: '/Job/',
@@ -118,10 +98,8 @@ export default <VdoingThemeConfig>{
         { text: '五险一金等', link: '/Job/Social-welfare/' },
         { text: '职场规划', link: '/Job/career-planning/' },
         { text: '关于离职', link: '/Job/dimission/' },
-        //   { text: '社招', link: '/Job/social-requirement' }
         { text: '杂谈', link: '/Job/other/' },
       ]
-      
     },
 
     {
@@ -137,26 +115,23 @@ export default <VdoingThemeConfig>{
         { text: '英语兔的相关视频', link: '/English/yingyutu/' },
         { text: 'Larry想做技术大佬的相关视频', link: '/English/Larry/' }
       ]
-      
     },
-
     {
       text: '个人学习',
       link: '/world-view/',
       items: [
+        { text: '驾驶技能', link: '/driving-skill/' },
         { text: '住房相关', link: '/property/' },
       ]
     },
-
     {
       text: '经济学',
       link: '/Economy/',
       items: [
         { text: '关于税', link: '/Economy/revenue/' },
-        { text: '理财', link: '/Economy/management/' }        
+        { text: '理财', link: '/Economy/management/' }
       ]
     },
-
     {
       text: '健身',
       items: [
@@ -164,17 +139,15 @@ export default <VdoingThemeConfig>{
         { text: '皮肤', link: '/skin/' },
         { text: '口腔健康', link: '/Oral-health/' },
       ]
-      
-    },
 
+    },
     {
-      text: '游戏',
+      text: '娱乐',
       items: [
         { text: '三国杀', link: '/sanguosha/' },
       ]
-      
+
     },
-  
     {
       text: '其他',
       link: '/About',
@@ -187,17 +160,19 @@ export default <VdoingThemeConfig>{
         { text: '关于邮件服务器', link: '/About/BuildMail/' },
         { text: '本站的分享资料', link: '/About/share/' },
         { text: '打赏', link: '/About/reward/' },
-        { text: '年度总结', items: [
-          { text: '2022年度总结', link: '/About/summary-2022/' },
-          { text: '2023年度总结', link: '/About/summary-2023/' },
-        ]}        
+        {
+          text: '年度总结', items: [
+            { text: '2022年度总结', link: '/About/summary-2022/' },
+            { text: '2023年度总结', link: '/About/summary-2023/' },
+          ]
+        }
       ]
     },
 
     {
       text: '索引',
       items: [
-        { text: '分类', link: '/categories/' }, 
+        { text: '分类', link: '/categories/' },
         { text: '标签', link: '/tags/' },
         { text: '归档', link: '/archives/' }
       ]
@@ -205,38 +180,38 @@ export default <VdoingThemeConfig>{
   ],
 
 
-  //配置侧边栏
+  // 配置侧边栏
   sidebar: 'structuring', //  'structuring' | { mode: 'structuring', collapsable: Boolean} | 'auto' | 自定义
 
 
-  //配置页脚
-  footer:{
+  // 配置页脚
+  footer: {
     createYear: 2022,
     copyrightInfo: `<a href='https://beian.miit.gov.cn'>粤ICP备2022067627号-1</a>  
     <img src='https://image.peterjxl.com/blog/beian.png'>
     <a href='http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44011302003646'>粤公网安备 44011302003646号</a>
     `
   },
-  
-  // 为每个文章底部添加 上次更新字段
+
+  // 为每个文章底部添加 “上次更新字段”
   lastUpdated: '上次更新',
 
-  //不在文章底部显示最近更新栏
-  updateBar:{
-    showToArticle: false, 
+  // 不在文章底部显示最近更新栏
+  updateBar: {
+    showToArticle: false,
     moreArticle: '/archives/'
   },
 
-  //为每个文章底部添加“在GitHub上编辑此页”，点击后会跳转到GitHub的对应文件的地址。会自动填充为GitHub.com/Peter-JXL/vuepressblog/文件地址
+  // 为每个文章底部添加 “在 GitHub 上编辑此页”，点击后会跳转到对应文件地址
   repo: 'Peter-JXL/vuepressblog',
   docsDir: 'docs',
   editLinks: true,
   editLinkText: '在 GitHub 上编辑此页',
 
-  //背景大图轮换及其相关配置
+  // 背景大图轮换及其相关配置
   bodyBgImg: [
-    'https://image.peterjxl.com/backgruond-city.jpg',  //如果使用本地图片：/img/backgruond-city.jpg
-  ],  // 如果是本地图片，图片路径必须位于 .vuepress/public 下
+    'https://image.peterjxl.com/backgruond-city.jpg',  // 如果使用本地图片，图片路径必须位于 .vuepress/public 下，使用格式：/img/backgruond-city.jpg
+  ], 
   bodyBgImgOpacity: 1, // body 背景图透明度，选值 0 ~ 1.0, 默认0.5
   indexImg: {
     navColor: 2,    // 导航栏左侧名字、中间搜索框、右侧字体的颜色，1 是黑色，2 是白色。默认是 1
@@ -246,7 +221,7 @@ export default <VdoingThemeConfig>{
     bgTimeColorArray: ['transparent', 'rgba(0, 0, 0, .3)', 'rgba(0, 0, 0, .3)', 'rgba(0, 0, 0, .5)'],   // 第一个是白天的颜色（默认原图），第二个是黄昏的颜色，第三个是晚上的颜色，第四个是深夜的颜色。bgTimeColor 为 true 生效。提示：如果不想要这个效果，但是又想要时间窗口提示效果，则改为 ['transparent', 'transparent', 'transparent', 'transparent']
     descFade: true,   // 是否开启图片中间描述的淡入效果，默认为 false
     desc: [
-      "那就从零开始。"
+      "从 01 开始"
     ],  // 多个描述，如果填写则覆盖 config.js 的 description ，不填写默认读取 config.js 的 description，descFadeIn 为 true 生效
     descFontSize: '1.4rem',   // desc 的字体大小，默认 1.4rem。提示：原主题是 1.1rem
     descFadeInTime: 200,  // 描述的淡入效果持续时间，descFade 为 true 生效，默认 200 毫秒
@@ -274,7 +249,7 @@ export default <VdoingThemeConfig>{
   },
 
   // 博主信息，显示在首页侧边栏
-  blogger:{
+  blogger: {
     avatar: 'https://image.peterjxl.com/blog/re0.jpg',  //头像
     name: 'PeterJXL'
   },
@@ -299,7 +274,6 @@ export default <VdoingThemeConfig>{
       //   title: "Gitee",
       //   link: "https://gitee.com/peterjxl",
       // },
-
       {
         iconClass: "icon-csdn",
         title: "CSDN",
@@ -338,7 +312,7 @@ export default <VdoingThemeConfig>{
       //   title: "思否",
       //   link: "https://segmentfault.com/u/peterjxl",
       // },
-     
+
       // {
       //   iconClass: "icon-bilibili",
       //   title: "Bilibili",

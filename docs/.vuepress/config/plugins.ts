@@ -3,9 +3,9 @@ import { UserPlugins } from 'vuepress/config'
 
 export default <UserPlugins>[
 
-  'reading-progress', //阅读进度条插件
+  'reading-progress', // 阅读进度条插件
 
-  //光标效果的插件
+  // 光标效果插件
   [
     'cursor-effects', {
       size: 2, // size of the particle, default: 2
@@ -15,7 +15,7 @@ export default <UserPlugins>[
   ],
 
 
-  //网站动态标题
+  // 网站动态标题
   ['dynamic-title', {
     // showIcon: '',
     showText: '欢迎回来  O(∩_∩)O~~',
@@ -24,11 +24,12 @@ export default <UserPlugins>[
     recoverTime: 2000,
   }],
 
-  //菜单高亮。页面滚动时自动激活侧边栏链接的插件，效果就是右边内容滚动的时候，看到哪里了，左侧菜单会自动高亮显示当前看的目录
+  // 菜单高亮。页面滚动时自动激活侧边栏链接的插件，效果就是右边内容滚动的时候，对应的左侧菜单会自动高亮
   ['@vuepress/active-header-links'],
 
+  // 图片放大插件
   [
-    'vuepress-plugin-zooming', // 放大图片
+    'vuepress-plugin-zooming',
     {
       selector: '.theme-vdoing-content img:not(.no-zoom)', // 排除class是no-zoom的图片
       options: {
@@ -38,7 +39,7 @@ export default <UserPlugins>[
   ],
 
 
-  //站点地图文件，用于推送给百度
+  // 站点地图文件，用于推送给 Google 或百度等搜索引擎
   ['sitemap',{ hostname: 'https://www.peterjxl.com'}],
 
   //谷歌统计插件
@@ -58,7 +59,7 @@ export default <UserPlugins>[
     },
   ],
 
-  //Twikoo，代码块插件，站点信息配置插件
+  // 自定义 Twikoo，代码块插件，站点信息等插件
   {
     name: 'custom-plugins',
     globalUIComponents: ["Twikoo", "BlockToggle", "PageInfo"] // 2.x 版本 globalUIComponents 改名为 clientAppRootComponentFiles
