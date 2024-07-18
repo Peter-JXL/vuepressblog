@@ -55,61 +55,63 @@ Java EE 部分：
 
 JavaWeb：
 
-* [服务器软件](https://peterjxl.com/JavaWeb/Web-Container/)
-* [环境管理和配置管理-科普篇](https://peterjxl.com/JavaWeb/environment-and-code-version-manage/)
-* [Servlet](https://peterjxl.com/JavaWeb/Servlet/)
+* [服务器软件](https://www.peterjxl.com/JavaWeb/Web-Container/)
+* [环境管理和配置管理-科普篇](https://www.peterjxl.com/JavaWeb/environment-and-code-version-manage/)
+* [Servlet](https://www.peterjxl.com/JavaWeb/Servlet/)
 * ...
 
 
 Spring：
 
-* [Spring 基础](https://peterjxl.com/Spring-Basic/)
-* [SpringMVC](https://peterjxl.com/SpringMVC-Basic/)
-* [SpringBoot](https://peterjxl.com/SpringBoot-Basic/)
+* [Spring 基础](https://www.peterjxl.com/Spring-Basic/)
+* [SpringMVC](https://www.peterjxl.com/SpringMVC-Basic/)
+* [SpringBoot](https://www.peterjxl.com/SpringBoot-Basic/)
 * ...
 
 
 主流框架：
 
-* [Redis](https://peterjxl.com/Java-Framework/Redis/)
-* [Mybatis](https://peterjxl.com/Java-Framework/Mybatis/)
-* [Lucene](https://peterjxl.com/Java-Framework/Lucene/)
-* [Elasticsearch](https://peterjxl.com/Java-Framework/Elasticsearch/)
-* [RabbitMQ](https://peterjxl.com/Java-Framework/RabbitMQ/)
-* [MyCat](https://peterjxl.com/Java-Framework/MyCat/)
-* [Lombok](https://peterjxl.com/Java-Framework/Lombok/)
+* [Redis](https://www.peterjxl.com/Java-Framework/Redis/)
+* [Mybatis](https://www.peterjxl.com/Java-Framework/Mybatis/)
+* [Lucene](https://www.peterjxl.com/Java-Framework/Lucene/)
+* [Elasticsearch](https://www.peterjxl.com/Java-Framework/Elasticsearch/)
+* [RabbitMQ](https://www.peterjxl.com/Java-Framework/RabbitMQ/)
+* [MyCat](https://www.peterjxl.com/Java-Framework/MyCat/)
+* [Lombok](https://www.peterjxl.com/Java-Framework/Lombok/)
 * ...
 
 
 
 ## 📖 从零开始学英语：
 
-* [教程简介](https://peterjxl.com/English/Introduce/)
-* [英语学习方法](https://peterjxl.com/English/Learning-Methodology/)
-* [字母](https://peterjxl.com/English/Alphabet/)
-* [音标](https://peterjxl.com/English/Symbols/)
-* [单词](https://peterjxl.com/English/Word/)
-* [语法](https://peterjxl.com/English/Grammar/)
-* [英语兔的相关视频](https://peterjxl.com/English/yingyutu/)
-* [Larry想做技术大佬的相关视频](https://peterjxl.com/English/Larry/)
+* [教程简介](https://www.peterjxl.com/English/Introduce/#英语是什么)
+* [英语学习方法](https://www.peterjxl.com/English/Learning-Methodology/)
+* [字母](https://www.peterjxl.com/English/Alphabet/)
+* [音标](https://www.peterjxl.com/English/Symbols/)
+* [单词](https://www.peterjxl.com/English/Word/)
+* [语法](https://www.peterjxl.com/English/Grammar/)
+* [英语兔的相关视频](https://www.peterjxl.com/English/yingyutu/)
+* [Larry想做技术大佬的相关视频](https://www.peterjxl.com/English/Larry/)
 * ...
 
 
 ## 📖 职场系列：
 
-* [五险一金等](https://peterjxl.com/Job/Social-welfare/)
-* [职场规划](https://peterjxl.com/Job/career-planning/)
-* ‍[在银行工作这三年](https://www.peterjxl.com/Job/work-in-bank/)
+* [五险一金等](https://www.peterjxl.com/Job/Social-welfare/)
+* [职场规划](https://www.peterjxl.com/Job/career-planning/)
+* ‍[在银行工作这三年](www.https://www.peterjxl.com/Job/work-in-bank/)
 * ...
 
 
 ## 📖 效率软件：
 
-* [Windows使用技巧等 ](https://peterjxl.com/Windows/)
-* [输入法 ](https://peterjxl.com/TypeWriting/)
-* [浏览器 ](https://peterjxl.com/Browser/)
-* [终端相关博客 ](https://peterjxl.com/Terminal/)
-* [装机相关博客 ](https://peterjxl.com/Computer-Diy/)
+* [Windows使用技巧等](https://www.peterjxl.com/Windows/)
+* [输入法](https://www.peterjxl.com/TypeWriting/)
+* [浏览器](https://www.peterjxl.com/Browser/)
+* [终端相关博客](https://www.peterjxl.com/Terminal/)
+* [装机相关博客](https://www.peterjxl.com/Computer-Diy/)
+* [WPS](https://www.peterjxl.com/WPS/)
+* [手机](https://www.peterjxl.com/phone/)
 * ...
 
 
@@ -117,14 +119,15 @@ Spring：
 
 写了一套从零开始搭建博客的教程，详细描述了本博客是如何搭建的，欢迎阅读：
 
-[从零开始搭建博客](https://peterjxl.com/Blog/)
+[从零开始搭建博客](https://www.peterjxl.com/Blog/)
 
 ### 📖其他博客
 
 还有一些零零散散的博客，暂时不成体系，后续完善：
 
 * [月薪3000就不用纳税了？](https://www.peterjxl.com/economy/revenue/tax-in-china/)
-* [我们每个月到底要交多少税？](https://www.peterjxl.com/economy/revenue/tax-monthly/#总结)
+* [我们每个月到底要交多少税？](https://www.peterjxl.com/economy/revenue/tax-monthly/)
+* ‍[逃出自己的生态位](https://www.peterjxl.com/management/run-out-of-your-own-niche/)
 * [《斯坦福高效睡眠法》](https://www.peterjxl.com/sleep/Stanford-Efficient-Sleep-Method/)
 * [记一次祛痣](https://www.peterjxl.com/fitness/skin/nevus/)
 * [口腔健康系列](https://www.peterjxl.com/Oral-health/)
@@ -144,7 +147,7 @@ Spring：
 
 ## 友情链接
 
-欢迎互换友链 👋：[友人帐](https://peterjxl.com/About/friend-link/)
+欢迎互换友链 👋：[友人帐](https://www.peterjxl.com/About/friend-link/)
 
 
 ## RSS
