@@ -99,7 +99,7 @@ export default <UserPlugins>[
           hostUrl: 'https://search.peterjxl.com',        // meilisearch 服务端域名
           apiKey: "6c9ce274ed9e7d8b8134d2c9584965a02318ee1774f23326529a61ca614de94f", // 只有搜索权限的 key
           indexUid: 'VuePressBlog',
-          placeholder: '支持全文搜索',   // 在搜索栏中显示的占位符
+          placeholder: '按下 S 进行全文搜索',   // 在搜索栏中显示的占位符
           maxSuggestions: 9,                      // 最多显示几个搜索结果
           cropLength: 30,                         // 每个搜索结果最多显示多少个字符
       },
