@@ -28,6 +28,13 @@ export default <HeadTags>[
   // 站点信息卡片
   ['meta', { name: 'referrer', content: 'no-referrer-when-downgrade' }],
 
+
+  // 将调用的 http 请求升级成 https 请求并调用 
+  // 格式：<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+  ['meta', { name: 'http-equiv', content: 'Content-Security-Policy' }],
+  ['meta', { name: 'content', content: 'upgrade-insecure-requests' }],
+
+
   // 站点信息的在线图标
   ['link', { rel: 'stylesheet', href: 'https://at.alicdn.com/t/font_3077305_pt8umhrn4k9.css' }],
 
