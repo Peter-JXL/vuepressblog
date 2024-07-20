@@ -21,21 +21,10 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 16
-    steps: 
-      # 下载 GitHub 项目
-      - name: Checkout
-        uses: actions/checkout@v1 
-      
-      # 使用 action 库，安装指定版本的 node
-      - name: use Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: 16
 
       # 安装依赖和构建项目
       - name: npm install 
         run: npm install && npm run build
-
 
       # 部署项目
       - name: Deploy to Staging My server
