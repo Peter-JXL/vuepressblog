@@ -86,6 +86,7 @@ export default <VdoingThemeConfig>{
         { text: '浏览器', link: '/Browser/' },
         { text: '终端软件', link: '/Terminal/' },
         { text: '装机', link: '/Computer-Diy/' },
+        { text: '微信', link: '/wechat/' },
         { text: 'WPS', link: '/WPS/' },
         { text: '手机', link: '/phone/' },
       ]
