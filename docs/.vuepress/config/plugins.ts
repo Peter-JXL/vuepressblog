@@ -116,7 +116,7 @@ export default <UserPlugins>[
     },
   ],
 
-  // rss订阅
+  // RSS 订阅
   [ 
     'feed', 
     {

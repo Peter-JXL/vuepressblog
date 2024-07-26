@@ -23,23 +23,26 @@
   "author": "PeterJXL",
   "license": "GPL-3.0-only",
   "devDependencies": {
+    "@vuepress/plugin-active-header-links": "^1.9.7",
+    "@vuepress/plugin-google-analytics": "^1.9.7",
+    "cross-env": "^7.0.3",
+    "ora": "^5.0.0",
+    "scp2": "^0.5.0",
     "vuepress": "^1.9.7",
-    "vuepress-theme-vdoing": "^1.12.7",
     "vuepress-plugin-autometa": "^0.1.13",
     "vuepress-plugin-baidu-autopush": "^1.0.1",
     "vuepress-plugin-cursor-effects": "^1.1.4",
     "vuepress-plugin-dynamic-title": "^1.0.0",
     "vuepress-plugin-feed": "^0.1.9",
+    "vuepress-plugin-helper-live2d": "^1.0.2",
+    "vuepress-plugin-meilisearch": "^0.13.0",
     "vuepress-plugin-one-click-copy": "^1.0.6",
     "vuepress-plugin-reading-progress": "^1.0.10",
     "vuepress-plugin-sitemap": "^2.3.1",
     "vuepress-plugin-zooming": "^1.1.8",
-    "vuepress-plugin-helper-live2d": "^1.0.2",
-    "vuepress-plugin-meilisearch": "^0.13.0",
-    "@vuepress/plugin-active-header-links": "^1.9.7",
-    "@vuepress/plugin-google-analytics": "^1.9.7",
-    "ora": "^5.0.0",
-    "scp2": "^0.5.0",
-    "cross-env": "^7.0.3"
+    "vuepress-theme-vdoing": "^1.12.7"
+  },
+  "dependencies": {
+    "mathjax-full": "^3.2.2"
   }
 }
