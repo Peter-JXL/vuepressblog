@@ -42,7 +42,6 @@ export default <HeadTags>[
   // 代码复制模块的小箭头图标，参考 https://notes.youngkbt.cn/about/website/code-block-hidden
   ['link', { rel: 'stylesheet', href: '//at.alicdn.com/t/font_3114978_qe0b39no76.css' }],
 
-
   // 浏览器控制台输出
   [
     'script', {}, `

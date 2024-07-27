@@ -35,6 +35,7 @@
     "vuepress-plugin-dynamic-title": "^1.0.0",
     "vuepress-plugin-feed": "^0.1.9",
     "vuepress-plugin-helper-live2d": "^1.0.2",
+    "vuepress-plugin-md-enhance": "^1.15.0",
     "vuepress-plugin-meilisearch": "^0.13.0",
     "vuepress-plugin-one-click-copy": "^1.0.6",
     "vuepress-plugin-reading-progress": "^1.0.10",
@@ -43,6 +44,6 @@
     "vuepress-theme-vdoing": "^1.12.7"
   },
   "dependencies": {
-    "mathjax-full": "^3.2.2"
+    "markdown-it-mathjax3": "^4.3.2"
   }
 }

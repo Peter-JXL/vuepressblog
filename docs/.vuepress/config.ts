@@ -18,7 +18,10 @@ module.exports = {
   markdown: {
     lineNumbers: true,
     extractHeaders: ["h2", "h3", "h4"],
-    externalLinks: { target: '_blank', rel: 'nofollow noopener noreferrer' }
+    externalLinks: { target: '_blank', rel: 'nofollow noopener noreferrer' },
+    plugins: [
+      'markdown-it-mathjax3'
+    ]
   }
   
 }
