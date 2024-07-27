@@ -40,7 +40,7 @@ export default <UserPlugins>[
 
 
   // 站点地图文件，用于推送给 Google 或百度等搜索引擎
-  ['sitemap',{ hostname: 'https://www.peterjxl.com'}],
+  ['sitemap', { hostname: 'https://www.peterjxl.com' }],
 
   //谷歌统计插件
   [
@@ -95,14 +95,14 @@ export default <UserPlugins>[
   // 全文搜索插件 meilisearch
   [
     'vuepress-plugin-meilisearch',
-      {
-          hostUrl: 'https://search.peterjxl.com',        // meilisearch 服务端域名
-          apiKey: "6c9ce274ed9e7d8b8134d2c9584965a02318ee1774f23326529a61ca614de94f", // 只有搜索权限的 key
-          indexUid: 'VuePressBlog',
-          placeholder: '按下 S 进行全文搜索',   // 在搜索栏中显示的占位符
-          maxSuggestions: 9,                      // 最多显示几个搜索结果
-          cropLength: 30,                         // 每个搜索结果最多显示多少个字符
-      },
+    {
+      hostUrl: 'https://search.peterjxl.com',        // meilisearch 服务端域名
+      apiKey: "6c9ce274ed9e7d8b8134d2c9584965a02318ee1774f23326529a61ca614de94f", // 只有搜索权限的 key
+      indexUid: 'VuePressBlog',
+      placeholder: '按下 S 进行全文搜索',   // 在搜索栏中显示的占位符
+      maxSuggestions: 9,                      // 最多显示几个搜索结果
+      cropLength: 30,                         // 每个搜索结果最多显示多少个字符
+    },
   ],
 
   // 代码块复制按钮
@@ -117,13 +117,11 @@ export default <UserPlugins>[
   ],
 
   // RSS 订阅
-  [ 
-    'feed', 
+  [
+    'feed',
     {
       canonical_base: 'https://www.peterjxl.com',
       count: 5000,
-    } 
+    }
   ],
-
-  
 ]
