@@ -124,4 +124,6 @@ export default <UserPlugins>[
       count: 5000,
     }
   ],
+
+  'vuepress-plugin-mermaidjs'
 ]
