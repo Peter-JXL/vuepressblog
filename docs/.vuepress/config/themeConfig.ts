@@ -147,10 +147,14 @@ export default <VdoingThemeConfig>{
     {
       text: '娱乐',
       items: [
-        { text: '三国杀', link: '/sanguosha/' },
+        { 
+          text: '游戏', link: '/game/', items: [
+            { text: '三国杀', link: '/sanguosha/' },  
+          ] 
+        },
       ]
-
     },
+
     {
       text: '其他',
       link: '/About',
