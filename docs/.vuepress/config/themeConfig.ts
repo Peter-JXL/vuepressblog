@@ -169,8 +169,8 @@ export default <VdoingThemeConfig>{
         { text: '打赏', link: '/About/reward/' },
         {
           text: '年度总结', items: [
-            { text: '2022年度总结', link: '/About/summary-2022/' },
-            { text: '2023年度总结', link: '/About/summary-2023/' },
+            { text: '2022 年度总结', link: '/About/summary-2022/' },
+            { text: '2023 年度总结', link: '/About/summary-2023/' },
           ]
         }
       ]
